@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Musician.Data/1.0.0": {
+        "dependencies": {
+          "Musician.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Musician.Data.dll": {}
+        }
+      },
+      "Musician.Entity/1.0.0": {
+        "runtime": {
+          "Musician.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Musician.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Musician.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
