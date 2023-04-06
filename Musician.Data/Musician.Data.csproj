@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <Folder Include="Concrete\EfCore\Config\" />
   </ItemGroup>
 
   <ItemGroup>
