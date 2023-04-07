@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Musician.Entity.Concrete;
 using Musician.Entity.Concrete.Identity;
@@ -36,12 +37,23 @@ namespace Musician.Data.Concrete.EfCore.Extensions
             modelBuilder.Entity<User>().HasData(users);
             #endregion
             #region Parola
+            var passwordHasher = new PasswordHasher<User>();
+            users[0].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+            users[1].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+            users[2].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+
 
             #endregion
             #region Rol Atama
-
+            List<IdentityUserRole<string>> userRoles = new List<IdentityUserRole<string>>
+            {
+                new IdentityUserRole<string>{UserId=users[0].Id,RoleId=roles[0].Id},
+                new IdentityUserRole<string>{UserId=users[1].Id,RoleId=roles[1].Id},
+                new IdentityUserRole<string>{UserId=users[2].Id,RoleId=roles[2].Id},
+            };
+            modelBuilder.Entity<IdentityUserRole<string>>().HasData(userRoles);
             #endregion
-            #region Cart?
+            #region Cart? yapılmadı
 
             #endregion
         }

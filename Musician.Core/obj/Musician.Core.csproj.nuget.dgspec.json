@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj",
         "projectName": "Musician.Core",
-        "projectPath": "c:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

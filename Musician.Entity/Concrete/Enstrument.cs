@@ -12,5 +12,9 @@ namespace Musician.Entity.Concrete
         public string Name { get; set; }
         public bool IsApproved { get; set; }
         public string Url { get; set; }
+        public List<Image> Images { get; set; }
+        public List<Teacher> Teachers { get; set; }
+        public Teacher Teacher { get; set; }
+        public string TeacherIds { get; set; }
     }
 }
