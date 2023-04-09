@@ -13,3 +13,5 @@ C:\Users\Administrator\Documents\GitHub\musician\Musician\Musician.Data\obj\Debu
 C:\Users\Administrator\Documents\GitHub\musician\Musician\Musician.Data\obj\Debug\net7.0\refint\Musician.Data.dll
 C:\Users\Administrator\Documents\GitHub\musician\Musician\Musician.Data\obj\Debug\net7.0\Musician.Data.pdb
 C:\Users\Administrator\Documents\GitHub\musician\Musician\Musician.Data\obj\Debug\net7.0\ref\Musician.Data.dll
+C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Data\bin\Debug\net7.0\Musician.Data.runtimeconfig.json
+C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Data\obj\Debug\net7.0\Musician.Data.genruntimeconfig.cache

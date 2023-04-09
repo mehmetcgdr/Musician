@@ -25,7 +25,7 @@ namespace Musician.Data.Concrete.EfCore.Config
                 new Enstrument { Id = 7, Name = "Çello", IsApproved = true,Url="cello" },
                 new Enstrument { Id = 8, Name = "Bağlama", IsApproved = true,Url="baglama" },
                 new Enstrument { Id = 9, Name = "Ud", IsApproved = true,Url="ud" },
-                new Enstrument { Id = 10, Name = "Kalimba", IsApproved = true,Url="kalimba" }
+                new Enstrument { Id = 10, Name = "Kalimba", IsApproved = true,Url="kalimba", }
                 );
         }
     }

@@ -10,7 +10,6 @@ namespace Musician.Entity.Concrete
     public class Teacher : IBaseEntity
     {
         public int Id { get; set; }
-        public string UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Description { get; set; }
@@ -22,9 +21,10 @@ namespace Musician.Entity.Concrete
         public string Status { get; set; }
         public DateTime CreatedDate { get; set; }
         public bool IsApproved { get; set; }
-        public Image Image { get; set; }
-        public List<Enstrument> Enstruments { get; set; }
-        public List<TeacherEnstrument> TeacherEnstruments { get; set; }
+        public List<Card> Cards { get; set; }
+        //public Image Image { get; set; }
+        //public List<Enstrument> Enstruments { get; set; }
+        //public List<TeacherEnstrument> TeacherEnstruments { get; set; }
 
     }
 }

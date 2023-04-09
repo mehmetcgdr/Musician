@@ -16,6 +16,5 @@ namespace Musician.Entity.Concrete.Identity
         public string City { get; set; }
         public string District { get; set; }
         public int Age { get; set; }
-        public string Url { get; set; }
     }
 }

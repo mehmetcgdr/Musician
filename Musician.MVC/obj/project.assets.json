@@ -633,6 +633,48 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Musician.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4",
+          "Musician.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Musician.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Musician.Business.dll": {}
+        }
+      },
+      "Musician.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4",
+          "Musician.Entity": "1.0.0",
+          "microsoft.entityframeworkcore.sqlite": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Musician.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Musician.Data.dll": {}
+        }
+      },
+      "Musician.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Musician.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Musician.Entity.dll": {}
+        }
       }
     }
   },
@@ -1429,33 +1471,50 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Musician.Business/1.0.0": {
+      "type": "project",
+      "path": "../Musician.Business/Musician.Business.csproj",
+      "msbuildProject": "../Musician.Business/Musician.Business.csproj"
+    },
+    "Musician.Data/1.0.0": {
+      "type": "project",
+      "path": "../Musician.Data/Musician.Data.csproj",
+      "msbuildProject": "../Musician.Data/Musician.Data.csproj"
+    },
+    "Musician.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Musician.Entity/Musician.Entity.csproj",
+      "msbuildProject": "../Musician.Entity/Musician.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.4",
+      "Musician.Business >= 1.0.0",
+      "Musician.Data >= 1.0.0",
       "microsoft.entityframeworkcore.design >= 7.0.4",
       "microsoft.entityframeworkcore.sqlite >= 7.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\Musician.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj",
       "projectName": "Musician.MVC",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\Musician.MVC.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1469,7 +1528,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj"
+            },
+            "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1516,7 +1582,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

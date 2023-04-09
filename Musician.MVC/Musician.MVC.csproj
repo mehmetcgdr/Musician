@@ -15,4 +15,9 @@
     <PackageReference Include="microsoft.entityframeworkcore.sqlite" Version="7.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Musician.Business\Musician.Business.csproj" />
+    <ProjectReference Include="..\Musician.Data\Musician.Data.csproj" />
+  </ItemGroup>
+
 </Project>

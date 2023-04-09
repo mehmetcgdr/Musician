@@ -21,10 +21,17 @@ namespace Musician.Data.Concrete.EfCore.Config
             builder.Property(x => x.City).IsRequired();
             builder.Property(x => x.District).IsRequired();
             builder.Property(x => x.Description).IsRequired();
-            builder.Property(x => x.Image).IsRequired();
+      
             builder.Property(x => x.Status).IsRequired();
             builder.Property(x => x.Gender).IsRequired();
-            
+            builder.HasData(
+                new Teacher { Id = 1, FirstName = "Mehmet", LastName = "Öçgüder", Age = 27, Description = "Kalimba çalýyorum", Gender = "Erkek", IsApproved = true, Url = "mehmetocguder", City = "Ýstanbul", District = "Beþiktaþ", CreatedDate = DateTime.Now, Status = "Home" },
+                new Teacher { Id = 2, FirstName = "Canan", LastName = "asd", Age = 25, Description = "Kalimba çalýyorum", Gender = "Kadýn", IsApproved = true, Url = "canan", City = "Ýstanbul", District = "Beþiktaþ", CreatedDate = DateTime.Now, Status = "Home" },
+                new Teacher { Id = 3, FirstName = "Ezgi", LastName = "sdf", Age = 25, Description = "Kalimba çalýyorum", Gender = "Kadýn", IsApproved = true, Url = "ezgi", City = "Ýstanbul", District = "Beþiktaþ", CreatedDate = DateTime.Now, Status = "Home" },
+                new Teacher { Id = 4, FirstName = "Arda", LastName = "sss", Age = 22, Description = "Kalimba çalýyorum", Gender = "Erkek", IsApproved = true, Url = "arda", City = "Ýstanbul", District = "Beþiktaþ", CreatedDate = DateTime.Now, Status = "Home" },
+                new Teacher { Id = 5, FirstName = "Erdi", LastName = "asdf", Age = 24, Description = "Kalimba çalýyorum", Gender = "Erkek", IsApproved = true, Url = "erdi", City = "Ýstanbul", District = "Beþiktaþ", CreatedDate = DateTime.Now, Status = "Home" },
+                new Teacher { Id = 6, FirstName = "Ahmet", LastName = "fgd", Age = 23, Description = "Kalimba çalýyorum", Gender = "Erkek", IsApproved = true, Url = "ahmet", City = "Ýstanbul", District = "Beþiktaþ", CreatedDate = DateTime.Now,Status="Home" }
+            );
         }
     }
 }

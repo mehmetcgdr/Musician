@@ -9,10 +9,11 @@ namespace Musician.Business.Abstract
 {
     public interface ITeacherService
     {
-        Task CreateAsync();
+        Task CreateAsync(Teacher teacher);
         Task<Teacher> GetByIdAsync(int id);
         Task<List<Teacher>> GetAllAsync();
         void Update(Teacher teacher);
         void Delete(Teacher teacher);
+       
     }
 }

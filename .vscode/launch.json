@@ -1,0 +1,16 @@
+{
+    "configurations": [
+    {
+        "name": "Launch",
+        "type": "godot-mono",
+        "request": "launch",
+        "mode": "executable",
+        "preLaunchTask": "build",
+        "executable": "<insert-godot-executable-path-here>",
+        "executableArguments": [
+            "--path",
+            ""
+        ]
+    }
+    ]
+}
