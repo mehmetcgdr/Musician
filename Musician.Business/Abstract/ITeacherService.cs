@@ -14,6 +14,8 @@ namespace Musician.Business.Abstract
         Task<List<Teacher>> GetAllAsync();
         void Update(Teacher teacher);
         void Delete(Teacher teacher);
-       
+        Task<List<Teacher>> GetAllTeachersAsync();
+
+
     }
 }

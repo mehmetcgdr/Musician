@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Musician.Data.Concrete.EfCore.Context;
 
@@ -10,9 +11,11 @@ using Musician.Data.Concrete.EfCore.Context;
 namespace Musician.Data.Migrations
 {
     [DbContext(typeof(MusicianContext))]
-    partial class MusicianContextModelSnapshot : ModelSnapshot
+    [Migration("20230410095951_InitialDb")]
+    partial class InitialDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.4");

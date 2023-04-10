@@ -22,7 +22,7 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<List<Teacher>> GetAllTeachersAsync()
         {
-           List<Teacher> teachers = await AppContext.Teachers.ToListAsync();
+            List<Teacher> teachers = await AppContext.Teachers.ToListAsync();
             return teachers;
         }
     }

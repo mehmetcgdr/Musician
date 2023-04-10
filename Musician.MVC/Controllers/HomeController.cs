@@ -18,7 +18,7 @@ namespace Musician.MVC.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<Teacher> teachers = await _teacherService
+            List<Teacher> teachers = await _teacherService.GetAllTeachersAsync();
 
             return View();
         }

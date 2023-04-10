@@ -19,6 +19,7 @@ namespace Musician.Data.Concrete.EfCore.Context
         }
 
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Card> Cards { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Enstrument> Enstruments { get; set; }
         //public DbSet<TeacherEnstrument> TeacherEnstruments { get; set; }

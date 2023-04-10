@@ -1,4 +1,5 @@
 ﻿using Musician.Business.Abstract;
+using Musician.Data.Abstract;
 using Musician.Entity.Concrete;
 using System;
 using System.Collections.Generic;
@@ -12,34 +13,36 @@ namespace Musician.Business.Concrete
     {
        private ICardService _cardService;
 
-        public CardManager(ICardService cardService)
+        private ICardRepository _cardRepository;
+
+        public CardManager(ICardRepository cardRepository)
         {
-            _cardService = cardService;
+            _cardRepository = cardRepository;
         }
 
         public async Task CreateAsync(Card card)
         {
-            await _cardService.CreateAsync(card);
+            await _cardRepository.CreateAsync(card);
         }
 
         public void Delete(Card card)
         {
-            _cardService.Delete(card);
+            _cardRepository.Delete(card);
         }
 
         public async Task<List<Card>> GetAllAsync()
         {
-            return await _cardService.GetAllAsync();
+            return await _cardRepository.GetAllAsync();
         }
 
         public async Task<Card> GetByIdAsync(int id)
         {
-            return await _cardService.GetByIdAsync(id);
+            return await _cardRepository.GetByIdAsync(id);
         }
 
         public void Update(Card card)
         {
-            _cardService.Update(card);
+            _cardRepository.Update(card);
         }
     }
 }

@@ -1,3 +1,5 @@
+using AspNetCoreHero.ToastNotification;
+using AspNetCoreHero.ToastNotification.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Musician.Business.Abstract;
@@ -9,7 +11,6 @@ using Musician.Entity.Concrete.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MusicianContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnection")));
 builder.Services.AddIdentity<User, Role>()
@@ -50,6 +51,16 @@ builder.Services.ConfigureApplicationCookie(options =>
 builder.Services.AddScoped<ITeacherService, TeacherManager>();
 builder.Services.AddScoped<ITeacherRepository, EfCoreTeacherRepository>();
 
+builder.Services.AddScoped<ICardService, CardManager>();
+builder.Services.AddScoped<ICardRepository, EfCoreCardRepository>();
+
+builder.Services.AddNotyf(config =>
+{
+    config.DurationInSeconds = 3;
+    config.IsDismissable = true;
+    config.Position = NotyfPosition.TopRight;
+    config.HasRippleEffect = true;
+});
 
 
 
@@ -65,11 +76,9 @@ builder.Services.AddScoped<ITeacherRepository, EfCoreTeacherRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -79,7 +88,7 @@ app.UseAuthentication();
 app.UseRouting();
 
 app.UseAuthorization();
-//app.UseNotyf();
+app.UseNotyf();
 
 
 
