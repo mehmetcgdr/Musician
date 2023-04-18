@@ -25,5 +25,18 @@ namespace Musician.Data.Concrete.EfCore
             var cards = await AppContext.Cards.ToListAsync();
             return cards;
         }
+
+       
+
+        public async Task<List<Card>> GetFilterCardsAsync(string name)
+        {
+            var cards = await AppContext.Cards.Include(x=>x.Image).Where(c=>c.EnstrumentName.Contains(name)).ToListAsync();
+                return cards;
+        }
+        public async Task<Card> GetCardWithImageAsync(int id)
+        {
+            var card = await AppContext.Cards.Include(x=>x.Image).Where(x=>x.Id== id).FirstOrDefaultAsync();
+            return card;
+        }
     }
 }

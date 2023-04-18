@@ -9,7 +9,7 @@ namespace Musician.Business.Abstract
 {
     public interface IStudentService
     {
-        Task CreateAsync();
+        Task CreateAsync(Student student);
         Task<Student> GetByIdAsync(int id);
         Task<List<Student>> GetAllAsync();
         void Update(Student student);

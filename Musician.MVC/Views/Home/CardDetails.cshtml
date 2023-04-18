@@ -1,0 +1,66 @@
+﻿@using Musician.MVC.Models.ViewModels;
+@model CardDetailsViewModel
+
+<section class="course_details_area section_padding pt-0 mt-5">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8 course_details_left">
+                <div class="main_image">
+                    <img class="img-fluid " src="~/images/photo.png"  alt="">
+                </div>
+                <div class="content_wrapper">
+                    <h4 class="title_top m-0 mb-3">@Model.EnstrumentName</h4>
+                    <div class="content">
+                       @Model.Description  
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 right-contents">
+                <div class="sidebar_top">
+                    <ul>
+                        <li class="justify-content-center d-flex">
+                            <img src="~/images/@Model.Image.Url" class="special_img  " alt="">
+
+                        </li>
+                        <li class="">
+                            <a class="justify-content-center d-flex" >
+                                
+                                <span class="color fw-bold  ">@Model.FirstName</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" >
+                                <p>Saatlik Ücreti </p>
+                                <span class="fw-bold">@($"{Model.Price:C0}")</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" >
+                                <p>Cevaplama süresi </p>
+                                <span class="">2 Saat</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex" >
+                                <p>Müsait Olduğu Saatler </p>
+                                <span>08:00 - 22:00</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="justify-content-between d-flex">
+                                <p>Şehir </p>
+                                <span>@Model.City</span>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                    <a href="#" class="btn_1 d-block">Ders Talep Et</a>
+                </div>
+
+               
+               
+            </div>
+        </div>
+    </div>
+</section>

@@ -47,6 +47,15 @@ namespace Musician.Business.Concrete
             return await _teacherRepository.GetAllTeachersAsync();
         }
 
-      
+        public Task<Teacher> GetByIdAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<Teacher> GetTeacherByIdAsync(string id)
+        {
+            return await _teacherRepository.GetTeacherByIdAsync(id);
+
+        }
     }
 }

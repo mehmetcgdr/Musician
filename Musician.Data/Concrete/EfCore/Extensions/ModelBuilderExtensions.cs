@@ -19,19 +19,20 @@ namespace Musician.Data.Concrete.EfCore.Extensions
                 new Role{Name="Admin",Description="Admin",NormalizedName="ADMIN"},
                 new Role{Name="Teacher",Description="Öğretmen",NormalizedName="TEACHER"},
                 new Role{Name="Student",Description="Öğrenci",NormalizedName="STUDENT"},
+                new Role{Name="User",Description="User",NormalizedName="USER"},
             };
             modelBuilder.Entity<Role>().HasData(roles);
             #endregion
             #region User
             List<User> users = new List<User> {
             new User{
-                FirstName="Ege",LastName="ilk",UserName="ege",NormalizedUserName="EGE",Email="ege@gmail.com",NormalizedEmail="EGE@GMAIL.COM",Gender="Erkek",Age=16,City="İstanbul",Description="asd",District="Beşiktaş"
+                FirstName="Ege",LastName="ilk",UserName="ege",NormalizedUserName="EGE",Email="ege@gmail.com",NormalizedEmail="EGE@GMAIL.COM",Gender="Erkek",DateOfBirth = new DateTime(1985, 5, 18) ,City="İstanbul",Description="asd",District="Beşiktaş"
             },
             new User{
-                FirstName="Ece",LastName="Orta",UserName="ece",NormalizedUserName="ECE",Email="ece@gmail.com",NormalizedEmail="ECE@GMAIL.COM",Gender="Kadın",Age=32,City="İstanbul",Description="asd",District="Kadıköy"
+                FirstName="Ece",LastName="Orta",UserName="ece",NormalizedUserName="ECE",Email="ece@gmail.com",NormalizedEmail="ECE@GMAIL.COM",Gender="Kadın",DateOfBirth = new DateTime(1985, 5, 18),City="İstanbul",Description="asd",District="Kadıköy"
             },
             new User{
-                FirstName="Efe",LastName="Son",UserName="efe",NormalizedUserName="EFE",Email="efe@gmail.com",NormalizedEmail="EFE@GMAIL.COM",Gender="Erkek",Age=27,City="İstanbul",Description="asd",District="Bahçelievler"
+                FirstName="Efe",LastName="Son",UserName="efe",NormalizedUserName="EFE",Email="efe@gmail.com",NormalizedEmail="EFE@GMAIL.COM",Gender="Erkek",DateOfBirth = new DateTime(1985, 5, 18),City="İstanbul",Description="asd",District="Bahçelievler"
             }
         };
             modelBuilder.Entity<User>().HasData(users);

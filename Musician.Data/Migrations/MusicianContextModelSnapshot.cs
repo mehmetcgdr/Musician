@@ -102,18 +102,18 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "b8a4cd6b-db1f-404f-baa5-be3d9b4a0372",
-                            RoleId = "b7abb49c-b349-4ac1-b232-4182d3ed37b6"
+                            UserId = "e526230e-29de-43c6-a2b4-bd1e22479434",
+                            RoleId = "df1e3c87-c998-44c6-9fdb-f7d191e0f502"
                         },
                         new
                         {
-                            UserId = "d9255e07-1c79-4f66-b736-dd7a2cd94886",
-                            RoleId = "975c0c42-d2c3-4ac1-8a73-5456041019f9"
+                            UserId = "dbcaee8a-6aed-4d64-88a2-0159950691d4",
+                            RoleId = "eca23c28-9f4c-47e2-ab06-e4803bc8d3f8"
                         },
                         new
                         {
-                            UserId = "26307d8f-0b63-45f6-9d34-0d9d6cc46dd6",
-                            RoleId = "cd3e99f0-f396-4266-bf36-c73f43848523"
+                            UserId = "a0738d4a-f1e8-4cbe-90dc-aa9de35f43f0",
+                            RoleId = "2feb1920-6a64-4011-9bb4-872114d40811"
                         });
                 });
 
@@ -147,24 +147,27 @@ namespace Musician.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<int?>("EnstrumentId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("EnstrumentName")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("EnumState")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(100)
+                    b.Property<int?>("ImageId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("NormalizedEnstrumentName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OwnDescription")
                         .HasColumnType("TEXT");
 
                     b.Property<decimal?>("Price")
@@ -174,15 +177,107 @@ namespace Musician.Data.Migrations
                     b.Property<int?>("TeacherId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("EnstrumentId");
+
+                    b.HasIndex("ImageId");
 
                     b.HasIndex("TeacherId");
 
                     b.ToTable("Cards");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "Ahmet",
+                            NormalizedEnstrumentName = "",
+                            Price = 250m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            City = "İstanbul",
+                            Description = "Gitar dersi veriyorum",
+                            EnstrumentName = "Gitar",
+                            FirstName = "Mehmet",
+                            NormalizedEnstrumentName = "",
+                            Price = 270m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            City = "İstanbul",
+                            Description = "Kalimba dersi veriyorum",
+                            EnstrumentName = "Kalimba",
+                            FirstName = "Ezgi",
+                            NormalizedEnstrumentName = "",
+                            Price = 240m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "Arda",
+                            NormalizedEnstrumentName = "",
+                            Price = 250m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "Erdi",
+                            NormalizedEnstrumentName = "",
+                            Price = 350m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "Ulaş",
+                            NormalizedEnstrumentName = "",
+                            Price = 150m
+                        },
+                        new
+                        {
+                            Id = 7,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "Canan",
+                            NormalizedEnstrumentName = "",
+                            Price = 200m
+                        },
+                        new
+                        {
+                            Id = 8,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "İlknur",
+                            NormalizedEnstrumentName = "",
+                            Price = 400m
+                        },
+                        new
+                        {
+                            Id = 9,
+                            City = "İstanbul",
+                            Description = "Kaval dersi veriyorum",
+                            EnstrumentName = "Kaval",
+                            FirstName = "Hakan",
+                            NormalizedEnstrumentName = "",
+                            Price = 180m
+                        });
                 });
 
             modelBuilder.Entity("Musician.Entity.Concrete.Enstrument", b =>
@@ -203,7 +298,6 @@ namespace Musician.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Url")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -303,7 +397,6 @@ namespace Musician.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
@@ -325,24 +418,31 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b7abb49c-b349-4ac1-b232-4182d3ed37b6",
+                            Id = "df1e3c87-c998-44c6-9fdb-f7d191e0f502",
                             Description = "Admin",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "975c0c42-d2c3-4ac1-8a73-5456041019f9",
+                            Id = "eca23c28-9f4c-47e2-ab06-e4803bc8d3f8",
                             Description = "Öğretmen",
                             Name = "Teacher",
                             NormalizedName = "TEACHER"
                         },
                         new
                         {
-                            Id = "cd3e99f0-f396-4266-bf36-c73f43848523",
+                            Id = "2feb1920-6a64-4011-9bb4-872114d40811",
                             Description = "Öğrenci",
                             Name = "Student",
                             NormalizedName = "STUDENT"
+                        },
+                        new
+                        {
+                            Id = "a06b49d5-7bf2-4fd0-a634-ac89181e3bf7",
+                            Description = "User",
+                            Name = "User",
+                            NormalizedName = "USER"
                         });
                 });
 
@@ -354,23 +454,20 @@ namespace Musician.Data.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Age")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("City")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime?>("DateOfBirth")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("District")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -381,15 +478,12 @@ namespace Musician.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Gender")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("LockoutEnabled")
@@ -413,6 +507,9 @@ namespace Musician.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("RoleId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("SecurityStamp")
@@ -439,11 +536,11 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b8a4cd6b-db1f-404f-baa5-be3d9b4a0372",
+                            Id = "e526230e-29de-43c6-a2b4-bd1e22479434",
                             AccessFailedCount = 0,
-                            Age = 16,
                             City = "İstanbul",
-                            ConcurrencyStamp = "a3c7ec0b-f7ee-473f-93fb-28e5ff9d00c6",
+                            ConcurrencyStamp = "e32aac48-8bb8-4fe0-8840-22f5b019964a",
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "asd",
                             District = "Beşiktaş",
                             Email = "ege@gmail.com",
@@ -454,19 +551,20 @@ namespace Musician.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "EGE@GMAIL.COM",
                             NormalizedUserName = "EGE",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDxccHUlKqLBvIlBMjwvjQ999YNK2SZL+epr+7Zi4wP70RRRQ4R8ZkfHTuRqOXXv1Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPPMpXtB8Ajxu805SyWx4motYCiST5cuQPk6z1v6x49CEXezaH07/22Q22K/9WioNA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b1b7f90c-dda3-4b41-8b1d-b80e346bedff",
+                            RoleId = 0,
+                            SecurityStamp = "e35afb53-d291-4859-b788-88564ce6fc29",
                             TwoFactorEnabled = false,
                             UserName = "ege"
                         },
                         new
                         {
-                            Id = "d9255e07-1c79-4f66-b736-dd7a2cd94886",
+                            Id = "dbcaee8a-6aed-4d64-88a2-0159950691d4",
                             AccessFailedCount = 0,
-                            Age = 32,
                             City = "İstanbul",
-                            ConcurrencyStamp = "ed970cd1-1d17-4a10-973f-6d3a63eb6840",
+                            ConcurrencyStamp = "e387e1f1-e38b-49d3-ba41-f9c071d2cb8d",
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "asd",
                             District = "Kadıköy",
                             Email = "ece@gmail.com",
@@ -477,19 +575,20 @@ namespace Musician.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ECE@GMAIL.COM",
                             NormalizedUserName = "ECE",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFmJEVL5qHpFbldm230ITit9BdbpN9nQRuvG+cxY2Nn6Mq/ls6/D1T1V09gmodoQNw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELozV4WFY3cWJFcxcUt+4jLnQgxu41tvnDp4x0X9Z8fR9cgUOHTjdu4nCrLmNLV/Qw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b64fca60-7834-4933-bd2d-542badbc91ad",
+                            RoleId = 0,
+                            SecurityStamp = "3e3fade3-10fb-4a32-bc6e-640816ffcf0f",
                             TwoFactorEnabled = false,
                             UserName = "ece"
                         },
                         new
                         {
-                            Id = "26307d8f-0b63-45f6-9d34-0d9d6cc46dd6",
+                            Id = "a0738d4a-f1e8-4cbe-90dc-aa9de35f43f0",
                             AccessFailedCount = 0,
-                            Age = 27,
                             City = "İstanbul",
-                            ConcurrencyStamp = "cbf3a58c-4aed-4b9d-9d2c-efe833f5152e",
+                            ConcurrencyStamp = "1a1c34b3-48d8-4482-8df0-04109800e9f9",
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "asd",
                             District = "Bahçelievler",
                             Email = "efe@gmail.com",
@@ -500,9 +599,10 @@ namespace Musician.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "EFE@GMAIL.COM",
                             NormalizedUserName = "EFE",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPcycaF+SzqIjUO0ILAF9IEmWgGx5A2seHqt27HDk+8WkEx3p4VxKBkwe6fHBxJgyQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENxBpgNIj9rkL0MvF4uSHTOGoRAw2fdDjbq/ltietv4unlh6L24MVprJYxLStYlG2Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "425f7e4d-74aa-41a4-953b-2189d2513093",
+                            RoleId = 0,
+                            SecurityStamp = "382853b2-ba99-4df6-8318-52c1471ef5da",
                             TwoFactorEnabled = false,
                             UserName = "efe"
                         });
@@ -514,7 +614,15 @@ namespace Musician.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Url")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Images");
                 });
@@ -525,19 +633,18 @@ namespace Musician.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Age")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("City")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Description")
+                    b.Property<DateTime?>("DateOfBirth")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("District")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
@@ -555,7 +662,6 @@ namespace Musician.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Url")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -566,8 +672,8 @@ namespace Musician.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Age = 25,
                             City = "İstanbul",
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "gitar öğrenmek istiyorum",
                             District = "Beşiktaş",
                             FirstName = "Şeyma",
@@ -578,8 +684,8 @@ namespace Musician.Data.Migrations
                         new
                         {
                             Id = 2,
-                            Age = 25,
                             City = "İstanbul",
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "keman öğrenmek istiyorum",
                             District = "Beşiktaş",
                             FirstName = "Sema",
@@ -590,8 +696,8 @@ namespace Musician.Data.Migrations
                         new
                         {
                             Id = 3,
-                            Age = 25,
                             City = "İstanbul",
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "kalimba öğrenmek istiyorum",
                             District = "Beşiktaş",
                             FirstName = "Uğurcan",
@@ -607,7 +713,7 @@ namespace Musician.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Age")
+                    b.Property<int?>("CardId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("City")
@@ -615,6 +721,10 @@ namespace Musician.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("DateOfBirth")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
@@ -634,6 +744,9 @@ namespace Musician.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<int?>("ImageId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<bool>("IsApproved")
                         .HasColumnType("INTEGER");
 
@@ -642,15 +755,30 @@ namespace Musician.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Url")
-                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserName")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CardId");
+
+                    b.HasIndex("ImageId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("Teachers");
 
@@ -658,92 +786,104 @@ namespace Musician.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Age = 27,
                             City = "İstanbul",
-                            CreatedDate = new DateTime(2023, 4, 10, 12, 59, 51, 474, DateTimeKind.Local).AddTicks(8240),
+                            CreatedDate = new DateTime(2023, 4, 18, 12, 39, 38, 367, DateTimeKind.Local).AddTicks(3374),
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Kalimba çalıyorum",
                             District = "Beşiktaş",
                             FirstName = "Mehmet",
                             Gender = "Erkek",
                             IsApproved = true,
                             LastName = "Öçgüder",
+                            PhoneNumber = "",
                             Status = "Home",
-                            Url = "mehmetocguder"
+                            Url = "mehmetocguder",
+                            UserName = "mehmetocguder"
                         },
                         new
                         {
                             Id = 2,
-                            Age = 25,
                             City = "İstanbul",
-                            CreatedDate = new DateTime(2023, 4, 10, 12, 59, 51, 474, DateTimeKind.Local).AddTicks(8273),
+                            CreatedDate = new DateTime(2023, 4, 18, 12, 39, 38, 367, DateTimeKind.Local).AddTicks(3393),
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Kalimba çalıyorum",
                             District = "Beşiktaş",
                             FirstName = "Canan",
                             Gender = "Kadın",
                             IsApproved = true,
                             LastName = "asd",
+                            PhoneNumber = "",
                             Status = "Home",
-                            Url = "canan"
+                            Url = "canan",
+                            UserName = "canan"
                         },
                         new
                         {
                             Id = 3,
-                            Age = 25,
                             City = "İstanbul",
-                            CreatedDate = new DateTime(2023, 4, 10, 12, 59, 51, 474, DateTimeKind.Local).AddTicks(8279),
+                            CreatedDate = new DateTime(2023, 4, 18, 12, 39, 38, 367, DateTimeKind.Local).AddTicks(3410),
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Kalimba çalıyorum",
                             District = "Beşiktaş",
                             FirstName = "Ezgi",
                             Gender = "Kadın",
                             IsApproved = true,
                             LastName = "sdf",
+                            PhoneNumber = "",
                             Status = "Home",
-                            Url = "ezgi"
+                            Url = "ezgi",
+                            UserName = "ezzgi"
                         },
                         new
                         {
                             Id = 4,
-                            Age = 22,
                             City = "İstanbul",
-                            CreatedDate = new DateTime(2023, 4, 10, 12, 59, 51, 474, DateTimeKind.Local).AddTicks(8282),
+                            CreatedDate = new DateTime(2023, 4, 18, 12, 39, 38, 367, DateTimeKind.Local).AddTicks(3414),
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Kalimba çalıyorum",
                             District = "Beşiktaş",
                             FirstName = "Arda",
                             Gender = "Erkek",
                             IsApproved = true,
                             LastName = "sss",
+                            PhoneNumber = "",
                             Status = "Home",
-                            Url = "arda"
+                            Url = "arda",
+                            UserName = "arda"
                         },
                         new
                         {
                             Id = 5,
-                            Age = 24,
                             City = "İstanbul",
-                            CreatedDate = new DateTime(2023, 4, 10, 12, 59, 51, 474, DateTimeKind.Local).AddTicks(8285),
+                            CreatedDate = new DateTime(2023, 4, 18, 12, 39, 38, 367, DateTimeKind.Local).AddTicks(3417),
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Kalimba çalıyorum",
                             District = "Beşiktaş",
                             FirstName = "Erdi",
                             Gender = "Erkek",
                             IsApproved = true,
                             LastName = "asdf",
+                            PhoneNumber = "",
                             Status = "Home",
-                            Url = "erdi"
+                            Url = "erdi",
+                            UserName = "erdi"
                         },
                         new
                         {
                             Id = 6,
-                            Age = 23,
                             City = "İstanbul",
-                            CreatedDate = new DateTime(2023, 4, 10, 12, 59, 51, 474, DateTimeKind.Local).AddTicks(8288),
+                            CreatedDate = new DateTime(2023, 4, 18, 12, 39, 38, 367, DateTimeKind.Local).AddTicks(3422),
+                            DateOfBirth = new DateTime(1985, 5, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Kalimba çalıyorum",
                             District = "Beşiktaş",
                             FirstName = "Ahmet",
                             Gender = "Erkek",
                             IsApproved = true,
                             LastName = "fgd",
+                            PhoneNumber = "",
                             Status = "Home",
-                            Url = "ahmet"
+                            Url = "ahmet",
+                            UserName = "ahmet"
                         });
                 });
 
@@ -800,9 +940,56 @@ namespace Musician.Data.Migrations
 
             modelBuilder.Entity("Musician.Entity.Concrete.Card", b =>
                 {
+                    b.HasOne("Musician.Entity.Concrete.Enstrument", "Enstrument")
+                        .WithMany()
+                        .HasForeignKey("EnstrumentId");
+
+                    b.HasOne("Musician.Entity.Concrete.Image", "Image")
+                        .WithMany()
+                        .HasForeignKey("ImageId");
+
                     b.HasOne("Musician.Entity.Concrete.Teacher", null)
                         .WithMany("Cards")
                         .HasForeignKey("TeacherId");
+
+                    b.Navigation("Enstrument");
+
+                    b.Navigation("Image");
+                });
+
+            modelBuilder.Entity("Musician.Entity.Concrete.Image", b =>
+                {
+                    b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Musician.Entity.Concrete.Teacher", b =>
+                {
+                    b.HasOne("Musician.Entity.Concrete.Card", "Card")
+                        .WithMany()
+                        .HasForeignKey("CardId");
+
+                    b.HasOne("Musician.Entity.Concrete.Image", "Image")
+                        .WithMany()
+                        .HasForeignKey("ImageId");
+
+                    b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
+                        .WithOne("Teacher")
+                        .HasForeignKey("Musician.Entity.Concrete.Teacher", "UserId");
+
+                    b.Navigation("Card");
+
+                    b.Navigation("Image");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Musician.Entity.Concrete.Identity.User", b =>
+                {
+                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("Musician.Entity.Concrete.Teacher", b =>

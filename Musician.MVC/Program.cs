@@ -54,25 +54,16 @@ builder.Services.AddScoped<ITeacherRepository, EfCoreTeacherRepository>();
 builder.Services.AddScoped<ICardService, CardManager>();
 builder.Services.AddScoped<ICardRepository, EfCoreCardRepository>();
 
+builder.Services.AddScoped<IEnstrumentService, EnstrumentManager>();
+builder.Services.AddScoped<IEnstrumentRepository, EfCoreEnstrumentRepository>();
+
 builder.Services.AddNotyf(config =>
 {
-    config.DurationInSeconds = 3;
+    config.DurationInSeconds = 2;
     config.IsDismissable = true;
     config.Position = NotyfPosition.TopRight;
     config.HasRippleEffect = true;
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 var app = builder.Build();
 

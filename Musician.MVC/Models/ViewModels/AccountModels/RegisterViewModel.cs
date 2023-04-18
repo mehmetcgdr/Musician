@@ -33,5 +33,7 @@ namespace Musician.MVC.Models.ViewModels.AccountModels
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "İki parola aynı olmalıdır!")]
         public string RePassword { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+
     }
 }

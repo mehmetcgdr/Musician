@@ -1,6 +1,7 @@
 ﻿@using Musician.MVC.Models.ViewModels.AccountModels;
 @model RegisterViewModel
-<h1 class="display-6">Kayıt Ol</h1>
+
+<h1 class="display-6 mt-5 pt-5">Kayıt Ol</h1>
 <hr />
 <form asp-area="" asp-controller="Account" asp-action="Register" method="post">
     <div class="row w-50">
@@ -34,9 +35,26 @@
             <input class="form-control" asp-for="RePassword">
             <span class="text-danger" asp-validation-for="RePassword"></span>
         </div>
+        
+
     </div>
 
 
 
     <button type="submit" class="btn btn-primary">Kaydol</button>
 </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

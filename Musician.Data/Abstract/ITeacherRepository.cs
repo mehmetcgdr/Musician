@@ -10,5 +10,6 @@ namespace Musician.Data.Abstract
     public interface ITeacherRepository :IGenericRepository<Teacher>
     {
         Task<List<Teacher>> GetAllTeachersAsync();
+        Task<Teacher> GetTeacherByIdAsync(string id);
     }
 }

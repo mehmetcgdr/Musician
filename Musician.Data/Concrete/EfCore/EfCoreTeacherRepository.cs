@@ -22,8 +22,14 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<List<Teacher>> GetAllTeachersAsync()
         {
-            List<Teacher> teachers = await AppContext.Teachers.ToListAsync();
+            List<Teacher> teachers = await AppContext.Teachers.Include(x=>x.Image).ToListAsync();
             return teachers;
+        }
+
+        public async Task<Teacher> GetTeacherByIdAsync(string id)
+        {
+            Teacher teacher = await AppContext.Teachers.FirstOrDefaultAsync(t=>t.UserId==id);
+            return teacher;
         }
     }
 }

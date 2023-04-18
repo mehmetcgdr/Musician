@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\bin\Debug\net7.0\Musician.Core.deps.json
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\bin\Debug\net7.0\Musician.Core.dll
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\bin\Debug\net7.0\Musician.Core.pdb
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.dll
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\refint\Musician.Core.dll
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.pdb
+C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\obj\Debug\net7.0\ref\Musician.Core.dll

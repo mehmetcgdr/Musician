@@ -1,18 +1,25 @@
 ﻿@if (User.Identity.IsAuthenticated)
 {
-    <li class="d-none d-lg-block">
-        <a class="btn_1" href="#">Profilim </a>
+
+    <li class="d-none d-lg-block nav-item">
+        <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Manage">Profilim </a>
+    </li>
+    <li class="d-none d-lg-block nav-item">
+        <a class="btn_1" asp-area="" asp-controller="Home" asp-action="OpenLesson">Ders Ver</a>
+    </li>
+    <li class="d-none d-lg-block nav-item">
+        <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Logout">Çıkış</a>
     </li>
 }
 else
 {
-    <li class="d-none d-lg-block">
+    <li class="d-none d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Login">Giriş </a>
+    </li>
+
+    <li class="d-none d-lg-block nav-item">
+        <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Register">Ders Ver</a>
     </li>
 }
 
 
-
-<li class="d-none d-lg-block">
-    <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Register">Ders Ver</a>
-</li>
