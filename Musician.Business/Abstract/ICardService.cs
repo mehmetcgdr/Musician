@@ -14,7 +14,7 @@ namespace Musician.Business.Abstract
         Task<List<Card>> GetAllAsync();
         void Update(Card card);
         void Delete(Card card);
-        Task<List<Card>> GetFilterCardsAsync(string name);
+        Task<List<Card>> GetFilterCardsAsync(int id);
         Task<Card> GetCardWithImageAsync(int id);
 
     }

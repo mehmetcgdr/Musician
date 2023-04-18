@@ -10,7 +10,7 @@ namespace Musician.Data.Abstract
     public interface ICardRepository :IGenericRepository<Card>
     {
         Task<List<Card>> GetAllCardsAsync();
-        Task<List<Card>> GetFilterCardsAsync(string name);
+        Task<List<Card>> GetFilterCardsAsync(int id);
         Task<Card> GetCardWithImageAsync(int id);
     }   
 }

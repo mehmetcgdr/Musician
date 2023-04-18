@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
         "projectName": "Musician.Entity",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FWngqCZoWKY+fshMRx0qYReztAzKAouUUWK4lOUcAQp2tY/mBOoKolgxxLLIUArx56wjSIP5wZvpd7ZeUWHo/A==",
+  "dgSpecHash": "EXMH52qK6/PIDc8DW6R025eTBoLFa8c87whIDgNcyxmTfh2YfaaMbcl7lHDY8RqVEvDAn5Cs83pRFIpQAT/7LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Data\\Musician.Data.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

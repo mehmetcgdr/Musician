@@ -44,9 +44,9 @@ namespace Musician.Business.Concrete
             return await _cardRepository.GetCardWithImageAsync(id);
         }
 
-        public async Task<List<Card>> GetFilterCardsAsync(string name)
+        public async Task<List<Card>> GetFilterCardsAsync(int id)
         {
-            return await _cardRepository.GetFilterCardsAsync(name);
+            return await _cardRepository.GetFilterCardsAsync(id);
         }
 
         public void Update(Card card)

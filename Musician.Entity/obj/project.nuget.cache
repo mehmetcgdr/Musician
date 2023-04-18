@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zRav8p9yarR4kLrr1AzT8JUD0HE3Unws0zuD6w8wXO/EwJE9i2DYuqcFRXWV9ieWiAlVcnUhCX5qrZnsKdfYLw==",
+  "dgSpecHash": "NG73mN0Io7wnEXQ4nMY4t9gXtfkrn7Hhk4wI7nAfv4N6B/bCT5SoR6SgJuoIbEzYh+A6ja1d8bH7A7SbvS2KtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

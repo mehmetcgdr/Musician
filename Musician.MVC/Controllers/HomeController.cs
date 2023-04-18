@@ -31,17 +31,17 @@ namespace Musician.MVC.Controllers
             _enstrumentService = enstrumentService;
         }
 
-        public async Task<IActionResult> Index(string name)
+        public async Task<IActionResult> Index(int id)
         {
             
-            List<Card> cards = await _cardService.GetFilterCardsAsync(name);
+            List<Card> cards = await _cardService.GetFilterCardsAsync(id);
             return View();
         }
-        [HttpPost]
-        public async Task<IActionResult> GetBySearch(string name) //enstrüman ismine göre
+        [HttpGet]
+        public async Task<IActionResult> GetBySearch(int id) //enstrüman ID'sine göre
         {
             var teacher = await _teacherService.GetAllTeachersAsync();
-            List<Card> cards = await _cardService.GetFilterCardsAsync(name);
+            List<Card> cards = await _cardService.GetFilterCardsAsync(id);
             List<CardModel> cardsModel = new List<CardModel>();
             cardsModel = cards.Select(c => new CardModel
             {
@@ -57,10 +57,10 @@ namespace Musician.MVC.Controllers
 
 
             }).ToList();
-            if (RouteData.Values["name"] != null)
-            {
-                ViewBag.SelectedEnstrumentName = await _cardService.GetFilterCardsAsync(RouteData.Values["name"].ToString());
-            }
+            //if (RouteData.Values["id"] != 0)
+            //{
+            //    ViewBag.SelectedEnstrumentName = await _cardService.GetFilterCardsAsync(RouteData.Values["id"].);
+            //}
             return View("Index", cardsModel);
         }
         //public async Task<IActionResult> AllCards( string name) //aramaya göre(ders adı) tüm card listesi ----bu boş olabilir kontrol edip silebilirsin
