@@ -22,3 +22,15 @@ C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Core\obj\Debu
 C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Core\obj\Debug\net7.0\refint\Musician.Core.dll
 C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.pdb
 C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Core\obj\Debug\net7.0\ref\Musician.Core.dll
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\bin\Debug\net7.0\Musician.Core.deps.json
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\bin\Debug\net7.0\Musician.Core.dll
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\bin\Debug\net7.0\Musician.Core.pdb
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.dll
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\refint\Musician.Core.dll
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\Musician.Core.pdb
+C:\Users\Admin\Documents\GitHub\Musician\Musician.Core\obj\Debug\net7.0\ref\Musician.Core.dll

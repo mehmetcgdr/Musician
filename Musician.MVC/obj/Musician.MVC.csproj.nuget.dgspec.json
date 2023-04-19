@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\Musician.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Business\\Musician.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Business\\Musician.Business.csproj",
         "projectName": "Musician.Business",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Business\\Musician.Business.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj"
               }
             }
           }
@@ -69,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj",
         "projectName": "Musician.Core",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -138,24 +138,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj",
         "projectName": "Musician.Data",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -170,8 +170,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Entity\\Musician.Entity.csproj"
               }
             }
           }
@@ -217,24 +217,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Entity\\Musician.Entity.csproj",
         "projectName": "Musician.Entity",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -286,24 +286,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\Musician.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\Musician.MVC.csproj",
         "projectName": "Musician.MVC",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\Musician.MVC.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -318,14 +318,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Business\\Musician.Business.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Business\\Musician.Business.csproj"
               },
-              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Core\\Musician.Core.csproj"
               },
-              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Musician\\Musician.Data\\Musician.Data.csproj"
               }
             }
           }
@@ -378,7 +378,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
