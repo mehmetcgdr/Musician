@@ -9,10 +9,10 @@ namespace Musician.Business.Abstract
 {
     public interface IImageService
     {
-        Task CreateAsync();
+        Task CreateAsync(Image image);
         Task<Image> GetByIdAsync(int id);
         Task<List<Image>> GetAllAsync();
         void Update(Image image);
-        void Delete(Image image);
+        Task DeleteAsync(Image image);
     }
 }

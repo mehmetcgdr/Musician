@@ -23,10 +23,10 @@ namespace Musician.Data.Concrete.EfCore
             _dbContext.SaveChanges();
         }
 
-        public void Delete(TEntity entity)
+        public async Task DeleteAsync(TEntity entity)
         {
             _dbContext.Set<TEntity>().Remove(entity);
-            _dbContext.SaveChanges();
+           await  _dbContext.SaveChangesAsync();
         }
 
         public async Task<List<TEntity>> GetAllAsync()

@@ -51,28 +51,28 @@ builder.Services.ConfigureApplicationCookie(options =>
 builder.Services.AddScoped<ITeacherService, TeacherManager>();
 builder.Services.AddScoped<ITeacherRepository, EfCoreTeacherRepository>();
 
+builder.Services.AddScoped<IStudentService, StudentManager>();
+builder.Services.AddScoped<IStudentRepository, EfCoreStudentRepository>();
+
 builder.Services.AddScoped<ICardService, CardManager>();
 builder.Services.AddScoped<ICardRepository, EfCoreCardRepository>();
 
+builder.Services.AddScoped<IEnstrumentService, EnstrumentManager>();
+builder.Services.AddScoped<IEnstrumentRepository, EfCoreEnstrumentRepository>();
+
+builder.Services.AddScoped<IRequestService, RequestManager>();
+builder.Services.AddScoped<IRequestRepository, EfCoreRequestRepository>();
+
+builder.Services.AddScoped<IImageService, ImageManager>();
+builder.Services.AddScoped<IImageRepository, EfCoreImageRepository>();
+
 builder.Services.AddNotyf(config =>
 {
-    config.DurationInSeconds = 3;
+    config.DurationInSeconds = 2;
     config.IsDismissable = true;
     config.Position = NotyfPosition.TopRight;
     config.HasRippleEffect = true;
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 var app = builder.Build();
 
@@ -91,6 +91,27 @@ app.UseAuthorization();
 app.UseNotyf();
 
 
+app.MapControllerRoute(
+    name: "enstruments",
+    pattern: "enstrument/{enstrumenturl?}",
+    defaults: new { controller = "Home", action = "Index" }
+    );
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "admin/{controller=Account}/{action=Edit}/{id?}"
+    );
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "admin/{controller=Home}/{action=Users}/{role?}"
+    );
+
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "admin/{controller=Home}/{action=Enstruments}/{id?}"
+    );
 
 app.MapAreaControllerRoute(
     name: "Admin",

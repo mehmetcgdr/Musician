@@ -1,0 +1,92 @@
+﻿@using Musician.MVC.Models.ViewModels.AccountModels;
+@model LoginViewModel
+@*
+<h1 class="display-6 mt-5 pt-5">Kayıt Ol</h1>
+<hr />
+<form asp-area="" asp-controller="Account" asp-action="Register" method="post">
+    <div class="row w-50">
+        <div class="col-6 mb-3">
+            <label class="form-label" asp-for="FirstName"></label>
+            <input class="form-control" asp-for="FirstName">
+            <span class="text-danger" asp-validation-for="FirstName"></span>
+        </div>
+        <div class="col-6 mb-3">
+            <label class="form-label" asp-for="LastName"></label>
+            <input class="form-control" asp-for="LastName">
+            <span class="text-danger" asp-validation-for="LastName"></span>
+        </div>
+        <div class="col-6 mb-3">
+            <label class="form-label" asp-for="UserName"></label>
+            <input class="form-control" asp-for="UserName">
+            <span class="text-danger" asp-validation-for="UserName"></span>
+        </div>
+        <div class="col-6 mb-3">
+            <label class="form-label" asp-for="Email"></label>
+            <input class="form-control" asp-for="Email">
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+        <div class="col-6 mb-3">
+            <label class="form-label" asp-for="Password"></label>
+            <input class="form-control" asp-for="Password">
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <div class="col-6 mb-3">
+            <label class="form-label" asp-for="RePassword"></label>
+            <input class="form-control" asp-for="RePassword">
+            <span class="text-danger" asp-validation-for="RePassword"></span>
+        </div>
+
+
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary">Kaydol</button>
+</form>
+
+
+
+
+
+*@
+
+
+
+
+<link rel="stylesheet" href="~/css/sign.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+
+<div class="container" id="container">
+   
+
+
+    <div class="form-container sign-in-container">
+        <form asp-area="" asp-controller="Account" asp-action="Login" method="post" value="login" name="login">
+            <h1>Giriş Yap!</h1>
+            <input type="hidden" asp-for="ReturnUrl" />
+            
+
+            <input class="form-control" asp-for="UserName" placeholder="Kullanıcı Adı">
+            <span class="text-danger" asp-validation-for="UserName"></span>
+
+            <input class="form-control" asp-for="Password" placeholder="Şifre">
+            <span class="text-danger" asp-validation-for="Password"></span>
+
+            <a href="#">Şifreni mi unuttun?</a>
+            <button name="login" value="login" type="submit">Giriş</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            
+            <div class="overlay-panel overlay-right">
+                <h1 class="text-white">Merhaba!</h1>
+                <p class="text-white">Bilgilerini gir ve enstrüman dünyasına başla</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,5 +1,8 @@
 {
     "configurations": [
+        
+
+    
     {
         "name": "Launch",
         "type": "godot-mono",
