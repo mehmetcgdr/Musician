@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Musician.Core
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Administrator\Desktop\Yeni klasör (2)\Musician\Musician.Core\
+=======
+build_property.ProjectDir = C:\Users\Administrator\Documents\GitHub\Musician\Musician\Musician.Core\
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791

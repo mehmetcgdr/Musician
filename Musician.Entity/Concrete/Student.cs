@@ -22,10 +22,18 @@ namespace Musician.Entity.Concrete
         public Card Card { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+<<<<<<< HEAD
         public string Description { get; set; } = "";
         public string Gender { get; set; } = "";
         public string City { get; set; } = "";
         public DateTime? DateOfBirth { get; set; } = new DateTime(1995, 1, 1);
+=======
+        public string Description { get; set; }
+        public string Gender { get; set; }
+        public string City { get; set; }
+        public string District { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         public string Url { get; set; }
         public Image Image { get; set; }
 

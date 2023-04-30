@@ -7,12 +7,24 @@
 .main_menu .navbar-toggler:after,
 .banner_part .banner_text .btn_1,
 .feature_part .single_feature:hover span {
+<<<<<<< HEAD
     background-image: linear-gradient(90deg, rgba(212,10,27,1) 0%, rgba(246,38,84,1) 50%, rgba(233,49,108,1) 100%);
+=======
+  background-image: linear-gradient(to left, rgb(140, 177, 224) 0%,
+      rgb(88, 166, 230) 67%,
+      rgb(117, 124, 241) 100%);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 }
 
 /* line 6, E:/172 Etrain Education/172_Etrain_Education_html/sass/_extends.scss */
 .member_counter {
+<<<<<<< HEAD
     background-image: linear-gradient(90deg, rgba(212,10,27,1) 0%, rgba(246,38,84,1) 50%, rgba(233,49,108,1) 100%);
+=======
+    background-image: -moz-linear-gradient(97deg, rgba(43,66,213,1) 0%, rgba(41,125,228,1) 51%, rgba(162,166,241,1) 100%);
+    background-image: -webkit-linear-gradient(97deg, rgba(43,66,213,1) 0%, rgba(41,125,228,1) 51%, rgba(162,166,241,1) 100%);
+    background-image: -ms-linear-gradient(97deg, rgba(43,66,213,1) 0%, rgba(41,125,228,1) 51%, rgba(162,166,241,1) 100%);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 }
 
 .domain-search-area h2 {
@@ -98,8 +110,16 @@ form.search-box .input-form input::placeholder {
 
 form.search-box .input-form .search-form {
   position: absolute;
+<<<<<<< HEAD
   right: 9px;
   top: 8px
+=======
+  right: 80px;
+  top:-5px 
+}
+.search-form{
+    
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 }
 
 form.search-box .input-form .search-form button {
@@ -136,11 +156,19 @@ form.search-box .input-form .world-form i {
 
 form.search-box .input-form .search-form button,
 .footer-area .footer-form form .form-icon button {
+<<<<<<< HEAD
     background: #ff445c;
     background: #ff445c;
     background: #ff445c;
     background: #ff445c;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a077ff', endColorstr='#ef67ff', GradientType=0)
+=======
+  background: #2ca6ec;
+  background: -moz-linear-gradient(top, #2ca6ec 0%, #2ca6ec 100%);
+  background: -webkit-linear-gradient(top, #2ca6ec 0%, #2ca6ec 100%);
+  background: linear-gradient(to bottom, #2ca6ec 0%, #2ca6ec 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a077ff', endColorstr='#ef67ff', GradientType=0)
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 }
 
 /**************** extend css start ****************/
@@ -2361,12 +2389,20 @@ ul {
 }
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
+<<<<<<< HEAD
     .main_menu .navbar-brand {
         padding: 0rem !important;
         color: #ff445c;
         
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
+=======
+.main_menu .navbar-brand {
+  padding: 0rem !important;
+  color:dodgerblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
 /* line 12, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .navbar {

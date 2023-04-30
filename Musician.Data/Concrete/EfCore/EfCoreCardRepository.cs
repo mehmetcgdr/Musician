@@ -28,9 +28,15 @@ namespace Musician.Data.Concrete.EfCore
 
        
 
+<<<<<<< HEAD
         public async Task<List<Card>> GetFilterCardsAsync(string name)
         {
             var cards = await AppContext.Cards.Include(x=>x.Image).Where(c=>c.NormalizedEnstrumentName.Contains(name)).ToListAsync();
+=======
+        public async Task<List<Card>> GetFilterCardsAsync(int id)
+        {
+            var cards = await AppContext.Cards.Include(x=>x.Image).Where(c=>c.Enstrument.Id==id).ToListAsync();
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
                 return cards;
         }
         public async Task<Card> GetCardWithImageAsync(int id)
@@ -38,6 +44,7 @@ namespace Musician.Data.Concrete.EfCore
             var card = await AppContext.Cards.Include(x=>x.Image).Where(x=>x.Id== id).FirstOrDefaultAsync();
             return card;
         }
+<<<<<<< HEAD
 
         public async Task<List<Card>> GetCardsInAdminAsync(string id)
         {
@@ -54,5 +61,7 @@ namespace Musician.Data.Concrete.EfCore
             
 
         }
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

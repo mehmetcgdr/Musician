@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
 using Iyzipay;
 using Iyzipay.Model;
 using Iyzipay.Request;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Identity;
+=======
+﻿using Microsoft.AspNetCore.Identity;
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Infrastructure;
@@ -27,15 +31,21 @@ namespace Musician.MVC.Controllers
         private readonly ICardService _cardService;
         private readonly UserManager<User> _userManager;
         private readonly IEnstrumentService _enstrumentService;
+<<<<<<< HEAD
         private readonly INotyfService _notyfService;
         private readonly IRequestService _requestService;
 
         public HomeController(ITeacherService teacherService, ICardService cardService, UserManager<User> userManager, IEnstrumentService enstrumentService, INotyfService notyfService, IRequestService requestService)
+=======
+
+        public HomeController(ITeacherService teacherService, ICardService cardService, UserManager<User> userManager, IEnstrumentService enstrumentService)
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         {
             _teacherService = teacherService;
             _cardService = cardService;
             _userManager = userManager;
             _enstrumentService = enstrumentService;
+<<<<<<< HEAD
             _notyfService = notyfService;
             _requestService = requestService;
         }
@@ -52,6 +62,21 @@ namespace Musician.MVC.Controllers
             name = name.ToUpper();
             var teacher = await _teacherService.GetAllTeachersAsync();
             List<Entity.Concrete.Card> cards = await _cardService.GetFilterCardsAsync(name);
+=======
+        }
+
+        public async Task<IActionResult> Index(int id)
+        {
+            
+            List<Card> cards = await _cardService.GetFilterCardsAsync(id);
+            return View();
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetBySearch(int id) //enstrüman ID'sine göre
+        {
+            var teacher = await _teacherService.GetAllTeachersAsync();
+            List<Card> cards = await _cardService.GetFilterCardsAsync(id);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             List<CardModel> cardsModel = new List<CardModel>();
             cardsModel = cards.Select(c => new CardModel
             {
@@ -64,6 +89,7 @@ namespace Musician.MVC.Controllers
                 FirstName = c.FirstName,
                 Price = c.Price,
                 Image=c.Image
+<<<<<<< HEAD
                 
 
             }).ToList();
@@ -73,6 +99,35 @@ namespace Musician.MVC.Controllers
             }
             return View("Index", cardsModel);
         }
+=======
+
+
+            }).ToList();
+            //if (RouteData.Values["id"] != 0)
+            //{
+            //    ViewBag.SelectedEnstrumentName = await _cardService.GetFilterCardsAsync(RouteData.Values["id"].);
+            //}
+            return View("Index", cardsModel);
+        }
+        //public async Task<IActionResult> AllCards( string name) //aramaya göre(ders adı) tüm card listesi ----bu boş olabilir kontrol edip silebilirsin
+
+        //{
+        //    List<Teacher> teachers = await _teacherService.GetAllTeachersAsync();
+        //    var cards= await _cardService.GetFilterCardsAsync(name);
+        //    List<LessonViewModel> cardViewModels = cards.Select(c => new LessonViewModel
+        //    {
+        //        Id=c.Id,
+        //        FirstName=c.FirstName,
+        //        City=c.City,
+        //        Description=c.Description,
+        //        Price = c.Price,
+
+        //        NormalizedEnstrumentName = (c.EnstrumentName).ToUpper(),
+
+        //    }).ToList();
+        //    return View();
+        //}
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
         [HttpGet]
         public async Task<IActionResult> OpenLesson() //ders ver get kısmı
@@ -94,16 +149,28 @@ namespace Musician.MVC.Controllers
             User user = await _userManager.GetUserAsync(User);
             Teacher teacher = await _teacherService.GetTeacherByIdAsync(user.Id);
 
+<<<<<<< HEAD
             Entity.Concrete.Card card = new Entity.Concrete.Card
+=======
+            Card card = new Card
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             {
                 Id = lessonViewModel.Id,
                 FirstName = teacher.FirstName,
                 City = lessonViewModel.City,
+<<<<<<< HEAD
                 EnstrumentName = lessonViewModel.EnstrumentName,
                 Description = lessonViewModel.Description,
                 OwnDescription = lessonViewModel.OwnDescription,
                 Price = lessonViewModel.Price,
                 NormalizedEnstrumentName = lessonViewModel.EnstrumentName.ToUpper(),    
+=======
+                EnstrumentName = "Kaval",
+                Description = lessonViewModel.Description,
+                OwnDescription = lessonViewModel.OwnDescription,
+                Price = lessonViewModel.Price,
+                NormalizedEnstrumentName = "",
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
                 Image = new Image
                 {
                     Id=lessonViewModel.Id,
@@ -114,11 +181,15 @@ namespace Musician.MVC.Controllers
             teacher.Cards.Add(card);
             await _cardService.CreateAsync(card);
             //eğer başarılıysa notyf ekle
+<<<<<<< HEAD
             //_notyfService.Success("İlanın paylaşıldı,hazır ol!");
 
             return View("Index");
             
 
+=======
+            return View("Index");
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         }
         public async Task<IActionResult> CardDetails(int id)
         {
@@ -137,6 +208,7 @@ namespace Musician.MVC.Controllers
 
             return View(cardDetailsViewModel);
         }
+<<<<<<< HEAD
 
         [HttpGet]
         public async Task<IActionResult> RequestLesson(int id)
@@ -322,5 +394,7 @@ namespace Musician.MVC.Controllers
             Payment payment =Payment.Create(request, options);
             return payment;
         }
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

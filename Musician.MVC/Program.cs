@@ -60,12 +60,15 @@ builder.Services.AddScoped<ICardRepository, EfCoreCardRepository>();
 builder.Services.AddScoped<IEnstrumentService, EnstrumentManager>();
 builder.Services.AddScoped<IEnstrumentRepository, EfCoreEnstrumentRepository>();
 
+<<<<<<< HEAD
 builder.Services.AddScoped<IRequestService, RequestManager>();
 builder.Services.AddScoped<IRequestRepository, EfCoreRequestRepository>();
 
 builder.Services.AddScoped<IImageService, ImageManager>();
 builder.Services.AddScoped<IImageRepository, EfCoreImageRepository>();
 
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 builder.Services.AddNotyf(config =>
 {
     config.DurationInSeconds = 2;

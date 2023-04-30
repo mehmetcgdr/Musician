@@ -23,9 +23,15 @@ namespace Musician.Business.Concrete
             await _enstrumentRepository.CreateAsync(enstrument);
         }
 
+<<<<<<< HEAD
         public async Task DeleteAsync(Enstrument enstrument)
         {
            await _enstrumentRepository.DeleteAsync(enstrument);
+=======
+        public void Delete(Enstrument enstrument)
+        {
+            _enstrumentRepository.Delete(enstrument);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         }
 
         public async Task<List<Enstrument>> GetAllAsync()

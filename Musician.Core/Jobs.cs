@@ -78,7 +78,11 @@ namespace Musician.Core
             var extension = Path.GetExtension(image.FileName);
             var randomName = $"{Guid.NewGuid()}{extension}";
             //Şimdi de resmi sunucuya yüklüyoruz
+<<<<<<< HEAD
             var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomName);
+=======
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/teachers", randomName);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             using (var stream = new FileStream(path, FileMode.Create))
             {
                 image.CopyTo(stream);

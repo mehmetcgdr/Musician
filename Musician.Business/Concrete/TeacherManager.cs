@@ -58,10 +58,13 @@ namespace Musician.Business.Concrete
             return await _teacherRepository.GetTeacherByIdAsync(id);
 
         }
+<<<<<<< HEAD
 
         public async Task<Teacher> GetTeacherByCardId(int id)
         {
             return await _teacherRepository.GetTeacherByCardId(id);
         }
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

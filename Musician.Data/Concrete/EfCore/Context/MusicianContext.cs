@@ -23,8 +23,11 @@ namespace Musician.Data.Concrete.EfCore.Context
         public DbSet<Student> Students { get; set; }
         public DbSet<Enstrument> Enstruments { get; set; }
         public DbSet<Image> Images { get; set; }
+<<<<<<< HEAD
         public DbSet<Request> Requests { get; set; }
 
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

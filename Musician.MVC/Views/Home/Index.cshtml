@@ -17,7 +17,13 @@
     @await Html.PartialAsync("_LearningPartial")
     <!-- learning part end-->
 
+<<<<<<< HEAD
 
+=======
+    <!--::review_part start::-->
+    @await Html.PartialAsync("_SpecialCoursePartial")
+    <!--::blog_part end::-->
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <!-- learning part start-->
     @await Html.PartialAsync("_AdvancePartial")
     <!-- learning part end-->
@@ -28,6 +34,10 @@
 }
 else
 {
+<<<<<<< HEAD
+=======
+    @await Html.PartialAsync("_CounterPartial")
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
     <section class="special_cource padding_top">
         <div class="container">
@@ -35,12 +45,45 @@ else
                 <div class="col-xl-5">
                     <div class="section_tittle text-center">
 
+<<<<<<< HEAD
                         
                         <h2 style="">@Model.FirstOrDefault().EnstrumentName Öğretmenleri</h2>
                     </div>
                 </div>
             </div>
             @await Html.PartialAsync("SearchPartial")
+=======
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var card in Model)
+                {
+
+                    <a asp-area="" asp-controller="Home" asp-action="CardDetails" asp-route-id="@card.Id">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="single_special_cource text-center">
+                                <img src="~/images/@card.Image.Url" class="special_img " alt="">
+                                <div class="special_cource_text">
+                                    <a href="course-details.html" class="btn_4">@card.FirstName</a>
+                                    <h4>@($"{card.Price:C0}")</h4>
+                                    <a href="course-details.html">
+                                        <h3>@card.EnstrumentName</h3>
+                                    </a>
+                                    <p>@card.Description</p>
+                                    <p>@card.OwnDescription</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+
+                }
+
+            </div>
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         </div>
     </section>
 

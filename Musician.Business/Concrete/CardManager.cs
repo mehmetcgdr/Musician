@@ -39,19 +39,28 @@ namespace Musician.Business.Concrete
             return await _cardRepository.GetByIdAsync(id);
         }
 
+<<<<<<< HEAD
         public async Task<List<Card>> GetCardsInAdminAsync(string id)
         {
             return await _cardRepository.GetCardsInAdminAsync(id);
         }
 
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         public async Task<Card> GetCardWithImageAsync(int id)
         {
             return await _cardRepository.GetCardWithImageAsync(id);
         }
 
+<<<<<<< HEAD
         public async Task<List<Card>> GetFilterCardsAsync(string name)
         {
             return await _cardRepository.GetFilterCardsAsync(name);
+=======
+        public async Task<List<Card>> GetFilterCardsAsync(int id)
+        {
+            return await _cardRepository.GetFilterCardsAsync(id);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         }
 
         public void Update(Card card)

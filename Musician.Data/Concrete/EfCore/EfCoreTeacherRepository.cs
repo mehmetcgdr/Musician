@@ -28,12 +28,16 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<Teacher> GetTeacherByIdAsync(string id)
         {
+<<<<<<< HEAD
             Teacher teacher = await AppContext.Teachers.Include(t=>t.Image).FirstOrDefaultAsync(t=>t.UserId==id);
             return teacher;
         }
         public async Task<Teacher> GetTeacherByCardId(int id)
         {
             Teacher teacher = await AppContext.Teachers.Include(x => x.Image).Include(x=>x.Cards).Where(x=>x.Id==id).FirstOrDefaultAsync();
+=======
+            Teacher teacher = await AppContext.Teachers.FirstOrDefaultAsync(t=>t.UserId==id);
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             return teacher;
         }
     }

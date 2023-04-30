@@ -21,8 +21,14 @@ namespace Musician.Entity.Concrete
         public string EnstrumentName { get; set; }
         public Enstrument Enstrument { get; set; }
         public string NormalizedEnstrumentName { get; set; } = "";
+<<<<<<< HEAD
         public virtual Image Image { get; set; }
         public int TeacherId { get; set; }
+=======
+        public virtual Image Image { get; set; } 
+
+
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
     }
 }

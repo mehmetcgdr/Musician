@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Business\\Musician.Business.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Business\\Musician.Business.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Business\\obj\\",
+=======
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj",
+        "projectName": "Musician.Business",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\Musician.Business.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Business\\obj\\",
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +46,13 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Data\\Musician.Data.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Data\\Musician.Data.csproj"
+=======
+              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj"
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
               }
             }
           }
@@ -77,6 +96,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Data\\Musician.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -85,6 +105,16 @@
         "projectPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Data\\Musician.Data.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Data\\obj\\",
+=======
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
+        "projectName": "Musician.Data",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\obj\\",
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +135,13 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj"
+=======
+              "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj"
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
               }
             }
           }
@@ -160,6 +195,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -168,6 +204,16 @@
         "projectPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\obj\\",
+=======
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+        "projectName": "Musician.Entity",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\obj\\",
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -206,7 +252,11 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
+<<<<<<< HEAD
               "version": "[7.0.5, )"
+=======
+              "version": "[7.0.4, )"
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             },
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",

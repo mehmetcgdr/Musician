@@ -11,6 +11,9 @@ namespace Musician.Data.Abstract
     {
         Task<List<Teacher>> GetAllTeachersAsync();
         Task<Teacher> GetTeacherByIdAsync(string id);
+<<<<<<< HEAD
         Task<Teacher> GetTeacherByCardId(int id);
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

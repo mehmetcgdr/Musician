@@ -1,29 +1,50 @@
+<<<<<<< HEAD
 /* _content/Musician.MVC/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-gjatdvukxe] {
+=======
+/* _content/Musician.MVC/Views/Shared/_Layout - Copy.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-vxz70wra30] {
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
+<<<<<<< HEAD
 a[b-gjatdvukxe] {
   color: #0077cc;
 }
 
 .btn-primary[b-gjatdvukxe] {
+=======
+a[b-vxz70wra30] {
+  color: #0077cc;
+}
+
+.btn-primary[b-vxz70wra30] {
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
+<<<<<<< HEAD
 .nav-pills .nav-link.active[b-gjatdvukxe], .nav-pills .show > .nav-link[b-gjatdvukxe] {
+=======
+.nav-pills .nav-link.active[b-vxz70wra30], .nav-pills .show > .nav-link[b-vxz70wra30] {
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
+<<<<<<< HEAD
 .border-top[b-gjatdvukxe] {
   border-top: 1px solid #e5e5e5;
 }
@@ -36,11 +57,29 @@ a[b-gjatdvukxe] {
 }
 
 button.accept-policy[b-gjatdvukxe] {
+=======
+.border-top[b-vxz70wra30] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-vxz70wra30] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-vxz70wra30] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-vxz70wra30] {
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
   font-size: 1rem;
   line-height: inherit;
 }
 
+<<<<<<< HEAD
 .footer[b-gjatdvukxe] {
+=======
+.footer[b-vxz70wra30] {
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
   position: absolute;
   bottom: 0;
   width: 100%;

@@ -23,6 +23,7 @@ namespace Musician.Data.Concrete.EfCore.Extensions
             };
             modelBuilder.Entity<Role>().HasData(roles);
             #endregion
+<<<<<<< HEAD
             //#region User
         //    List<User> users = new List<User> {
         //    new User{
@@ -42,6 +43,27 @@ namespace Musician.Data.Concrete.EfCore.Extensions
             //users[0].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
             //users[1].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
             //users[2].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+=======
+            #region User
+            List<User> users = new List<User> {
+            new User{
+                FirstName="Ege",LastName="ilk",UserName="ege",NormalizedUserName="EGE",Email="ege@gmail.com",NormalizedEmail="EGE@GMAIL.COM",Gender="Erkek",DateOfBirth = new DateTime(1985, 5, 18) ,City="İstanbul",Description="asd",District="Beşiktaş"
+            },
+            new User{
+                FirstName="Ece",LastName="Orta",UserName="ece",NormalizedUserName="ECE",Email="ece@gmail.com",NormalizedEmail="ECE@GMAIL.COM",Gender="Kadın",DateOfBirth = new DateTime(1985, 5, 18),City="İstanbul",Description="asd",District="Kadıköy"
+            },
+            new User{
+                FirstName="Efe",LastName="Son",UserName="efe",NormalizedUserName="EFE",Email="efe@gmail.com",NormalizedEmail="EFE@GMAIL.COM",Gender="Erkek",DateOfBirth = new DateTime(1985, 5, 18),City="İstanbul",Description="asd",District="Bahçelievler"
+            }
+        };
+            modelBuilder.Entity<User>().HasData(users);
+            #endregion
+            #region Parola
+            var passwordHasher = new PasswordHasher<User>();
+            users[0].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+            users[1].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+            users[2].PasswordHash = passwordHasher.HashPassword(users[0], "Qwe123.");
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
 
             //#endregion

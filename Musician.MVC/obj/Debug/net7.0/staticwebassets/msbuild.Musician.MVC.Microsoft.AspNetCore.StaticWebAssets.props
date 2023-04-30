@@ -1,5 +1,6 @@
 ﻿<Project>
   <ItemGroup>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\assets\css\demo.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -2976,6 +2977,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\tasks\prod.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\animate.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3024,6 +3027,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css.map))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3056,6 +3060,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\card.css))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\flaticon.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3088,6 +3094,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\font-awesome.min.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\gsdk-bootstrap-wizard.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3104,6 +3111,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\gsdk-bootstrap-wizard.css))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\magnific-popup.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3136,6 +3145,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\nice-select.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\openlesson.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3152,6 +3162,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\openlesson.css))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\owl.carousel.min.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3168,6 +3180,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\owl.carousel.min.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\paper-dashboard.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3248,6 +3261,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\sign.css))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3520,6 +3535,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\FontAwesome.otf))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\nucleo-icons.eot))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3584,6 +3600,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\nucleo-icons.woff2))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\themify.eot))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3648,6 +3666,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\themify.woff))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\070c84fe-d46d-45b9-80a0-47694dbec317.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3664,6 +3683,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\070c84fe-d46d-45b9-80a0-47694dbec317.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3712,6 +3733,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\11.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1129bd8e-cc21-4593-8412-f7da861d90a3.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3728,6 +3750,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1129bd8e-cc21-4593-8412-f7da861d90a3.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\12.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3776,6 +3800,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3175354a-2fa8-4a79-92ab-fed60ab0a8ce.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3840,6 +3865,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\38803787-4af0-4082-a02c-d6b10e87ff3f.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3872,6 +3899,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\514762fe-22c0-4064-866c-77826347a53b.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3904,6 +3932,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5e2de4b6-4278-4b61-863a-d7453f7d2ead.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3920,6 +3950,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\64cc6a65-7eb9-472b-9ba9-bddec35b268c.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3936,6 +3967,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\64cc6a65-7eb9-472b-9ba9-bddec35b268c.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3952,6 +3985,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\736e2152-4a2e-42a0-b90a-bc6b09d7e670.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -3984,6 +4018,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7b302458-7573-41df-81a4-97ae28a3fb86.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -4000,6 +4036,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8f84fafd-28df-4385-baa3-5bdd7bbf4d15.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -4016,6 +4053,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8f84fafd-28df-4385-baa3-5bdd7bbf4d15.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -4032,6 +4071,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\99349a2c-18a4-4cd7-82b3-3a6f686d3923.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -4176,6 +4216,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f7ec99f0-af70-4786-855b-5ff063d93e54.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\genel.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -4448,6 +4490,25 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\avatar.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banner_bg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Musician.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Musician.MVC</BasePath>
+      <RelativePath>img/banner_bg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banner_bg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banner_bg.png))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6096,12 +6157,20 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\aos.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap-notify.js))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.js))">
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Musician.MVC</BasePath>
+<<<<<<< HEAD
       <RelativePath>js/bootstrap-notify.js</RelativePath>
+=======
+      <RelativePath>js/bootstrap.bundle.js</RelativePath>
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -6110,7 +6179,27 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap-notify.js))</OriginalItemSpec>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.min.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>Musician.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Musician.MVC</BasePath>
+      <RelativePath>js/bootstrap.bundle.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.min.js))</OriginalItemSpec>
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js))">
       <SourceType>Package</SourceType>
@@ -6128,6 +6217,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\chartjs.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6144,6 +6234,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\chartjs.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\contact.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6160,6 +6252,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\contact.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\core\bootstrap.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6208,6 +6301,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\core\popper.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\custom.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6240,6 +6335,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\gmaps.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\gsdk-bootstrap-wizard.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6256,6 +6352,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\gsdk-bootstrap-wizard.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\jquery-1.12.1.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6464,6 +6562,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\owl.carousel.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\paper-dashboard.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6512,6 +6611,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\paper-dashboard.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\particles.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6528,6 +6629,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\particles.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\perfect-scrollbar.jquery.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>
@@ -6544,6 +6646,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\perfect-scrollbar.jquery.min.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\popper.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Musician.MVC</SourceId>

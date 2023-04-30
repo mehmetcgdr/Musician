@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Musician.MVC.bundle.scp.css",
       "PackagePath": "staticwebassets\\Musician.MVC.bundle.scp.css"
     },
@@ -2010,6 +2011,1109 @@
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\style.scss",
+=======
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Musician.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Musician.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\style.map",
+      "PackagePath": "staticwebassets\\css\\style.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\genel.png",
+      "PackagePath": "staticwebassets\\images\\genel.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\photo.png",
+      "PackagePath": "staticwebassets\\images\\photo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\about_overlay.png",
+      "PackagePath": "staticwebassets\\img\\about_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\advance_feature_bg.png",
+      "PackagePath": "staticwebassets\\img\\advance_feature_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\advance_feature_img.png",
+      "PackagePath": "staticwebassets\\img\\advance_feature_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_1.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_2.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_3.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_4.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_5.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_7.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_8.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_9.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\author\\author_1.png",
+      "PackagePath": "staticwebassets\\img\\author\\author_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\author\\author_2.png",
+      "PackagePath": "staticwebassets\\img\\author\\author_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\author\\author_3.png",
+      "PackagePath": "staticwebassets\\img\\author\\author_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\banner_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\banner_bg.png",
+      "PackagePath": "staticwebassets\\img\\banner_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\banner_img.png",
+      "PackagePath": "staticwebassets\\img\\banner_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\img\\blog\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\img\\blog\\learn_about_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\breadcrumb.png",
+      "PackagePath": "staticwebassets\\img\\breadcrumb.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\client\\client_1.png",
+      "PackagePath": "staticwebassets\\img\\client\\client_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\client\\client_2.png",
+      "PackagePath": "staticwebassets\\img\\client\\client_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\comment\\comment_1.png",
+      "PackagePath": "staticwebassets\\img\\comment\\comment_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\comment\\comment_2.png",
+      "PackagePath": "staticwebassets\\img\\comment\\comment_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\comment\\comment_3.png",
+      "PackagePath": "staticwebassets\\img\\comment\\comment_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\cource\\cource_1.png",
+      "PackagePath": "staticwebassets\\img\\cource\\cource_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\cource\\cource_2.png",
+      "PackagePath": "staticwebassets\\img\\cource\\cource_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\cource\\cource_3.png",
+      "PackagePath": "staticwebassets\\img\\cource\\cource_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_1.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_4.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_5.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_6.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_7.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_71.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_71.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_8.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\service_bg_2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\service_bg_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\color_star.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\color_star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\left.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\play.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\play.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\quate.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\quate.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\right.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\star.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_1.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_2.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_3.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_4.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_5.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_6.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\learning_img.png",
+      "PackagePath": "staticwebassets\\img\\learning_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\learning_img_bg.png",
+      "PackagePath": "staticwebassets\\img\\learning_img_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\img\\post\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\img\\post\\preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\quote.png",
+      "PackagePath": "staticwebassets\\img\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\service_bg_2.png",
+      "PackagePath": "staticwebassets\\img\\service_bg_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\single_cource.png",
+      "PackagePath": "staticwebassets\\img\\single_cource.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\single_page_logo.png",
+      "PackagePath": "staticwebassets\\img\\single_page_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\single_project.png",
+      "PackagePath": "staticwebassets\\img\\single_project.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\special_cource_1.png",
+      "PackagePath": "staticwebassets\\img\\special_cource_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\special_cource_2.png",
+      "PackagePath": "staticwebassets\\img\\special_cource_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\special_cource_3.png",
+      "PackagePath": "staticwebassets\\img\\special_cource_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_1.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_2.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_3.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_4.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\testimonial_img_1.png",
+      "PackagePath": "staticwebassets\\img\\testimonial_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\testimonial_img_2.png",
+      "PackagePath": "staticwebassets\\img\\testimonial_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\img\\testimonial_img_3.png",
+      "PackagePath": "staticwebassets\\img\\testimonial_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery-1.12.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.12.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\js\\mail-script.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\masonry.pkgd.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\particles.min.js",
+      "PackagePath": "staticwebassets\\js\\particles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\swiper_custom.js",
+      "PackagePath": "staticwebassets\\js\\swiper_custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\img\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_",
+      "PackagePath": "staticwebassets\\sass"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_about.scss",
+      "PackagePath": "staticwebassets\\sass\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_banner.scss",
+      "PackagePath": "staticwebassets\\sass\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_blog_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_button.scss",
+      "PackagePath": "staticwebassets\\sass\\_button.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_common.scss",
+      "PackagePath": "staticwebassets\\sass\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\sass\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_copyright_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_copyright_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_cource_details.scss",
+      "PackagePath": "staticwebassets\\sass\\_cource_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_elements.scss",
+      "PackagePath": "staticwebassets\\sass\\_elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_extends.scss",
+      "PackagePath": "staticwebassets\\sass\\_extends.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_feature_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_feature_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\sass\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_gallery_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_gallery_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_learning.scss",
+      "PackagePath": "staticwebassets\\sass\\_learning.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_member_counter.scss",
+      "PackagePath": "staticwebassets\\sass\\_member_counter.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_menu.scss",
+      "PackagePath": "staticwebassets\\sass\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_portfolio.scss",
+      "PackagePath": "staticwebassets\\sass\\_portfolio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_project_details.scss",
+      "PackagePath": "staticwebassets\\sass\\_project_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_review.scss",
+      "PackagePath": "staticwebassets\\sass\\_review.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_single_blog.scss",
+      "PackagePath": "staticwebassets\\sass\\_single_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_social_connect_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_social_connect_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_special_cource.scss",
+      "PackagePath": "staticwebassets\\sass\\_special_cource.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_team.scss",
+      "PackagePath": "staticwebassets\\sass\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_testimonial_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_testimonial_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\_variables.scss",
+      "PackagePath": "staticwebassets\\sass\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\sass\\style.scss",
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
       "PackagePath": "staticwebassets\\sass\\style.scss"
     },
     {

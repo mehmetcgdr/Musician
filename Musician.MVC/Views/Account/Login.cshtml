@@ -1,5 +1,6 @@
 ﻿@using Musician.MVC.Models.ViewModels.AccountModels;
 @model LoginViewModel
+<<<<<<< HEAD
 @*
 <h1 class="display-6 mt-5 pt-5">Kayıt Ol</h1>
 <hr />
@@ -16,20 +17,35 @@
             <span class="text-danger" asp-validation-for="LastName"></span>
         </div>
         <div class="col-6 mb-3">
+=======
+<h1 class="display-6">Giriş Yap</h1>
+<hr />
+
+<form asp-area="" asp-controller="Account" asp-action="Login" method="post">
+    <input type="hidden" asp-for="ReturnUrl" />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="row w-25">
+        <div class="col-12 mb-3">
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             <label class="form-label" asp-for="UserName"></label>
             <input class="form-control" asp-for="UserName">
             <span class="text-danger" asp-validation-for="UserName"></span>
         </div>
+<<<<<<< HEAD
         <div class="col-6 mb-3">
             <label class="form-label" asp-for="Email"></label>
             <input class="form-control" asp-for="Email">
             <span class="text-danger" asp-validation-for="Email"></span>
         </div>
         <div class="col-6 mb-3">
+=======
+        <div class="col-12 mb-3">
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             <label class="form-label" asp-for="Password"></label>
             <input class="form-control" asp-for="Password">
             <span class="text-danger" asp-validation-for="Password"></span>
         </div>
+<<<<<<< HEAD
         <div class="col-6 mb-3">
             <label class="form-label" asp-for="RePassword"></label>
             <input class="form-control" asp-for="RePassword">
@@ -37,10 +53,17 @@
         </div>
 
 
+=======
+        @*        <div class="col-12 mb-3">
+        <label class="form-label" >Beni Hatırla</label>
+        <input type="checkbox" class="form-control">
+        </div>*@
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     </div>
 
 
 
+<<<<<<< HEAD
     <button type="submit" class="btn btn-primary">Kaydol</button>
 </form>
 
@@ -90,3 +113,8 @@
 </div>
 
 
+=======
+    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+    <a asp-area="" asp-controller="Account" asp-action="ForgotPassword" class="btn btn-link">Şifremi Unuttum</a>
+</form>
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791

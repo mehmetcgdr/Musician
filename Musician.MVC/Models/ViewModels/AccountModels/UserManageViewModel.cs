@@ -1,7 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Musician.Entity.Concrete;
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
 
 namespace Musician.MVC.Models.ViewModels.AccountModels
 {
@@ -25,10 +28,15 @@ namespace Musician.MVC.Models.ViewModels.AccountModels
         public DateTime? DateOfBirth { get; set; }
         [DisplayName("Şehir")]
         public string City { get; set; }
+<<<<<<< HEAD
         public IFormFile ImageF { get; set; }
         public Image Image { get; set; }
 
 
+=======
+        [DisplayName("İlçe")]
+        public string District { get; set; }
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         [DisplayName("Kullanıcı Adı")]
         [Required(ErrorMessage = "Kullanıcı adı boş bırakılamaz")]
         public string UserName { get; set; }
@@ -37,6 +45,7 @@ namespace Musician.MVC.Models.ViewModels.AccountModels
         [Required(ErrorMessage = "Eposta adresi boş bırakılamaz")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+<<<<<<< HEAD
         public List<SelectListItem> GenderSelectList { get; set; }
         public string Description { get; set; }
         public string OwnDescription { get; set; }
@@ -44,5 +53,7 @@ namespace Musician.MVC.Models.ViewModels.AccountModels
 
 
 
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

@@ -1,5 +1,6 @@
 ﻿@if (User.Identity.IsAuthenticated)
 {
+<<<<<<< HEAD
     @if (User.IsInRole("Admin"))
     {
         <li class="d-none d-lg-block nav-item">
@@ -14,11 +15,22 @@
         <a class="btn_1" asp-area="" asp-controller="Home" asp-action="OpenLesson">Ders Ver</a>
     </li>
     <li class="d-none d-lg-block nav-item">
+=======
+
+    <li class="d-inline nav-item pt-0 mt-0">
+        <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Manage">Profilim </a>
+    </li>
+    <li class="d-inline nav-item float-end pt-0 mt-0">
+        <a class="btn_1" asp-area="" asp-controller="Home" asp-action="OpenLesson">Ders Ver</a>
+    </li>
+    <li class="d-inline nav-item pt-0 mt-0">
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Logout">Çıkış</a>
     </li>
 }
 else
 {
+<<<<<<< HEAD
     <li class="d-none d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Login">Giriş </a>
     </li>
@@ -32,3 +44,14 @@ else
 }
 
 
+=======
+    <li class="d-inline nav-item pt-0 mt-0">
+        <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Login">Giriş </a>
+    </li>
+
+    <li class="d-inline nav-item pt-0 mt-0">
+        <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Register">Ders Ver</a>
+    </li>
+}
+
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791

@@ -10,8 +10,12 @@ namespace Musician.Data.Abstract
     public interface IStudentRepository :IGenericRepository<Student>
     {
         Task<List<Student>> GetAllStudentsAsync();
+<<<<<<< HEAD
         Task<Student> GetStudentByIdAsync(string id);
 
         
+=======
+
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

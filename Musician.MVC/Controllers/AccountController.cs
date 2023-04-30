@@ -19,18 +19,26 @@ namespace Musician.MVC.Controllers
         private readonly ICardService _cardService;
         private readonly ITeacherService _teacherService;
         private readonly INotyfService _notyfService;
+<<<<<<< HEAD
         private readonly IStudentService _studentService;
         private readonly IImageService _imageService;
 
         public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, ICardService cardService, ITeacherService teacherService, INotyfService notyfService, IStudentService studentService, IImageService imageService)
+=======
+
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, ICardService cardService, ITeacherService teacherService, INotyfService notyfService)
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _cardService = cardService;
             _teacherService = teacherService;
             _notyfService = notyfService;
+<<<<<<< HEAD
             _studentService = studentService;
             _imageService = imageService;
+=======
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         }
 
         [HttpGet]
@@ -49,9 +57,13 @@ namespace Musician.MVC.Controllers
                     Email = registerViewModel.Email,
                     FirstName = registerViewModel.FirstName,
                     LastName = registerViewModel.LastName,
+<<<<<<< HEAD
                     RoleId = EnumRoleId.Teacher,
                     CreatedDate=DateTime.Now,
                     ModifiedDate = DateTime.Now
+=======
+                   
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
                 };
                 var result = await _userManager.CreateAsync(user, registerViewModel.Password);
                 if (result.Succeeded)
@@ -67,15 +79,22 @@ namespace Musician.MVC.Controllers
                         LastName = registerViewModel.LastName,
                         Url = Jobs.GetUrl($"{user.UserName}"),
                         CreatedDate = DateTime.Now,
+<<<<<<< HEAD
                         ModifiedDate = DateTime.Now,
                         Image = new Image
                         {
                             UserId = user.Id
+=======
+                        Image=new Image
+                        {
+                            UserId=user.Id
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
                         }
                     };
                     await _teacherService.CreateAsync(teacher);
 
                     _notyfService.Success("Kaydın başarıyla oluşturuldu, İyi dersler :)");
+<<<<<<< HEAD
                     return RedirectToAction("Login", "Account");
                 }
                 else
@@ -84,10 +103,21 @@ namespace Musician.MVC.Controllers
                     {
                         _notyfService.Error("Böyle bir kullanıcı adı varmış, değiştirmen gerekiyor :(");
                     }
+=======
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                        if (registerViewModel.UserName.Contains($"{User.Identity.Name}"))
+                             {
+                            _notyfService.Error("Böyle bir kullanıcı adı varmış, değiştirmen gerekiyor :(");
+                             }
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
                     else
                     {
                         _notyfService.Error("Bilgilerini yanlış girdin sanırım,kontrol eder misin? :(");
                     }
+<<<<<<< HEAD
 
                 }
                 return View(registerViewModel);
@@ -350,10 +380,67 @@ namespace Musician.MVC.Controllers
                 _notyfService.Success("Profilin başarıyla güncellendi, iyi dersler :)");
                 return Redirect("/Account/Manage/" + User.Identity.Name);
 
+=======
+                    
+                }
+                return View(registerViewModel); 
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
             }
+            return View("Index"); 
+        }
+
+        [HttpGet]
+        public IActionResult Login(string returnUrl = null)
+        {
+            return View(new LoginViewModel { ReturnUrl = returnUrl });
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel loginViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                User user = await _userManager.FindByNameAsync(loginViewModel.UserName);
+                if (user == null)
+                {
+                    ModelState.AddModelError("", "Kullanıcı bilgileri hatalı!");
+                    return View(loginViewModel);
+                }
+                var result = await _signInManager.PasswordSignInAsync(user, loginViewModel.Password, isPersistent: true, lockoutOnFailure: true);
+
+                if (result.Succeeded)
+                {
+                    return Redirect(loginViewModel.ReturnUrl ?? "/");
+                }
+                ModelState.AddModelError("", "Kullanıcı adı ya da parola hatalı!");
+            }
+            return View(loginViewModel);
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+        public async Task<IActionResult> Manage(string id)
+        {
+            string name = id;
+            if (String.IsNullOrEmpty(name))
+            {
+                return NotFound();
+            }
+            User user = await _userManager.FindByNameAsync(name);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
 
             return View();
         }
+<<<<<<< HEAD
 
+=======
+    
+    
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
     }
 }

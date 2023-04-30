@@ -13,6 +13,10 @@ namespace Musician.Entity.Abstract
         public string LastName { get; set; }
         public string Gender { get; set; }
         public string City { get; set; }
+<<<<<<< HEAD
+=======
+        public string District { get; set; }
+>>>>>>> 5e78a95da77671fc536ce3dbf0d7cbdcd5348791
         public DateTime? DateOfBirth { get; set; }
         public string Url { get; set; }
 
