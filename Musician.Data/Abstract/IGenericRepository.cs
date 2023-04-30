@@ -12,6 +12,6 @@ namespace Musician.Data.Abstract
         Task<TEntity> GetByIdAsync(int id);
         Task<List<TEntity>> GetAllAsync();
         void Update(TEntity entity);
-        void Delete(TEntity entity);
+        Task DeleteAsync(TEntity entity);
     }
 }

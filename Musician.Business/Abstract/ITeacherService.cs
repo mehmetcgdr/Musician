@@ -1,4 +1,5 @@
 ﻿using Musician.Entity.Concrete;
+using Musician.Entity.Concrete.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,13 @@ namespace Musician.Business.Abstract
     public interface ITeacherService
     {
         Task CreateAsync(Teacher teacher);
-        Task<Teacher> GetByIdAsync(int id);
+        Task<Teacher> GetByIdAsync(string id);
         Task<List<Teacher>> GetAllAsync();
         void Update(Teacher teacher);
-        void Delete(Teacher teacher);
+        Task DeleteAsync(Teacher teacher);
         Task<List<Teacher>> GetAllTeachersAsync();
-
+        Task<Teacher> GetTeacherByIdAsync(string id);
+        Task<Teacher> GetTeacherByCardId(int id);
 
     }
 }

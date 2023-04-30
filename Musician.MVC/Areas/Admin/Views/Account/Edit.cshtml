@@ -1,0 +1,149 @@
+﻿
+@using Musician.MVC.Areas.Admin.Models.ViewModels.Accounts;
+@model UserViewModel
+<div class="content-wrapper">
+
+
+    <div class="container-xxl flex-grow-1 container-p-y ">
+        <h4 class="fw-bold py-3 mb-4 d-inline"><span class="text-muted fw-light">Profili Düzenle /</span>@Model.FirstName @Model.LastName</h4>
+        <form asp-area="Admin" asp-controller="Account" asp-action="Delete" method="post" class="d-inline ms-2">
+           
+            <button type="button" class="btn btn-danger deactivate-account mb-2">
+                <i class="bx bx-reset d-block d-sm-none"></i>
+                <span class="d-none d-sm-block">Hesabı Sil</span>
+            </button>
+        </form>
+        <div class="row">
+            <div class="col-md-12">
+                <form asp-area="Admin" asp-controller="Account" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data" method="post" id="formAccountSettings">
+                    <div class="card mb-4">
+                        <h5 class="card-header">Kullanıcı Detayları</h5>
+                        <div class="card-body">
+                            <div class="d-flex align-items-start align-items-sm-center gap-4">
+                                <img src="~/images/@Model.Image.Url"
+                                     alt="user-avatar"
+                                     class="d-block rounded"
+                                     height="100"
+                                     width="100"
+                                     id="uploadedAvatar" />
+                                <div class="button-wrapper">
+                                    <label for="upload" class="btn btn-primary me-2 mb-4" tabindex="0">
+                                        <span class="d-none d-sm-block">Yeni Fotoğraf Yükle</span>
+                                        <i class="bx bx-upload d-block d-sm-none"></i>
+                                        <input type="file" asp-for="ImageFile"
+                                               id="upload"
+                                               class="account-file-input"
+                                               hidden
+                                               accept="~/images/" />
+                                    </label>
+                                    <button type="button" class="btn btn-outline-secondary account-image-reset mb-4">
+                                        <i class="bx bx-reset d-block d-sm-none"></i>
+                                        <span class="d-none d-sm-block">Kaldır</span>
+                                    </button>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-0" />
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="mb-3 col-md-6">
+                                    <label for="firstName" class="form-label">Adı</label>
+                                    <input class="form-control" type="text" id="firstName" autofocus asp-for="FirstName" value="@Model.FirstName" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="lastName" class="form-label">Soyadı</label>
+                                    <input class="form-control" type="text" id="lastName" autofocus asp-for="LastName" value="@Model.LastName" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input class="form-control" type="email" id="email" autofocus asp-for="Email" value="@Model.Email" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="organization" class="form-label">Kullanıcı Adı</label>
+                                    <input class="form-control" type="text" id="userName" autofocus asp-for="UserName" value="@Model.UserName" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label class="form-label" for="phoneNumber">İletişim Numarası</label>
+                                    <input class="form-control" type="number" id="phoneNumber" asp-for="PhoneNumber" value="@Model.PhoneNumber" />
+                                </div>
+
+                                <div class="mb-3 col-md-6">
+                                    <label for="address" class="form-label">Şehir</label>
+                                    <input class="form-control" type="text" id="city" asp-for="City" value="@Model.City" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="state" class="form-label">Doğum Tarihi</label>
+                                    <div class='input-group date' id='startDate'>
+                                        @{
+                                            DateTime today = DateTime.Now;
+                                            int year = today.Year;
+                                            int yearPart = year - 18;
+                                            int monthPart = today.Month;
+                                            int dayPart = today.Day;
+                                            DateTime minimumDateOfBirth = new DateTime(yearPart, monthPart, dayPart);
+                                        }
+                                        <input class="form-control" type="date"
+                                               asp-for="DateOfBirth"
+                                               value="@(Model.DateOfBirth==null ? minimumDateOfBirth.ToString("yyyy-MM-dd") : ((DateTime)Model.DateOfBirth).ToString("yyyy-MM-dd"))"
+                                               min="01-01-1990"
+                                               max="@minimumDateOfBirth.ToString("yyyy-MM-dd")" />
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label class="form-label" for="country">Cinsiyet</label>
+                                    <select id="country" class="select2 form-select">
+
+                                        <option value="Erkek">Erkek</option>
+                                        <option value="Kadın">Kadın</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="language" class="form-label">Rol Bilgisi</label>
+                                    <select id="language" class="select2 form-select">
+                                        <option value="2">Admin</option>
+                                        <option value="0">Öğretmen</option>
+                                        <option value="1">Öğrenci</option>
+                                    </select>
+                                </div>
+                                <div class=" d-inline d-flex justify-content-between ">
+                                    <div class="mt-2 d-inline">
+                                        <button type="submit" class="btn btn-primary me-2">Değişiklikleri Kaydet</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="content-backdrop fade"></div>
+
+<script src="~/admin/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="~/admin/assets/vendor/libs/popper/popper.js"></script>
+<script src="~/admin/assets/vendor/js/bootstrap.js"></script>
+<script src="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="~/admin/assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
+<!-- Vendors JS -->
+<!-- Main JS -->
+<script src="~/admin/assets/js/main.js"></script>
+
+<!-- Page JS -->
+<script src="~/admin/assets/js/pages-account-settings-account.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>

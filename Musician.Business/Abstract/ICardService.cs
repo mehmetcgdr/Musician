@@ -13,6 +13,10 @@ namespace Musician.Business.Abstract
         Task<Card> GetByIdAsync(int id);
         Task<List<Card>> GetAllAsync();
         void Update(Card card);
-        void Delete(Card card);
+        Task DeleteAsync(Card card);
+        Task<List<Card>> GetFilterCardsAsync(string name);
+        Task<Card> GetCardWithImageAsync(int id);
+        Task<List<Card>> GetCardsInAdminAsync(string id);
+
     }
 }

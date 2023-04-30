@@ -1,0 +1,58 @@
+﻿@using Musician.MVC.Models.ViewModels.AccountModels;
+@model RegisterViewModel
+
+
+
+
+
+<link rel="stylesheet" href="~/css/sign.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+
+<div class="container" id="container">
+    <div class="form-container sign-in-container">
+        <form asp-area="" asp-controller="Account" asp-action="StudentRegister" method="post">
+            <h1 class="">Bize Katıl!</h1>
+
+            <input class="form-control" asp-for="UserName" placeholder="Kullanıcı Adı">
+            <span class="text-danger" asp-validation-for="UserName"></span>
+
+            <input class="form-control" asp-for="FirstName" placeholder="Ad">
+            <span class="text-danger" asp-validation-for="FirstName"></span>
+
+            <input class="form-control" asp-for="LastName" placeholder="Soyad">
+            <span class="text-danger" asp-validation-for="LastName"></span>
+
+            <input class="form-control" asp-for="Email" placeholder="Email">
+            <span class="text-danger" asp-validation-for="Email"></span>
+
+            <input class="form-control" asp-for="Password" placeholder="Şifre">
+            <span class="text-danger" asp-validation-for="Password"></span>
+
+            <input class="form-control" asp-for="RePassword" placeholder="Şifre Tekrarı">
+            <span class="text-danger" asp-validation-for="RePassword"></span>
+            <button type="submit">Kayıt Ol</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="overlay-container">
+        <div class="overlay">
+
+            <div class="overlay-panel overlay-right">
+                <h1 class="text-white">Merhaba!</h1>
+                <p class="text-white">Bilgilerini gir ve enstrüman dünyasına başla</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

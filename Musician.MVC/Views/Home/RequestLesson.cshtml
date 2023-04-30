@@ -1,0 +1,146 @@
+﻿@using Musician.MVC.Models.ViewModels;
+@model RequestViewModel
+<div class="row pt-5 mt-5 justify-content-between pr-0 mr-0">
+    <link rel="stylesheet" href="~/css/card.css" />
+    <div class="col-3 mt-5 pt-2 pr-0 mr-0 pe-0 me-0" style="justify-content: end;
+align-items: end;">
+        <a>
+            <div class="container containe mx-3  " style="height:450px!important">
+                <div class="discount">
+                    @Model.Card.FirstName
+                </div>
+                <div class="display__product">
+                    <img src="~/images/@Model.Card.Image.Url">
+                </div>
+                <div class="product__details">
+                    <div class="title__section">
+                        <div class="title">
+                            <p>@Model.Card.EnstrumentName</p>
+                        </div>
+                        <span>
+                            <i class="fi-sr-star"></i>
+                            <p>@Model.Card.City</p>
+                        </span>
+                    </div>
+                    <div class="product__colors">
+                        <p>@Model.Card.Description</p>
+                    </div>
+                    <div class="product__colors">
+                        <p>@Model.Card.OwnDescription</p>
+                    </div>
+
+                    <div class="product__add justify-content-center " style="margin-top:0px">
+                        <span class="price">@($"{Model.Card.Price:C0}")</span>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-9  ">
+
+        <form asp-area="" asp-controller="Home" asp-action="RequestLesson" method="post" >
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input type="hidden" asp-for="@Model.Card.Id" />
+
+            <div class="row d-flex justify-content-between">
+                <div class="col-3 pt-5 mt-5 ml-4">
+                    <div class="form-container containe" style="height:auto!important">
+
+                        <div class="form-box border-5">
+
+                            <p class="text-center">Öğretmene not bırak!</p>
+                            <div class="form-container border-5">
+                        <textarea asp-for="Message" class="border-5" style="border:none" cols="37" rows="10"></textarea>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="col-8 d-flex float-end pt-0 mt-0 pl-3" style="">
+                    <link rel="stylesheet" href="~/css/request.css" />
+
+                    <div class="payment ">
+                        <div class="bg "></div>
+                        <div class="card">
+                            <img src="https://img.icons8.com/plasticine/100/000000/sim-card-chip.png" class="chip" />
+                            <div class="logo"></div>
+                            <h2 class="bankName">Kredi Kartı</h2>
+
+                            <div class="inputBox credit-card">
+                                <span>Kart Numarası</span>
+                                <input style="width:220px;border-radius:5px" type="text" asp-for="CardNumber" placeholder="0123 4567 8901 2345" maxlength="16" onkeypress="return sayiKontrol(event)">
+                            </div>
+                            <div class="inputBox">
+                                <span>Kartın Üzerindeki İsim</span>
+                                <input style="width:220px;border-radius:5px" asp-for="CardName" type="text" placeholder="Ad Soyad">
+                            </div>
+                            <div class="group">
+                                <div class="inputBox d-flex justify-content-end">
+                                    <span>Geçerlilik Tarihi</span>
+                                    @*DataAnnotation ile regex kullanımı*@
+                                    <div class="d-flex d-inline ">
+                                        <input style="width:35px;border-radius:5px" type="text" asp-for="ExpirationMonth" maxLength="2" placeholder="AA/" onkeypress="return sayiKontrol(event)">
+                                        <input style="width:30px;border-radius:5px" type="text" asp-for="ExpirationYear" maxLength="2" placeholder="YY" onkeypress="return sayiKontrol(event)">
+                                    </div>
+                                </div>
+
+                                <div class="inputBox">
+                                    <span>CCV</span>
+                                    <input style="width:35px;border-radius:5px" type="text" asp-for="Cvc" placeholder="***" maxLength="3" onkeypress="return sayiKontrol(event)">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <button type="submit" class="btn pt-2" style="width:auto!important">Ödemeyi Tamamla</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function sayiKontrol(event) {
+        if (event.keyCode != 8 && event.keyCode != 0 && (event.keyCode < 48 || event.keyCode > 57))
+            return false;
+        var frm = document.getElementById("sayisal_form");
+        frm.setAttribute("onsubmit", true);
+        return true;
+    }
+</script>

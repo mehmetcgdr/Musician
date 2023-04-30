@@ -11,7 +11,6 @@ namespace Musician.Business.Concrete
 {
     public class CardManager : ICardService
     {
-       private ICardService _cardService;
 
         private ICardRepository _cardRepository;
 
@@ -25,9 +24,9 @@ namespace Musician.Business.Concrete
             await _cardRepository.CreateAsync(card);
         }
 
-        public void Delete(Card card)
+        public async Task DeleteAsync(Card card)
         {
-            _cardRepository.Delete(card);
+           await _cardRepository.DeleteAsync(card);
         }
 
         public async Task<List<Card>> GetAllAsync()
@@ -38,6 +37,21 @@ namespace Musician.Business.Concrete
         public async Task<Card> GetByIdAsync(int id)
         {
             return await _cardRepository.GetByIdAsync(id);
+        }
+
+        public async Task<List<Card>> GetCardsInAdminAsync(string id)
+        {
+            return await _cardRepository.GetCardsInAdminAsync(id);
+        }
+
+        public async Task<Card> GetCardWithImageAsync(int id)
+        {
+            return await _cardRepository.GetCardWithImageAsync(id);
+        }
+
+        public async Task<List<Card>> GetFilterCardsAsync(string name)
+        {
+            return await _cardRepository.GetFilterCardsAsync(name);
         }
 
         public void Update(Card card)

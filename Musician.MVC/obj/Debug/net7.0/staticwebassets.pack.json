@@ -1,0 +1,2033 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Musician.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Musician.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\html\\index.html",
+      "PackagePath": "staticwebassets\\admin\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\admin\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\admin\\html\\tables-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\admin\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\admin\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\admin\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\admin\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\admin\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\admin\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\core.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\admin\\tasks\\build.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\admin\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\admin\\tasks\\prod.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\card.css",
+      "PackagePath": "staticwebassets\\css\\card.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\gsdk-bootstrap-wizard.css",
+      "PackagePath": "staticwebassets\\css\\gsdk-bootstrap-wizard.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\openlesson.css",
+      "PackagePath": "staticwebassets\\css\\openlesson.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\request.css",
+      "PackagePath": "staticwebassets\\css\\request.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\sign.css",
+      "PackagePath": "staticwebassets\\css\\sign.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\style.map",
+      "PackagePath": "staticwebassets\\css\\style.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\070c84fe-d46d-45b9-80a0-47694dbec317.png",
+      "PackagePath": "staticwebassets\\images\\070c84fe-d46d-45b9-80a0-47694dbec317.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\1129bd8e-cc21-4593-8412-f7da861d90a3.png",
+      "PackagePath": "staticwebassets\\images\\1129bd8e-cc21-4593-8412-f7da861d90a3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\3175354a-2fa8-4a79-92ab-fed60ab0a8ce.png",
+      "PackagePath": "staticwebassets\\images\\3175354a-2fa8-4a79-92ab-fed60ab0a8ce.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\338677bf-1399-4d46-aee8-ff6456eedf97.png",
+      "PackagePath": "staticwebassets\\images\\338677bf-1399-4d46-aee8-ff6456eedf97.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\349028fa-29bc-4938-9f01-d1024b8ffa0a.png",
+      "PackagePath": "staticwebassets\\images\\349028fa-29bc-4938-9f01-d1024b8ffa0a.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\38803787-4af0-4082-a02c-d6b10e87ff3f.png",
+      "PackagePath": "staticwebassets\\images\\38803787-4af0-4082-a02c-d6b10e87ff3f.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\514762fe-22c0-4064-866c-77826347a53b.png",
+      "PackagePath": "staticwebassets\\images\\514762fe-22c0-4064-866c-77826347a53b.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5e2de4b6-4278-4b61-863a-d7453f7d2ead.png",
+      "PackagePath": "staticwebassets\\images\\5e2de4b6-4278-4b61-863a-d7453f7d2ead.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\64cc6a65-7eb9-472b-9ba9-bddec35b268c.png",
+      "PackagePath": "staticwebassets\\images\\64cc6a65-7eb9-472b-9ba9-bddec35b268c.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\736e2152-4a2e-42a0-b90a-bc6b09d7e670.png",
+      "PackagePath": "staticwebassets\\images\\736e2152-4a2e-42a0-b90a-bc6b09d7e670.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\7b302458-7573-41df-81a4-97ae28a3fb86.png",
+      "PackagePath": "staticwebassets\\images\\7b302458-7573-41df-81a4-97ae28a3fb86.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\8f84fafd-28df-4385-baa3-5bdd7bbf4d15.png",
+      "PackagePath": "staticwebassets\\images\\8f84fafd-28df-4385-baa3-5bdd7bbf4d15.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\99349a2c-18a4-4cd7-82b3-3a6f686d3923.png",
+      "PackagePath": "staticwebassets\\images\\99349a2c-18a4-4cd7-82b3-3a6f686d3923.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\9bda813d-b77b-4d66-8070-84485ee3fcf1.png",
+      "PackagePath": "staticwebassets\\images\\9bda813d-b77b-4d66-8070-84485ee3fcf1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\a72f1f3a-abbe-4346-9c58-1f4a1e2018b8.png",
+      "PackagePath": "staticwebassets\\images\\a72f1f3a-abbe-4346-9c58-1f4a1e2018b8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\b9156f43-accb-4226-9d48-3d0ffa231b7b.png",
+      "PackagePath": "staticwebassets\\images\\b9156f43-accb-4226-9d48-3d0ffa231b7b.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\bc7336eb-4459-4541-8bad-bf8de670118c.png",
+      "PackagePath": "staticwebassets\\images\\bc7336eb-4459-4541-8bad-bf8de670118c.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\d8084995-d07f-40bf-b28e-c24b4537f688.png",
+      "PackagePath": "staticwebassets\\images\\d8084995-d07f-40bf-b28e-c24b4537f688.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\d88484c6-cb3f-4762-9ca5-539c7e2d7d70.png",
+      "PackagePath": "staticwebassets\\images\\d88484c6-cb3f-4762-9ca5-539c7e2d7d70.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\e18d6c13-dc76-497c-9ca7-87b3aaa13156.png",
+      "PackagePath": "staticwebassets\\images\\e18d6c13-dc76-497c-9ca7-87b3aaa13156.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\f7ec99f0-af70-4786-855b-5ff063d93e54.png",
+      "PackagePath": "staticwebassets\\images\\f7ec99f0-af70-4786-855b-5ff063d93e54.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\genel.png",
+      "PackagePath": "staticwebassets\\images\\genel.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\photo.png",
+      "PackagePath": "staticwebassets\\images\\photo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\about_overlay.png",
+      "PackagePath": "staticwebassets\\img\\about_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\advance_feature_bg.png",
+      "PackagePath": "staticwebassets\\img\\advance_feature_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\advance_feature_img.png",
+      "PackagePath": "staticwebassets\\img\\advance_feature_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_1.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_2.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_3.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_4.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_5.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_7.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_8.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\animate_icon\\icon_9.png",
+      "PackagePath": "staticwebassets\\img\\animate_icon\\icon_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\author\\author_1.png",
+      "PackagePath": "staticwebassets\\img\\author\\author_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\author\\author_2.png",
+      "PackagePath": "staticwebassets\\img\\author\\author_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\author\\author_3.png",
+      "PackagePath": "staticwebassets\\img\\author\\author_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\banner_bg.png",
+      "PackagePath": "staticwebassets\\img\\banner_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\banner_img.png",
+      "PackagePath": "staticwebassets\\img\\banner_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\img\\blog\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\blog_4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\img\\blog\\learn_about_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\breadcrumb.png",
+      "PackagePath": "staticwebassets\\img\\breadcrumb.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\client\\client_1.png",
+      "PackagePath": "staticwebassets\\img\\client\\client_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\client\\client_2.png",
+      "PackagePath": "staticwebassets\\img\\client\\client_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\comment\\comment_1.png",
+      "PackagePath": "staticwebassets\\img\\comment\\comment_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\comment\\comment_2.png",
+      "PackagePath": "staticwebassets\\img\\comment\\comment_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\comment\\comment_3.png",
+      "PackagePath": "staticwebassets\\img\\comment\\comment_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\cource\\cource_1.png",
+      "PackagePath": "staticwebassets\\img\\cource\\cource_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\cource\\cource_2.png",
+      "PackagePath": "staticwebassets\\img\\cource\\cource_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\cource\\cource_3.png",
+      "PackagePath": "staticwebassets\\img\\cource\\cource_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_1.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_4.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_5.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_6.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_7.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_71.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_71.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\gallery_item_8.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery_item_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\gallery\\service_bg_2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\service_bg_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\color_star.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\color_star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\left.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\play.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\play.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\quate.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\quate.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\right.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\icon\\star.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_1.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_2.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_3.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_4.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_5.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\insta\\instagram_6.png",
+      "PackagePath": "staticwebassets\\img\\insta\\instagram_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\learning_img.png",
+      "PackagePath": "staticwebassets\\img\\learning_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\learning_img_bg.png",
+      "PackagePath": "staticwebassets\\img\\learning_img_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\img\\post\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\img\\post\\preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\quote.png",
+      "PackagePath": "staticwebassets\\img\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\service_bg_2.png",
+      "PackagePath": "staticwebassets\\img\\service_bg_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\single_cource.png",
+      "PackagePath": "staticwebassets\\img\\single_cource.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\single_page_logo.png",
+      "PackagePath": "staticwebassets\\img\\single_page_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\single_project.png",
+      "PackagePath": "staticwebassets\\img\\single_project.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\special_cource_1.png",
+      "PackagePath": "staticwebassets\\img\\special_cource_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\special_cource_2.png",
+      "PackagePath": "staticwebassets\\img\\special_cource_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\special_cource_3.png",
+      "PackagePath": "staticwebassets\\img\\special_cource_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_1.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_2.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_3.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\team\\team_4.png",
+      "PackagePath": "staticwebassets\\img\\team\\team_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\testimonial_img_1.png",
+      "PackagePath": "staticwebassets\\img\\testimonial_img_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\testimonial_img_2.png",
+      "PackagePath": "staticwebassets\\img\\testimonial_img_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\img\\testimonial_img_3.png",
+      "PackagePath": "staticwebassets\\img\\testimonial_img_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\core\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\gsdk-bootstrap-wizard.js",
+      "PackagePath": "staticwebassets\\js\\gsdk-bootstrap-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery-1.12.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.12.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\js\\mail-script.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\masonry.pkgd.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\paper-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\paper-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\paper-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\particles.min.js",
+      "PackagePath": "staticwebassets\\js\\particles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\swiper_custom.js",
+      "PackagePath": "staticwebassets\\js\\swiper_custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\img\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_",
+      "PackagePath": "staticwebassets\\sass"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_about.scss",
+      "PackagePath": "staticwebassets\\sass\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_banner.scss",
+      "PackagePath": "staticwebassets\\sass\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_blog_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_blog_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_button.scss",
+      "PackagePath": "staticwebassets\\sass\\_button.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_common.scss",
+      "PackagePath": "staticwebassets\\sass\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\sass\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_copyright_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_copyright_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_cource_details.scss",
+      "PackagePath": "staticwebassets\\sass\\_cource_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_elements.scss",
+      "PackagePath": "staticwebassets\\sass\\_elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_extends.scss",
+      "PackagePath": "staticwebassets\\sass\\_extends.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_feature_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_feature_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\sass\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_gallery_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_gallery_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_learning.scss",
+      "PackagePath": "staticwebassets\\sass\\_learning.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_member_counter.scss",
+      "PackagePath": "staticwebassets\\sass\\_member_counter.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_menu.scss",
+      "PackagePath": "staticwebassets\\sass\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_portfolio.scss",
+      "PackagePath": "staticwebassets\\sass\\_portfolio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_project_details.scss",
+      "PackagePath": "staticwebassets\\sass\\_project_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_review.scss",
+      "PackagePath": "staticwebassets\\sass\\_review.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_single_blog.scss",
+      "PackagePath": "staticwebassets\\sass\\_single_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_social_connect_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_social_connect_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_special_cource.scss",
+      "PackagePath": "staticwebassets\\sass\\_special_cource.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_team.scss",
+      "PackagePath": "staticwebassets\\sass\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_testimonial_part.scss",
+      "PackagePath": "staticwebassets\\sass\\_testimonial_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\_variables.scss",
+      "PackagePath": "staticwebassets\\sass\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\sass\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Musician.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Musician.MVC.props",
+      "PackagePath": "build\\Musician.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Musician.MVC.props",
+      "PackagePath": "buildMultiTargeting\\Musician.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Musician.MVC.props",
+      "PackagePath": "buildTransitive\\Musician.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

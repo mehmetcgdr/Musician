@@ -15,11 +15,31 @@ namespace Musician.Data.Concrete.EfCore.Config
         {
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
             builder.Property(x => x.FirstName).IsRequired().HasMaxLength(100);
-            builder.Property(x => x.LastName).IsRequired().HasMaxLength(100);
             builder.Property(x => x.Price).IsRequired();
             builder.Property(x => x.City).IsRequired();
             builder.Property(x => x.EnstrumentName).IsRequired();
-            builder.Property(x => x.EnumState).IsRequired();
+            
+            //builder.HasData(
+            //    new Card { FirstName = "Ahmet", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 1, Price = 250,  EnstrumentName="Kaval",TeacherId=1,NormalizedEnstrumentName="KAVAL",OwnDescription="asdjasgdkasgdıaa"},
+
+            //    new Card { FirstName = "Mehmet", City = "İstanbul", Description = "Gitar dersi veriyorum", Id = 2,Price = 270,  EnstrumentName = "Gitar", TeacherId = 2, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+            //    new Card { FirstName = "Ezgi", City = "İstanbul", Description = "Kalimba dersi veriyorum", Id = 3,Price = 240,  EnstrumentName = "Kalimba", TeacherId = 3, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+            //    new Card { FirstName = "Arda", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 4,  Price = 250,  EnstrumentName = "Kaval", TeacherId = 4, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+            //    new Card { FirstName = "Erdi", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 5,  Price = 350,  EnstrumentName = "Kaval", TeacherId = 5, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+            //    new Card { FirstName = "Ulaş", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 6,  Price = 150,  EnstrumentName = "Kaval", TeacherId = 6, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+
+            //    new Card { FirstName = "Canan", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 7, Price = 200,  EnstrumentName = "Kaval", TeacherId = 4, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+            //    new Card { FirstName = "İlknur", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 8,Price = 400,  EnstrumentName = "Kaval", TeacherId = 3, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" },
+
+            //    new Card { FirstName = "Hakan", City = "İstanbul", Description = "Kaval dersi veriyorum", Id = 9, Price = 180,  EnstrumentName = "Kaval", TeacherId = 4, NormalizedEnstrumentName = "KAVAL", OwnDescription = "asdjasgdkasgdıaa" }
+
+            //    );
         }
     }
 }

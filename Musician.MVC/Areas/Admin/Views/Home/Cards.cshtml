@@ -1,0 +1,57 @@
+﻿@using Musician.Entity.Concrete;
+@model List<Card>
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="row  ">
+            <div class="col-lg-12 mb-4 order-0">
+                <div class="card">
+                    <h5 class="card-header"></h5>
+                    <div class="table-responsive text-nowrap">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Satın Alım Id</th>
+                                    <th>Öğrenci Adı</th>
+                                    <th>Öğretmen Adı</th>
+                                    <th>Enstrüman Adı</th>
+                                    <th>Ücret</th>
+                                    <th>İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-border-bottom-0">
+                                @foreach (var card in Model)
+                                {
+
+                                    <tr class="table-default">
+                                        <td><i class="fab fa-sketch fa-lg text-warning me-3"></i> <strong>@card.Id</strong></td>
+                                        <td><span class="badge bg-label-primary me-1">@card.FirstName</span></td>
+                                        <td>
+                                            <span class="badge bg-label-primary me-1">@card.TeacherId</span>
+                                        </td>
+                                        <td><span class="badge bg-label-primary me-1">@card.EnstrumentName</span></td>
+                                        <td><span class="badge bg-label-primary me-1">@card.Price</span></td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Sil</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

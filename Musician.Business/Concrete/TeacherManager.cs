@@ -4,6 +4,7 @@ using Musician.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,9 +24,9 @@ namespace Musician.Business.Concrete
             await _teacherRepository.CreateAsync(teacher);
         }
 
-        public void Delete(Teacher teacher)
+        public async Task DeleteAsync(Teacher teacher)
         {
-            _teacherRepository.Delete(teacher);
+           await _teacherRepository.DeleteAsync(teacher);
         }
 
         public async Task<List<Teacher>> GetAllAsync()
@@ -47,6 +48,20 @@ namespace Musician.Business.Concrete
             return await _teacherRepository.GetAllTeachersAsync();
         }
 
-      
+        public Task<Teacher> GetByIdAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<Teacher> GetTeacherByIdAsync(string id)
+        {
+            return await _teacherRepository.GetTeacherByIdAsync(id);
+
+        }
+
+        public async Task<Teacher> GetTeacherByCardId(int id)
+        {
+            return await _teacherRepository.GetTeacherByCardId(id);
+        }
     }
 }
