@@ -7,6 +7,7 @@ using Musician.Entity.Concrete.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,6 +31,26 @@ namespace Musician.Data.Concrete.EfCore.Context
         {
             modelBuilder.SeedData();
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(TeacherConfig).Assembly);
+
+            modelBuilder.Entity<User>()
+                .HasOne(x => x.Student)
+                .WithOne(x => x.User)
+                .HasForeignKey<Student>(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<User>()
+                .HasOne(x => x.Teacher)
+                .WithOne(x => x.User)
+                .HasForeignKey<Teacher>(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<User>()
+                .HasOne(x => x.Image)
+                .WithOne(x => x.User)
+                .HasForeignKey<Image>(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            
             base.OnModelCreating(modelBuilder);
         }
 

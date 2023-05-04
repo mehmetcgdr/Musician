@@ -63,5 +63,9 @@ namespace Musician.Business.Concrete
         {
             return await _teacherRepository.GetTeacherByCardId(id);
         }
+        public async Task<Teacher> GetTeacherByCardAsync(Card card)
+        {
+            return await _teacherRepository.GetTeacherByCardAsync(card);
+        }
     }
 }

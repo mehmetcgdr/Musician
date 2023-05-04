@@ -4,9 +4,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Musician.Business.Abstract;
+using Musician.Core;
+using Musician.Entity.Concrete;
 using Musician.Entity.Concrete.Identity;
 using Musician.MVC.Areas.Admin.Models.ViewModels;
 using Musician.MVC.Models.ViewModels;
+using System.Diagnostics.Metrics;
 
 namespace Musician.MVC.Areas.Admin.Controllers
 {
@@ -54,6 +57,12 @@ namespace Musician.MVC.Areas.Admin.Controllers
             }).ToList();
             return View(enstrumentsViewModel);
         }
+        public async Task<IActionResult> CancelCard(int id)
+        {
+            Card card = await _cardService.GetCardWithImageAsync(id);
+           await  _cardService.DeleteAsync(card);
+            return Redirect("/admin/Home/Enstruments");
+        }
         public async Task<IActionResult> Users(string role)
         {
             var users = await _userManager.GetUsersInRoleAsync(role);
@@ -64,5 +73,75 @@ namespace Musician.MVC.Areas.Admin.Controllers
             var requests= await _requestService.GetAllAsync();
             return View(requests);
         }
+        [HttpGet]
+        public IActionResult CreateEnstrument()
+        {
+            return View();
+        }
+        public async Task<IActionResult> CreateEnstrument(CreateEnstrumentViewModel createEnstrumentViewModel)
+        {
+            Enstrument enstrument = new Enstrument
+            {
+                Name = createEnstrumentViewModel.Name,
+                Url = Jobs.GetUrl(createEnstrumentViewModel.Name),
+                IsApproved = createEnstrumentViewModel.IsApproved,
+                NormalizedEnstrumentName = Jobs.GetNormalizedName(createEnstrumentViewModel.Name),
+            };
+            await _enstrumentService.CreateAsync(enstrument);
+
+            return Redirect("/admin/Home/AllEnstruments");
+        }
+        public async Task<IActionResult> AllEnstruments()
+        {
+            List<Enstrument> enstruments = await _enstrumentService.GetAllAsync();
+            return View(enstruments);
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            Enstrument enstrument = await _enstrumentService.GetByIdAsync(id);
+            await _enstrumentService.DeleteAsync(enstrument);
+            return Redirect("/admin/Home/AllEnstruments");
+        }
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            Enstrument enstrument = await _enstrumentService.GetByIdAsync(id);
+            CreateEnstrumentViewModel createEnstrumentViewModel = new CreateEnstrumentViewModel
+            {
+                Name = enstrument.Name,
+                IsApproved = enstrument.IsApproved,
+            };
+            return View(createEnstrumentViewModel);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(CreateEnstrumentViewModel createEnstrumentViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                Enstrument enstrument = await _enstrumentService.GetByIdAsync(createEnstrumentViewModel.Id);
+                enstrument.Name = createEnstrumentViewModel.Name;
+                enstrument.IsApproved = createEnstrumentViewModel.IsApproved;
+                 _enstrumentService.Update(enstrument);
+            }
+            return Redirect("/admin/Home/Allenstruments");
+
+        }
+        public async Task<IActionResult> UpdateIsApproved(int id, bool ApprovedStatus)
+        {
+            Enstrument enstrument = await _enstrumentService.GetByIdAsync(id);
+            if (enstrument != null)
+            {
+                enstrument.IsApproved = !enstrument.IsApproved;
+                _enstrumentService.Update(enstrument);
+            }
+
+            return Redirect("/admin/Home/AllEnstruments");
+        }
+        //public async Task<IActionResult> GoToTeacher(int id)
+        //{
+        //    var card = await _cardService.GetByIdAsync(id);
+        //    var teacher = await _teacherService.GetTeacherByCardAsync(card);
+
+        //}
     }
 }

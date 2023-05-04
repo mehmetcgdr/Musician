@@ -21,7 +21,7 @@ namespace Musician.Data.Concrete.EfCore
         }
         public async Task<List<Student>> GetAllStudentsAsync()
         {
-            var students = await AppContext.Students.Include(s=>s.Image).ToListAsync();
+            var students = await AppContext.Students.ToListAsync();
             return students;
         }
         

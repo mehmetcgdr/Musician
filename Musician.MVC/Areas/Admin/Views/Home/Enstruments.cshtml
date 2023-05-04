@@ -8,7 +8,7 @@
                 <div class="card">
                     <h5 class="card-header"></h5>
                     <div class="table-responsive text-nowrap">
-                        <table class="table">
+                        <table class="table mb-5 pb-5">
                             <thead>
                                 <tr>
                                     <th>İlan Id</th>
@@ -37,8 +37,8 @@
                                                         <i class="bx bx-dots-vertical-rounded"></i>
                                                     </button>
                                                     <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
-                                                        <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Sil</a>
+                                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="GoToTeacher" asp-route-id="@card.Id"><i class="bx bx-trash me-1"></i> Öğretmene Git</a>
+                                                        <a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="CancelCard" asp-route-id="@card.Id"><i class="bx bx-trash me-1"></i> İptal Et</a>
                                                     </div>
                                                 </div>
                                             </td>

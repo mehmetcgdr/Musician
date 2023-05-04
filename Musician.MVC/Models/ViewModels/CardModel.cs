@@ -11,6 +11,7 @@ namespace Musician.MVC.Models.ViewModels
         public string Description { get; set; }
         public string City { get; set; }
         //public List<SelectListItem>? StatusSelectList { get; set; } = new List<SelectListItem>();
+        public List<Enstrument> Enstruments { get; set; }
         public string EnstrumentName { get; set; }
         public Enstrument Enstrument { get; set; }
 

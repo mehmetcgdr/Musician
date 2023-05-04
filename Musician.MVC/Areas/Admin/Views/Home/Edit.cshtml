@@ -1,1 +1,68 @@
-﻿
+﻿@using Musician.MVC.Areas.Admin.Models.ViewModels;
+@model CreateEnstrumentViewModel
+<div class="content-wrapper">
+
+
+    <div class="container-xxl flex-grow-1 container-p-y ">
+        <h4 class="fw-bold py-3 mb-4 d-inline"><span class="text-muted fw-light">Enstrüman Düzenle </span></h4>
+        <div class="row">
+            <div class="col-md-12">
+                <form asp-area="Admin" asp-controller="Home" asp-action="Edit"  method="post" id="formAccountSettings">
+                    <div class="card mb-4">
+                        <h5 class="card-header"></h5>
+
+
+                        <hr class="my-0" />
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="mb-3 col-md-6">
+                                    <label class="form-label">Enstrüman Adı</label>
+                                    <input class="form-control"  asp-for="Name"  />
+                                    <span class="text-danger" asp-validation-for="Name"></span>
+                                </div>
+                                <div class="form-check mt-4 col-md-6">
+                                    <label class="form-check-label" for="flexCheckDefault" asp-for="IsApproved">
+                                        Onay Durumu
+                                    </label>
+                                    <input class="form-check-input" type="checkbox"  id="flexCheckDefault" asp-for="@Model.IsApproved">
+                                    
+                                    <span class="text-danger" asp-validation-for="IsApproved"></span>
+                                </div>
+
+                                <div class=" d-inline d-flex justify-content-between ">
+                                    <div class="mt-2 d-inline">
+                                        <button type="submit" class="btn btn-primary me-2">Güncelle</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="content-backdrop fade"></div>
+<script src="~/admin/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="~/admin/assets/vendor/libs/popper/popper.js"></script>
+<script src="~/admin/assets/vendor/js/bootstrap.js"></script>
+<script src="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="~/admin/assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
+<!-- Vendors JS -->
+<!-- Main JS -->
+<script src="~/admin/assets/js/main.js"></script>
+
+<!-- Page JS -->
+<script src="~/admin/assets/js/pages-account-settings-account.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>

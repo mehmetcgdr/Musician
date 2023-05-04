@@ -761,10 +761,6 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
-    },
-    {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\card.css",
       "PackagePath": "staticwebassets\\css\\card.css"
     },
@@ -801,10 +797,6 @@
       "PackagePath": "staticwebassets\\css\\paper-dashboard.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.css.map",
-      "PackagePath": "staticwebassets\\css\\paper-dashboard.css.map"
-    },
-    {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.min.css",
       "PackagePath": "staticwebassets\\css\\paper-dashboard.min.css"
     },
@@ -827,10 +819,6 @@
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\style.map",
-      "PackagePath": "staticwebassets\\css\\style.map"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\swiper.min.css",
@@ -969,12 +957,20 @@
       "PackagePath": "staticwebassets\\images\\4.jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\458d0b06-c7fa-4d0c-83d4-eab7bcdbb01d.png",
+      "PackagePath": "staticwebassets\\images\\458d0b06-c7fa-4d0c-83d4-eab7bcdbb01d.png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5.jpg",
       "PackagePath": "staticwebassets\\images\\5.jpg"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\514762fe-22c0-4064-866c-77826347a53b.png",
       "PackagePath": "staticwebassets\\images\\514762fe-22c0-4064-866c-77826347a53b.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5a4fd8ec-1625-4439-a5c0-07271c6da20c.png",
+      "PackagePath": "staticwebassets\\images\\5a4fd8ec-1625-4439-a5c0-07271c6da20c.png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5e2de4b6-4278-4b61-863a-d7453f7d2ead.png",
@@ -1027,6 +1023,10 @@
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\b9156f43-accb-4226-9d48-3d0ffa231b7b.png",
       "PackagePath": "staticwebassets\\images\\b9156f43-accb-4226-9d48-3d0ffa231b7b.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\bbea78b8-5cf8-4666-8382-cd7d10d1ba77.png",
+      "PackagePath": "staticwebassets\\images\\bbea78b8-5cf8-4666-8382-cd7d10d1ba77.png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\bc7336eb-4459-4541-8bad-bf8de670118c.png",
@@ -1531,6 +1531,10 @@
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap-notify.js",
       "PackagePath": "staticwebassets\\js\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.min.js",

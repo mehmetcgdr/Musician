@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
+using System.Security.Cryptography.Xml;
 using System.Xml.Linq;
 
 namespace Musician.MVC.Controllers
@@ -42,7 +43,13 @@ namespace Musician.MVC.Controllers
 
         public async Task<IActionResult> Index(string name)
         {
-            
+            //var EnstrumentList = await _enstrumentService.GetAllAsync();
+            //var enstruments = EnstrumentList.Select(x => new SelectListItem
+            //{
+            //    Text = x.Name,
+            //    Value = x.Name
+            //});
+
             List<Entity.Concrete.Card> cards = await _cardService.GetFilterCardsAsync(name);
             return View();
         }
@@ -63,8 +70,7 @@ namespace Musician.MVC.Controllers
                 Enstrument = c.Enstrument,
                 FirstName = c.FirstName,
                 Price = c.Price,
-                Image=c.Image
-                
+                Image = c.Image
 
             }).ToList();
             if (RouteData.Values["name"] != null)
@@ -78,7 +84,12 @@ namespace Musician.MVC.Controllers
         public async Task<IActionResult> OpenLesson() //ders ver get kısmı
         {
             var Enstruments = await _enstrumentService.GetAllAsync();
-
+            var enstruments = Enstruments.Select(x => new SelectListItem
+            {
+                Text = x.Name,
+                Value = x.Name
+            });
+            ViewBag.Enstruments = enstruments;
             LessonViewModel lessonViewModel = new LessonViewModel
             {
                 Enstruments = Enstruments
@@ -97,18 +108,14 @@ namespace Musician.MVC.Controllers
             Entity.Concrete.Card card = new Entity.Concrete.Card
             {
                 Id = lessonViewModel.Id,
-                FirstName = teacher.FirstName,
+                FirstName = teacher.User.FirstName,
                 City = lessonViewModel.City,
                 EnstrumentName = lessonViewModel.EnstrumentName,
                 Description = lessonViewModel.Description,
                 OwnDescription = lessonViewModel.OwnDescription,
                 Price = lessonViewModel.Price,
                 NormalizedEnstrumentName = lessonViewModel.EnstrumentName.ToUpper(),    
-                Image = new Image
-                {
-                    Id=lessonViewModel.Id,
-                    UserId=user.Id,
-                }
+                Image = user.Image
 
             };
             teacher.Cards.Add(card);
@@ -157,7 +164,7 @@ namespace Musician.MVC.Controllers
         {
             var card = await _cardService.GetCardWithImageAsync(requestViewModel.Card.Id);
             User student=await _userManager.GetUserAsync(User);
-            var teacher = await _teacherService.GetTeacherByCardId(card.TeacherId);
+            var teacher = await _teacherService.GetTeacherByCardId(card.Teacher.Id);
             if (ModelState.IsValid)
             {
                 
@@ -235,7 +242,7 @@ namespace Musician.MVC.Controllers
         {
             var card = await _cardService.GetCardWithImageAsync(requestViewModel.Id);
             User student = await _userManager.GetUserAsync(User);
-            var teacher = await _teacherService.GetTeacherByCardId(card.TeacherId);
+            var teacher = await _teacherService.GetTeacherByCardId(card.Teacher.Id);
 
             Request request = new Request
             {

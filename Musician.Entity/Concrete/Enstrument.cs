@@ -12,7 +12,7 @@ namespace Musician.Entity.Concrete
         public string Name { get; set; }
         public bool IsApproved { get; set; }
         public string Url { get; set; }
-        public string NormalizedEnstrumentName { get; set; } = "";
+        public string NormalizedEnstrumentName { get; set; } 
 
     }
 }

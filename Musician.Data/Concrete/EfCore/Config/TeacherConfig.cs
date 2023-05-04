@@ -14,15 +14,8 @@ namespace Musician.Data.Concrete.EfCore.Config
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
-            builder.Property(x => x.FirstName).IsRequired().HasMaxLength(50);
-            builder.Property(x => x.LastName).IsRequired().HasMaxLength(50);
-            builder.Property(x => x.DateOfBirth).IsRequired();
-            builder.Property(x => x.CreatedDate).IsRequired();
-            builder.Property(x => x.City).IsRequired();
-            builder.Property(x => x.Description).IsRequired();
-      
             builder.Property(x => x.Status).IsRequired();
-            builder.Property(x => x.Gender).IsRequired();
+        
             //builder.HasData(
             //    new Teacher { Id = 1, FirstName = "Mehmet", LastName = "Öçgüder", DateOfBirth = new DateTime(1985, 5, 18), Description = "Kalimba çalýyorum", Gender = "Erkek", IsApproved = true, Url = "mehmetocguder", City = "Ýstanbul",  CreatedDate = DateTime.Now, Status = "Home",UserName="mehmetocguder",},
 

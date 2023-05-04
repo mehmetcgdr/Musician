@@ -18,6 +18,6 @@ namespace Musician.Business.Abstract
         Task<List<Teacher>> GetAllTeachersAsync();
         Task<Teacher> GetTeacherByIdAsync(string id);
         Task<Teacher> GetTeacherByCardId(int id);
-
+        Task<Teacher> GetTeacherByCardAsync(Card card);
     }
 }

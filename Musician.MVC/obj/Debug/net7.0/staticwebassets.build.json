@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L9TcTKrahveAAvGvKw+2aJ/fQNfa4WiAqd6TudmD0kk=",
+  "Hash": "U27ET4Md+gw+Q/NVF5+NCeunwrhFlGqrh2rU9cJ0yC4=",
   "Source": "Musician.MVC",
   "BasePath": "_content/Musician.MVC",
   "Mode": "Default",
@@ -3332,23 +3332,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\bootstrap.min.css.map",
-      "SourceId": "Musician.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
-      "BasePath": "_content/Musician.MVC",
-      "RelativePath": "css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
-    },
-    {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\card.css",
       "SourceId": "Musician.MVC",
       "SourceType": "Discovered",
@@ -3502,23 +3485,6 @@
       "OriginalItemSpec": "wwwroot\\css\\paper-dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.css.map",
-      "SourceId": "Musician.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
-      "BasePath": "_content/Musician.MVC",
-      "RelativePath": "css/paper-dashboard.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\paper-dashboard.css.map"
-    },
-    {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\paper-dashboard.min.css",
       "SourceId": "Musician.MVC",
       "SourceType": "Discovered",
@@ -3619,23 +3585,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
-    },
-    {
-      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\style.map",
-      "SourceId": "Musician.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
-      "BasePath": "_content/Musician.MVC",
-      "RelativePath": "css/style.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.map"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\css\\swiper.min.css",
@@ -4216,6 +4165,23 @@
       "OriginalItemSpec": "wwwroot\\images\\4.jpg"
     },
     {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\458d0b06-c7fa-4d0c-83d4-eab7bcdbb01d.png",
+      "SourceId": "Musician.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
+      "BasePath": "_content/Musician.MVC",
+      "RelativePath": "images/458d0b06-c7fa-4d0c-83d4-eab7bcdbb01d.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\458d0b06-c7fa-4d0c-83d4-eab7bcdbb01d.png"
+    },
+    {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5.jpg",
       "SourceId": "Musician.MVC",
       "SourceType": "Discovered",
@@ -4248,6 +4214,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\514762fe-22c0-4064-866c-77826347a53b.png"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5a4fd8ec-1625-4439-a5c0-07271c6da20c.png",
+      "SourceId": "Musician.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
+      "BasePath": "_content/Musician.MVC",
+      "RelativePath": "images/5a4fd8ec-1625-4439-a5c0-07271c6da20c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5a4fd8ec-1625-4439-a5c0-07271c6da20c.png"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\5e2de4b6-4278-4b61-863a-d7453f7d2ead.png",
@@ -4469,6 +4452,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\b9156f43-accb-4226-9d48-3d0ffa231b7b.png"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\bbea78b8-5cf8-4666-8382-cd7d10d1ba77.png",
+      "SourceId": "Musician.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
+      "BasePath": "_content/Musician.MVC",
+      "RelativePath": "images/bbea78b8-5cf8-4666-8382-cd7d10d1ba77.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bbea78b8-5cf8-4666-8382-cd7d10d1ba77.png"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\images\\bc7336eb-4459-4541-8bad-bf8de670118c.png",
@@ -6594,6 +6594,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\aos.js"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.bundle.js",
+      "SourceId": "Musician.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\",
+      "BasePath": "_content/Musician.MVC",
+      "RelativePath": "js/bootstrap.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.js"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\wwwroot\\js\\bootstrap.min.js",

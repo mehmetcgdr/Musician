@@ -26,11 +26,8 @@ namespace Musician.MVC.Models.ViewModels
         //public List<SelectListItem>? StatusSelectList { get; set; } = new List<SelectListItem>();
         [DisplayName("Hangi Enstrüman için eğitim vermek istiyorsun?")]
         [Required(ErrorMessage = "Enstrüman alanı boş bırakılamaz")]
-        public List<SelectListItem> SelectedEnstrument { get; set; }
         public string EnstrumentName { get; set; }
-        public string EnstrumentId { get; set; }
 
-        public string NormalizedEnstrumentName { get; set; } = "";
         public Teacher Teacher { get; set; }
         public List<Enstrument> Enstruments { get; set; }
         public virtual Image TeacherImage { get; set; }

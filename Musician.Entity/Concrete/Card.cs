@@ -20,9 +20,10 @@ namespace Musician.Entity.Concrete
         //public List<SelectListItem>? StatusSelectList { get; set; } = new List<SelectListItem>();
         public string EnstrumentName { get; set; }
         public Enstrument Enstrument { get; set; }
-        public string NormalizedEnstrumentName { get; set; } = "";
+        public string NormalizedEnstrumentName { get; set; } 
         public virtual Image Image { get; set; }
-        public int TeacherId { get; set; }
+        //public int TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
 
     }
 }

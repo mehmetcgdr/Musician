@@ -42,6 +42,9 @@ namespace Musician.Data.Migrations
                     ModifiedDate = table.Column<DateTime>(type: "TEXT", nullable: true),
                     DateOfBirth = table.Column<DateTime>(type: "TEXT", nullable: true),
                     RoleId = table.Column<int>(type: "INTEGER", nullable: false),
+                    ImageId = table.Column<string>(type: "TEXT", nullable: true),
+                    Url = table.Column<string>(type: "TEXT", nullable: true),
+                    IsApproved = table.Column<bool>(type: "INTEGER", nullable: false),
                     UserName = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
@@ -200,7 +203,27 @@ namespace Musician.Data.Migrations
                         name: "FK_Images_AspNetUsers_UserId",
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Students",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    UserId = table.Column<string>(type: "TEXT", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Students", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Students_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -210,20 +233,7 @@ namespace Musician.Data.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     UserId = table.Column<string>(type: "TEXT", nullable: true),
-                    Url = table.Column<string>(type: "TEXT", nullable: true),
-                    UserName = table.Column<string>(type: "TEXT", nullable: true),
-                    CreatedDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    ModifiedDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    IsApproved = table.Column<bool>(type: "INTEGER", nullable: false),
-                    Status = table.Column<string>(type: "TEXT", nullable: false),
-                    Description = table.Column<string>(type: "TEXT", nullable: false),
-                    FirstName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    LastName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    Gender = table.Column<string>(type: "TEXT", nullable: false),
-                    City = table.Column<string>(type: "TEXT", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "TEXT", nullable: true),
-                    DateOfBirth = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    ImageId = table.Column<int>(type: "INTEGER", nullable: true)
+                    Status = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -232,12 +242,8 @@ namespace Musician.Data.Migrations
                         name: "FK_Teachers_AspNetUsers_UserId",
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Teachers_Images_ImageId",
-                        column: x => x.ImageId,
-                        principalTable: "Images",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -255,7 +261,7 @@ namespace Musician.Data.Migrations
                     EnstrumentId = table.Column<int>(type: "INTEGER", nullable: true),
                     NormalizedEnstrumentName = table.Column<string>(type: "TEXT", nullable: true),
                     ImageId = table.Column<int>(type: "INTEGER", nullable: true),
-                    TeacherId = table.Column<int>(type: "INTEGER", nullable: false),
+                    TeacherId = table.Column<int>(type: "INTEGER", nullable: true),
                     StudentId = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
@@ -272,11 +278,15 @@ namespace Musician.Data.Migrations
                         principalTable: "Images",
                         principalColumn: "Id");
                     table.ForeignKey(
+                        name: "FK_Cards_Students_StudentId",
+                        column: x => x.StudentId,
+                        principalTable: "Students",
+                        principalColumn: "Id");
+                    table.ForeignKey(
                         name: "FK_Cards_Teachers_TeacherId",
                         column: x => x.TeacherId,
                         principalTable: "Teachers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -303,56 +313,15 @@ namespace Musician.Data.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Students",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    UserId = table.Column<string>(type: "TEXT", nullable: true),
-                    UserName = table.Column<string>(type: "TEXT", nullable: true),
-                    CreatedDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    ModifiedDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    IsApproved = table.Column<bool>(type: "INTEGER", nullable: false),
-                    CardId = table.Column<int>(type: "INTEGER", nullable: true),
-                    FirstName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    LastName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    Description = table.Column<string>(type: "TEXT", nullable: false),
-                    Gender = table.Column<string>(type: "TEXT", nullable: false),
-                    City = table.Column<string>(type: "TEXT", nullable: false),
-                    DateOfBirth = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Url = table.Column<string>(type: "TEXT", nullable: true),
-                    ImageId = table.Column<int>(type: "INTEGER", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Students", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Students_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Students_Cards_CardId",
-                        column: x => x.CardId,
-                        principalTable: "Cards",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Students_Images_ImageId",
-                        column: x => x.ImageId,
-                        principalTable: "Images",
-                        principalColumn: "Id");
-                });
-
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "3660a50e-5728-473c-92e9-914fde89d5ff", null, "Öğretmen", "Teacher", "TEACHER" },
-                    { "76bc560f-f5d2-4096-aa96-f05b90c7d5f5", null, "Öğrenci", "Student", "STUDENT" },
-                    { "7b9dcaf3-2089-46a5-980f-c7d486d616a5", null, "User", "User", "USER" },
-                    { "ffda5227-6caa-4e01-ae23-a7226cc62aef", null, "Admin", "Admin", "ADMIN" }
+                    { "4b3ca9b6-4d6e-4a9a-9b3a-239871369b67", null, "Admin", "Admin", "ADMIN" },
+                    { "609d1c46-c0e4-4cab-9b57-186323901432", null, "Öğretmen", "Teacher", "TEACHER" },
+                    { "c1d8d5cb-48ea-4161-b513-5cdbebaab8f6", null, "Öğrenci", "Student", "STUDENT" },
+                    { "e16b455f-bb10-494c-a437-e6e624adade7", null, "User", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -360,16 +329,16 @@ namespace Musician.Data.Migrations
                 columns: new[] { "Id", "IsApproved", "Name", "NormalizedEnstrumentName", "Url" },
                 values: new object[,]
                 {
-                    { 1, true, "Gitar", "", "gitar" },
-                    { 2, true, "Keman", "", "keman" },
-                    { 3, true, "Piyano", "", "piyano" },
-                    { 4, true, "Bateri", "", "bateri" },
-                    { 5, true, "Flüt", "", "flut" },
-                    { 6, true, "Klarnet", "", "klarnet" },
-                    { 7, true, "Çello", "", "cello" },
-                    { 8, true, "Bağlama", "", "baglama" },
-                    { 9, true, "Ud", "", "ud" },
-                    { 10, true, "Kalimba", "", "kalimba" }
+                    { 1, true, "Gitar", null, "gitar" },
+                    { 2, true, "Keman", null, "keman" },
+                    { 3, true, "Piyano", null, "piyano" },
+                    { 4, true, "Bateri", null, "bateri" },
+                    { 5, true, "Flüt", null, "flut" },
+                    { 6, true, "Klarnet", null, "klarnet" },
+                    { 7, true, "Çello", null, "cello" },
+                    { 8, true, "Bağlama", null, "baglama" },
+                    { 9, true, "Ud", null, "ud" },
+                    { 10, true, "Kalimba", null, "kalimba" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -441,75 +410,21 @@ namespace Musician.Data.Migrations
                 column: "CardId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Students_CardId",
-                table: "Students",
-                column: "CardId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Students_ImageId",
-                table: "Students",
-                column: "ImageId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Students_UserId",
                 table: "Students",
                 column: "UserId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Teachers_ImageId",
-                table: "Teachers",
-                column: "ImageId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Teachers_UserId",
                 table: "Teachers",
                 column: "UserId",
                 unique: true);
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Cards_Students_StudentId",
-                table: "Cards",
-                column: "StudentId",
-                principalTable: "Students",
-                principalColumn: "Id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Images_AspNetUsers_UserId",
-                table: "Images");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Students_AspNetUsers_UserId",
-                table: "Students");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Teachers_AspNetUsers_UserId",
-                table: "Teachers");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Cards_Enstruments_EnstrumentId",
-                table: "Cards");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Cards_Images_ImageId",
-                table: "Cards");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Students_Images_ImageId",
-                table: "Students");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Teachers_Images_ImageId",
-                table: "Teachers");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Cards_Students_StudentId",
-                table: "Cards");
-
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -532,7 +447,7 @@ namespace Musician.Data.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
+                name: "Cards");
 
             migrationBuilder.DropTable(
                 name: "Enstruments");
@@ -544,10 +459,10 @@ namespace Musician.Data.Migrations
                 name: "Students");
 
             migrationBuilder.DropTable(
-                name: "Cards");
+                name: "Teachers");
 
             migrationBuilder.DropTable(
-                name: "Teachers");
+                name: "AspNetUsers");
         }
     }
 }

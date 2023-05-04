@@ -98,8 +98,8 @@ namespace Musician.MVC.Areas.Admin.Controllers
         {
             var images = await _imageService.GetAllAsync();
             var user = await _userManager.FindByIdAsync(id);
-           
-            
+
+
             await _userManager.DeleteAsync(user);
             return Redirect("/admin/Home/Users?role=User");
         }
@@ -125,6 +125,7 @@ namespace Musician.MVC.Areas.Admin.Controllers
                     DateOfBirth=createUserViewModel.DateOfBirth,
                     RoleId = createUserViewModel.RoleId,
                     UserName = createUserViewModel.UserName,
+                    Gender=createUserViewModel.Gender,
                 };
                 if (createUserViewModel.ImageFile != null)
                 {
@@ -136,26 +137,26 @@ namespace Musician.MVC.Areas.Admin.Controllers
                    var result= await _userManager.CreateAsync(user,createUserViewModel.Password);
                 if (createUserViewModel.RoleId == EnumRoleId.Teacher)
                 {
-                   
+                    Console.Write($"{createUserViewModel.RoleId}");
                     Teacher teacher = new Teacher
                     {
-                        FirstName = createUserViewModel.FirstName,
-                        LastName = createUserViewModel.LastName,
-                        City = createUserViewModel.City,
-                        PhoneNumber = createUserViewModel.PhoneNumber,
-                        CreatedDate = DateTime.Now,
-                        ModifiedDate = DateTime.Now,
-                        DateOfBirth = createUserViewModel.DateOfBirth,
-                        UserName = createUserViewModel.UserName,
+                        //FirstName = createUserViewModel.FirstName,
+                        //LastName = createUserViewModel.LastName,
+                        //City = createUserViewModel.City,
+                        //PhoneNumber = createUserViewModel.PhoneNumber,
+                        //CreatedDate = DateTime.Now,
+                        //ModifiedDate = DateTime.Now,
+                        //DateOfBirth = createUserViewModel.DateOfBirth,
+                        //UserName = createUserViewModel.UserName,
                     };
-                    if (createUserViewModel.ImageFile != null)
-                    {
-                        teacher.Image = new Image
-                        {
-                            Url = Jobs.UploadImage(createUserViewModel.ImageFile),
-                            UserId=user.Id
-                        };
-                    };
+                    //if (createUserViewModel.ImageFile != null)
+                    //{
+                    //    teacher.Image = new Image
+                    //    {
+                    //        Url = Jobs.UploadImage(createUserViewModel.ImageFile),
+                    //        UserId=user.Id
+                    //    };
+                    //};
                     await _teacherService.CreateAsync(teacher);
                     await _userManager.AddToRoleAsync(user, "User");
 
@@ -163,25 +164,25 @@ namespace Musician.MVC.Areas.Admin.Controllers
                 }
                 else if (createUserViewModel.RoleId==EnumRoleId.Student)
                 {
-                    Student student = new Student
-                    {
-                        FirstName = createUserViewModel.FirstName,
-                        LastName = createUserViewModel.LastName,
-                        City = createUserViewModel.City,
-                        CreatedDate = DateTime.Now,
-                        ModifiedDate = DateTime.Now,
-                        DateOfBirth = createUserViewModel.DateOfBirth,
-                        UserName = createUserViewModel.UserName,
-                    };
-                    if (createUserViewModel.ImageFile != null)
-                    {
-                        student.Image = new Image
-                        {
-                            Url = Jobs.UploadImage(createUserViewModel.ImageFile),
-                            UserId = user.Id
-                        };
-                    };
-                    await _studentService.CreateAsync(student);
+                    //Student student = new Student
+                    //{
+                    //    FirstName = createUserViewModel.FirstName,
+                    //    LastName = createUserViewModel.LastName,
+                    //    City = createUserViewModel.City,
+                    //    CreatedDate = DateTime.Now,
+                    //    ModifiedDate = DateTime.Now,
+                    //    DateOfBirth = createUserViewModel.DateOfBirth,
+                    //    UserName = createUserViewModel.UserName,
+                    //};
+                    //if (createUserViewModel.ImageFile != null)
+                    //{
+                    //    student.Image = new Image
+                    //    {
+                    //        Url = Jobs.UploadImage(createUserViewModel.ImageFile),
+                    //        UserId = user.Id
+                    //    };
+                    //};
+                    //await _studentService.CreateAsync(student);
                     await _userManager.AddToRoleAsync(user, "User");
 
                     await _userManager.AddToRoleAsync(user, "Student");

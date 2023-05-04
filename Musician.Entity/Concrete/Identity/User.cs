@@ -15,13 +15,16 @@ namespace Musician.Entity.Concrete.Identity
         public string Description { get; set; } = "";
         public string Gender { get; set; }="";
         public string City { get; set; } ="";
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } =DateTime.Now;
         public DateTime? ModifiedDate { get; set; }
         public DateTime? DateOfBirth { get; set; } = new DateTime(1995, 1, 1);
-        public Teacher Teacher { get; set; }
-        public Student Student { get; set; }
+        public Teacher? Teacher { get; set; }
+        public Student? Student { get; set; }
         public EnumRoleId RoleId { get; set; }
         public Image? Image { get; set; }
+        public int ImageId { get; set; }
+        public string Url { get; set; }
+        public bool IsApproved { get; set; } = false;
 
     }
 }

@@ -41,6 +41,7 @@ namespace Musician.MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel registerViewModel)
         {
+            
             if (ModelState.IsValid)
             {
                 User user = new User
@@ -50,28 +51,24 @@ namespace Musician.MVC.Controllers
                     FirstName = registerViewModel.FirstName,
                     LastName = registerViewModel.LastName,
                     RoleId = EnumRoleId.Teacher,
-                    CreatedDate=DateTime.Now,
-                    ModifiedDate = DateTime.Now
+                    CreatedDate = DateTime.Now,
+                    ModifiedDate = DateTime.Now,
+                    Url = Jobs.GetUrl(registerViewModel.UserName),
+                    Image = new Image
+                    {
+                        Url = "genel.png"
+                    }
                 };
+               
+                
                 var result = await _userManager.CreateAsync(user, registerViewModel.Password);
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(user, "User");
 
                     await _userManager.AddToRoleAsync(user, "Teacher");
                     Teacher teacher = new Teacher
                     {
                         UserId = user.Id,
-                        UserName = registerViewModel.UserName,
-                        FirstName = registerViewModel.FirstName,
-                        LastName = registerViewModel.LastName,
-                        Url = Jobs.GetUrl($"{user.UserName}"),
-                        CreatedDate = DateTime.Now,
-                        ModifiedDate = DateTime.Now,
-                        Image = new Image
-                        {
-                            UserId = user.Id
-                        }
                     };
                     await _teacherService.CreateAsync(teacher);
 
@@ -94,8 +91,6 @@ namespace Musician.MVC.Controllers
             }
             return View("Index");
         }
-
-
         [HttpGet]
         public IActionResult StudentRegister()
         {
@@ -104,7 +99,7 @@ namespace Musician.MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> StudentRegister(RegisterViewModel registerViewModel)
         {
-            List<User> users = await _userManager.Users.ToListAsync();
+           
             if (ModelState.IsValid)
             {
                 User user = new User
@@ -112,31 +107,24 @@ namespace Musician.MVC.Controllers
                     UserName = registerViewModel.UserName,
                     Email = registerViewModel.Email,
                     FirstName = registerViewModel.FirstName,
-                    CreatedDate=DateTime.Now,
+                    CreatedDate = DateTime.Now,
                     ModifiedDate = DateTime.Now,
                     LastName = registerViewModel.LastName,
-                    RoleId = EnumRoleId.Student
+                    RoleId = EnumRoleId.Student,
+                    Url = Jobs.GetUrl(registerViewModel.UserName),
+                    Image = new Image
+                    {
+                        Url = "genel.png",
+                    }
                 };
+
                 var result = await _userManager.CreateAsync(user, registerViewModel.Password);
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(user, "User");
-
                     await _userManager.AddToRoleAsync(user, "Student");
                     Student student = new Student
                     {
                         UserId = user.Id,
-                        UserName = registerViewModel.UserName,
-                        FirstName = registerViewModel.FirstName,
-                        LastName = registerViewModel.LastName,
-                        Url = Jobs.GetUrl($"{user.UserName}"),
-                        CreatedDate = DateTime.Now,
-                        ModifiedDate = DateTime.Now,
-                        Image = new Image
-                        {
-                            UserId = user.Id
-                        }
-
                     };
                     await _studentService.CreateAsync(student);
 
@@ -145,7 +133,7 @@ namespace Musician.MVC.Controllers
                 }
                 else
                 {
-                    if (registerViewModel.UserName == ($"{User.Identity.Name}") || registerViewModel.Email == ($"{users.Select(x=>x.Email)}"))
+                    if (registerViewModel.UserName == ($"{User.Identity.Name}") )
                     {
                         _notyfService.Error("Böyle bir kullanıcı adı varmış, değiştirmen gerekiyor :(");
                     }
@@ -159,11 +147,6 @@ namespace Musician.MVC.Controllers
             }
             return View("Index");
         }
-
-
-
-
-
         [HttpGet]
         public IActionResult Login(string returnUrl = null)
         {
@@ -198,15 +181,13 @@ namespace Musician.MVC.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
-
-
         [HttpGet]
         public async Task<IActionResult> Manage(string id)
         {
+            var images = await _imageService.GetAllAsync();
             string name = id;
             User user = await _userManager.FindByNameAsync(name);
-            var teachers = await _teacherService.GetAllTeachersAsync();
-            var students = await _studentService.GetAllStudentsAsync();
+            
 
             if (String.IsNullOrEmpty(name))
             {
@@ -231,43 +212,24 @@ namespace Musician.MVC.Controllers
             });
 
             UserManageViewModel userManageViewModel = new UserManageViewModel();
-
-            if (User.IsInRole("Student"))
+            userManageViewModel.Id = user.Id;
+            userManageViewModel.FirstName = user.FirstName;
+            userManageViewModel.LastName = user.LastName;
+            userManageViewModel.Email = user.Email;
+            userManageViewModel.Gender = user.Gender;
+            userManageViewModel.DateOfBirth = user.DateOfBirth;
+            userManageViewModel.City = user.City;
+            userManageViewModel.GenderSelectList = genderList;
+            userManageViewModel.UserName = user.UserName;
+            userManageViewModel.Image = user.Image;
+            userManageViewModel.Description = user.Description;
+            if (!User.IsInRole("Student"))
             {
-                userManageViewModel.Id = user.Id;
-                userManageViewModel.FirstName = user.FirstName;
-                userManageViewModel.LastName = user.LastName;
-                userManageViewModel.Email = user.Email;
-                userManageViewModel.Gender = user.Gender;
-                userManageViewModel.DateOfBirth = user.DateOfBirth;
-                userManageViewModel.City = user.City;
-                userManageViewModel.GenderSelectList = genderList;
-                userManageViewModel.UserName = user.UserName;
-                userManageViewModel.Image = user.Student.Image;
-                userManageViewModel.Description = user.Student.Description;
-
-            }
-            else
-            {
-                userManageViewModel.Id = user.Id;
-                userManageViewModel.FirstName = user.FirstName;
-                userManageViewModel.LastName = user.LastName;
-                userManageViewModel.Email = user.Email;
-                userManageViewModel.Gender = user.Gender;
-                userManageViewModel.DateOfBirth = user.DateOfBirth;
-                userManageViewModel.City = user.City;
-                userManageViewModel.GenderSelectList = genderList;
-                userManageViewModel.UserName = user.UserName;
-                userManageViewModel.Image = user.Teacher.Image;
-                userManageViewModel.Description = user.Teacher.Description;
                 userManageViewModel.PhoneNumber = user.PhoneNumber;
 
-
             }
-
             return View(userManageViewModel);
         }
-
         [HttpPost]
         public async Task<IActionResult> Manage(UserManageViewModel userManageViewModel)
         {
@@ -277,81 +239,33 @@ namespace Musician.MVC.Controllers
             Student student = await _studentService.GetStudentByIdAsync(user.Id);
             Teacher teacher = await _teacherService.GetTeacherByIdAsync(user.Id);
 
-            if (User.IsInRole("Teacher"))
+            //if (User.IsInRole("Teacher"))
+            //{                                                                   //                    !!!!!!!!!!!BURAYI DÜZELT!!!!!!!!!!1
+            user.PhoneNumber = userManageViewModel.PhoneNumber;
+            user.FirstName = userManageViewModel.FirstName;
+            user.LastName = userManageViewModel.LastName;
+            user.Email = userManageViewModel.Email;
+            user.Gender = userManageViewModel.Gender;
+            user.Description = userManageViewModel.Description;
+            user.DateOfBirth = userManageViewModel.DateOfBirth;
+            user.City = userManageViewModel.City;
+            user.ModifiedDate = DateTime.Now;
+            user.Image = new Image
             {
-                teacher.Image = new Image
-                {
-                    Url = Jobs.UploadImage(userManageViewModel.ImageF),
-                    UserId=user.Id
-                };
-                                                                                    //                    !!!!!!!!!!!BURAYI DÜZELT!!!!!!!!!!1
-                user.PhoneNumber = userManageViewModel.PhoneNumber;
-                user.FirstName = userManageViewModel.FirstName;
-                user.LastName = userManageViewModel.LastName;
-                user.Email = userManageViewModel.Email; // sadece userde
-                user.Gender = userManageViewModel.Gender;
-                user.Description = userManageViewModel.Description;
-                user.DateOfBirth = userManageViewModel.DateOfBirth;
-                user.City = userManageViewModel.City;
-                user.ModifiedDate = DateTime.Now; 
-                
-                teacher.PhoneNumber = userManageViewModel.PhoneNumber;
-                teacher.FirstName = userManageViewModel.FirstName;
-                teacher.LastName = userManageViewModel.LastName;
-                teacher.Gender = userManageViewModel.Gender;
-                teacher.Description = userManageViewModel.Description;
-                teacher.DateOfBirth = userManageViewModel.DateOfBirth;
-                teacher.City = userManageViewModel.City;
-                teacher.ModifiedDate=DateTime.Now;
-            }
-            else
-            {
-                                            
-                user.PhoneNumber = userManageViewModel.PhoneNumber;
-                user.FirstName = userManageViewModel.FirstName;
-                user.LastName = userManageViewModel.LastName;
-                user.Email = userManageViewModel.Email; // sadece userde
-                user.Gender = userManageViewModel.Gender;
-                user.Description = userManageViewModel.Description;
-                user.DateOfBirth = userManageViewModel.DateOfBirth;
-                user.City = userManageViewModel.City;
-                user.ModifiedDate= DateTime.Now;
-                student.Image = new Image
-                {
-                    Url = Jobs.UploadImage(userManageViewModel.ImageF),
-                    UserId=user.Id
-                };
-                student.FirstName = userManageViewModel.FirstName;
-                student.LastName = userManageViewModel.LastName;
-                student.Gender = userManageViewModel.Gender;
-                student.Description = userManageViewModel.Description;
-                student.DateOfBirth = userManageViewModel.DateOfBirth;
-                student.City = userManageViewModel.City;
-                student.ModifiedDate = DateTime.Now;
-            }
+                Url = Jobs.UploadImage(userManageViewModel.ImageF),
+                UserId = user.Id
+            };
+            //}
+            //else
+            //{
+         
             var result = await _userManager.UpdateAsync(user);
-
-            if (User.IsInRole("Teacher"))
-            {
-                 _imageService.Update(teacher.Image);
-            }
-            else
-            {
-                _imageService.Update(student.Image);
-            }
-
-
-           
-
-
-
             if (result.Succeeded)
             {
                 _notyfService.Success("Profilin başarıyla güncellendi, iyi dersler :)");
                 return Redirect("/Account/Manage/" + User.Identity.Name);
 
             }
-
             return View();
         }
 

@@ -119,14 +119,20 @@
                                         <span class="text-danger" asp-validation-for="DateOfBirth"></span>
                                     </div>
                                 </div>
-                                <div class="mb-3 col-md-6">
+                                <div class="mb-3 col-md-6 mb-0">
                                     <label class="form-label" >Cinsiyet</label>
-                                    <select id="country" class="select2 form-select">
-
-                                        <option value="Erkek">Erkek</option>
-                                        <option value="Kadın">Kadın</option>
-
-                                    </select>
+                                    <div class="">
+                                        <input class="form-check-input" type="radio" asp-for="Gender" value="Kadın" checked>
+                                        <label class="form-check-label" for="female">
+                                            Kadın
+                                        </label>
+                                    </div>
+                                    <div class="d-inline">
+                                        <input class="form-check-input" type="radio" asp-for="Gender" value="Erkek">
+                                        <label class="form-check-label" for="male" value="E">
+                                            Erkek
+                                        </label>
+                                    </div>
                                     <span class="text-danger" asp-validation-for="Gender"></span>
                                 </div>
                                 <div class="mb-3 col-md-6">

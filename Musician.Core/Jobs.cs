@@ -86,6 +86,62 @@ namespace Musician.Core
 
             return randomName;
         }
-        
+        public static string GetNormalizedName(string text)
+        {
+            
+
+            #region Sorunlu Türkçe Karakterler Düzeltiliyor
+            text = text.Replace("I", "i");
+            text = text.Replace("İ", "i");
+            text = text.Replace("ı", "i");
+            #endregion
+            #region Küçük Harfe Dönüştürülüyor
+            text = text.ToUpper();
+            #endregion
+            #region Türkçe Karakterler Düzeltiliyor
+            text = text.Replace("ö", "o");
+            text = text.Replace("ü", "u");
+            text = text.Replace("ş", "s");
+            text = text.Replace("ç", "c");
+            text = text.Replace("ğ", "g");
+            #endregion
+            #region Sorunlu Karakterler Düzeltiliyor
+            text = text.Replace(".", "");
+            text = text.Replace("/", "");
+            text = text.Replace("\\", "");
+            text = text.Replace("'", "");
+            text = text.Replace("`", "");
+            text = text.Replace("\"", "");
+            text = text.Replace("(", "");
+            text = text.Replace(")", "");
+            text = text.Replace("{", "");
+            text = text.Replace("}", "");
+            text = text.Replace("[", "");
+            text = text.Replace("]", "");
+            text = text.Replace("?", "");
+            text = text.Replace(",", "");
+            text = text.Replace("-", "");
+            text = text.Replace("_", "");
+            text = text.Replace("$", "");
+            text = text.Replace("&", "");
+            text = text.Replace("%", "");
+            text = text.Replace("^", "");
+            text = text.Replace("#", "");
+            text = text.Replace("+", "");
+            text = text.Replace("!", "");
+            text = text.Replace("=", "");
+            text = text.Replace(";", "");
+            text = text.Replace(">", "");
+            text = text.Replace("<", "");
+            text = text.Replace("|", "");
+            text = text.Replace("*", "");
+
+            #endregion
+            #region Boşluklar Tire İle Değiştiriliyor
+            text = text.Replace(" ", "-");
+            #endregion
+            return text;
+        }
+
     }
 }

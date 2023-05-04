@@ -11,7 +11,7 @@ using Musician.Data.Concrete.EfCore.Context;
 namespace Musician.Data.Migrations
 {
     [DbContext(typeof(MusicianContext))]
-    [Migration("20230428223307_InitialDb")]
+    [Migration("20230502211508_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
@@ -163,7 +163,7 @@ namespace Musician.Data.Migrations
                     b.Property<int?>("StudentId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("TeacherId")
+                    b.Property<int?>("TeacherId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -209,7 +209,6 @@ namespace Musician.Data.Migrations
                             Id = 1,
                             IsApproved = true,
                             Name = "Gitar",
-                            NormalizedEnstrumentName = "",
                             Url = "gitar"
                         },
                         new
@@ -217,7 +216,6 @@ namespace Musician.Data.Migrations
                             Id = 2,
                             IsApproved = true,
                             Name = "Keman",
-                            NormalizedEnstrumentName = "",
                             Url = "keman"
                         },
                         new
@@ -225,7 +223,6 @@ namespace Musician.Data.Migrations
                             Id = 3,
                             IsApproved = true,
                             Name = "Piyano",
-                            NormalizedEnstrumentName = "",
                             Url = "piyano"
                         },
                         new
@@ -233,7 +230,6 @@ namespace Musician.Data.Migrations
                             Id = 4,
                             IsApproved = true,
                             Name = "Bateri",
-                            NormalizedEnstrumentName = "",
                             Url = "bateri"
                         },
                         new
@@ -241,7 +237,6 @@ namespace Musician.Data.Migrations
                             Id = 5,
                             IsApproved = true,
                             Name = "Flüt",
-                            NormalizedEnstrumentName = "",
                             Url = "flut"
                         },
                         new
@@ -249,7 +244,6 @@ namespace Musician.Data.Migrations
                             Id = 6,
                             IsApproved = true,
                             Name = "Klarnet",
-                            NormalizedEnstrumentName = "",
                             Url = "klarnet"
                         },
                         new
@@ -257,7 +251,6 @@ namespace Musician.Data.Migrations
                             Id = 7,
                             IsApproved = true,
                             Name = "Çello",
-                            NormalizedEnstrumentName = "",
                             Url = "cello"
                         },
                         new
@@ -265,7 +258,6 @@ namespace Musician.Data.Migrations
                             Id = 8,
                             IsApproved = true,
                             Name = "Bağlama",
-                            NormalizedEnstrumentName = "",
                             Url = "baglama"
                         },
                         new
@@ -273,7 +265,6 @@ namespace Musician.Data.Migrations
                             Id = 9,
                             IsApproved = true,
                             Name = "Ud",
-                            NormalizedEnstrumentName = "",
                             Url = "ud"
                         },
                         new
@@ -281,7 +272,6 @@ namespace Musician.Data.Migrations
                             Id = 10,
                             IsApproved = true,
                             Name = "Kalimba",
-                            NormalizedEnstrumentName = "",
                             Url = "kalimba"
                         });
                 });
@@ -317,28 +307,28 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ffda5227-6caa-4e01-ae23-a7226cc62aef",
+                            Id = "4b3ca9b6-4d6e-4a9a-9b3a-239871369b67",
                             Description = "Admin",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "3660a50e-5728-473c-92e9-914fde89d5ff",
+                            Id = "609d1c46-c0e4-4cab-9b57-186323901432",
                             Description = "Öğretmen",
                             Name = "Teacher",
                             NormalizedName = "TEACHER"
                         },
                         new
                         {
-                            Id = "76bc560f-f5d2-4096-aa96-f05b90c7d5f5",
+                            Id = "c1d8d5cb-48ea-4161-b513-5cdbebaab8f6",
                             Description = "Öğrenci",
                             Name = "Student",
                             NormalizedName = "STUDENT"
                         },
                         new
                         {
-                            Id = "7b9dcaf3-2089-46a5-980f-c7d486d616a5",
+                            Id = "e16b455f-bb10-494c-a437-e6e624adade7",
                             Description = "User",
                             Name = "User",
                             NormalizedName = "USER"
@@ -382,6 +372,12 @@ namespace Musician.Data.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("ImageId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("LastName")
                         .HasColumnType("TEXT");
 
@@ -419,6 +415,9 @@ namespace Musician.Data.Migrations
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
@@ -493,61 +492,10 @@ namespace Musician.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("CardId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime?>("DateOfBirth")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int?>("ImageId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("IsApproved")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Url")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("UserId")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("UserName")
-                        .HasColumnType("TEXT");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("CardId");
-
-                    b.HasIndex("ImageId");
 
                     b.HasIndex("UserId")
                         .IsUnique();
@@ -561,63 +509,14 @@ namespace Musician.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime?>("DateOfBirth")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int?>("ImageId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("IsApproved")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Url")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserId")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("UserName")
-                        .HasColumnType("TEXT");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ImageId");
 
                     b.HasIndex("UserId")
                         .IsUnique();
@@ -690,22 +589,23 @@ namespace Musician.Data.Migrations
                         .WithMany("Cards")
                         .HasForeignKey("StudentId");
 
-                    b.HasOne("Musician.Entity.Concrete.Teacher", null)
+                    b.HasOne("Musician.Entity.Concrete.Teacher", "Teacher")
                         .WithMany("Cards")
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TeacherId");
 
                     b.Navigation("Enstrument");
 
                     b.Navigation("Image");
+
+                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("Musician.Entity.Concrete.Image", b =>
                 {
                     b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
                         .WithOne("Image")
-                        .HasForeignKey("Musician.Entity.Concrete.Image", "UserId");
+                        .HasForeignKey("Musician.Entity.Concrete.Image", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("User");
                 });
@@ -723,36 +623,20 @@ namespace Musician.Data.Migrations
 
             modelBuilder.Entity("Musician.Entity.Concrete.Student", b =>
                 {
-                    b.HasOne("Musician.Entity.Concrete.Card", "Card")
-                        .WithMany()
-                        .HasForeignKey("CardId");
-
-                    b.HasOne("Musician.Entity.Concrete.Image", "Image")
-                        .WithMany()
-                        .HasForeignKey("ImageId");
-
                     b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
                         .WithOne("Student")
-                        .HasForeignKey("Musician.Entity.Concrete.Student", "UserId");
-
-                    b.Navigation("Card");
-
-                    b.Navigation("Image");
+                        .HasForeignKey("Musician.Entity.Concrete.Student", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("User");
                 });
 
             modelBuilder.Entity("Musician.Entity.Concrete.Teacher", b =>
                 {
-                    b.HasOne("Musician.Entity.Concrete.Image", "Image")
-                        .WithMany()
-                        .HasForeignKey("ImageId");
-
                     b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
                         .WithOne("Teacher")
-                        .HasForeignKey("Musician.Entity.Concrete.Teacher", "UserId");
-
-                    b.Navigation("Image");
+                        .HasForeignKey("Musician.Entity.Concrete.Teacher", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("User");
                 });
