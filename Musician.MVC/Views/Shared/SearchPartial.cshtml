@@ -1,0 +1,54 @@
+﻿<style>
+    p {
+        border: none;
+        width: 250px;
+        overflow: hidden; /* uzunluktan taşanları gizle */
+        white-space: nowrap; /* yazıyı alt satır indirme */
+        text-overflow: ellipsis; /* css yazının sonuna üç nokta koymak üç nokta koyacak */
+    }
+</style>
+<div class="row">
+    @foreach (var card in Model)
+    {
+        <link rel="stylesheet" href="~/css/card.css" />
+        <div class="col-lg-4 mb-5  px-5 ">
+             <a asp-area="" asp-controller="Home" asp-action="CardDetails" asp-route-id="@card.Id">
+        <div class="container containe ">
+                    
+            <div class="display__product mb-2 ">
+                    <img src="~/images/@card.Image.Url" >
+            </div>
+                    <div class="color fw-bold text-center fs-4 pt-0 mt-0" style="color:black; font-weight:600; font-size:20px;padding-top:0;margin-top:0">
+                        @card.FirstName
+                    </div>  
+            <div class="product__details">
+                <div class="title__section">
+                    <div class="title">
+                                <p class="d-inline">@card.EnstrumentName</p>
+                                <p class="fw-bold float-end">@card.SelectedStatus</p>
+                    </div>
+                    <span>
+                        <i class="fi-sr-star"></i>
+                        <p>@card.City</p>
+                    </span>
+                </div>
+                    <div class="product__colors">
+                        <p>@card.Description</p>
+                    </div>
+                        <div class="product__colors">
+                            <p>@card.OwnDescription</p>
+                        </div><div class="product__colors">
+                            
+                        </div>
+                
+                <div class="product__add ">
+                            <span class="price">@($"{card.Price:C0}")</span>
+                    <button>Görüntüle</button>
+                </div>
+            </div>
+        </div>
+            </a>
+        </div>
+    }
+</div>
+

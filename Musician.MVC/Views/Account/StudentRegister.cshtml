@@ -1,0 +1,167 @@
+﻿@using Musician.MVC.Models.ViewModels.AccountModels;
+@model RegisterViewModel
+@*
+<link rel="stylesheet" href="~/css/sign.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+<div class="container" id="container">
+    <div class="form-container sign-in-container">
+        <form asp-area="" asp-controller="Account" asp-action="StudentRegister" method="post">
+            <h1 class="">Bize Katıl!</h1>
+
+            <input class="form-control" asp-for="UserName" placeholder="Kullanıcı Adı">
+            <span class="text-danger" asp-validation-for="UserName"></span>
+
+            <input class="form-control" asp-for="FirstName" placeholder="Ad">
+            <span class="text-danger" asp-validation-for="FirstName"></span>
+
+            <input class="form-control" asp-for="LastName" placeholder="Soyad">
+            <span class="text-danger" asp-validation-for="LastName"></span>
+
+            <input class="form-control" asp-for="Email" placeholder="Email">
+            <span class="text-danger" asp-validation-for="Email"></span>
+
+            <input class="form-control" asp-for="Password" placeholder="Şifre">
+            <span class="text-danger" asp-validation-for="Password"></span>
+
+            <input class="form-control" asp-for="RePassword" placeholder="Şifre Tekrarı">
+            <span class="text-danger" asp-validation-for="RePassword"></span>
+            <button type="submit">Kayıt Ol</button>
+        </form>
+    </div>
+
+    <div class="overlay-container">
+        <div class="overlay">
+
+            <div class="overlay-panel overlay-right">
+                <h1 class="text-white">Merhaba!</h1>
+                <p class="text-white">Bilgilerini gir ve enstrüman dünyasına başla</p>
+            </div>
+        </div>
+    </div>
+</div>
+*@
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="~/admin/assets/img/favicon/favicon.ico" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet" />
+
+<!-- Icons. Uncomment required icon fonts -->
+<link rel="stylesheet" href="~/admin/assets/vendor/fonts/boxicons.css" />
+
+<!-- Core CSS -->
+<link rel="stylesheet" href="~/admin/assets/vendor/css/core.css" class="template-customizer-core-css" />
+<link rel="stylesheet" href="~/admin/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+<link rel="stylesheet" href="~/admin/assets/css/demo.css" />
+
+<!-- Vendors CSS -->
+<link rel="stylesheet" href="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+<!-- Page CSS -->
+<!-- Page -->
+<link rel="stylesheet" href="~/admin/assets/vendor/css/pages/page-auth.css" />
+<!-- Helpers -->
+<script src="~/admin/assets/vendor/js/helpers.js"></script>
+
+<!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+<!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+<script src="~/admin/assets/js/config.js"></script>
+
+<div class="container-xxl mt-5 " style="background-color:#fff1f1!important">
+    <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+            <!-- Register Card -->
+            <div class="card">
+                <div class="card-body">
+                    <!-- Logo -->
+                    <div class="app-brand justify-content-center">
+                        <a href="/" class="app-brand-link gap-2">
+                           
+                            <span class="app-brand-text demo text-body fw-bolder" style="color:red!important">Musician</span>
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+                    <h4 class="mb-2">Enstrüman dünyasına hoşgeldin!</h4>
+
+                    <form asp-area="" asp-controller="Account" asp-action="StudentRegister" method="post" id="formAuthentication" class="mb-3">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Kullanıcı Adı</label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="username"
+                                   name="username"
+                                   placeholder="Kullanıcı adını gir"
+                                   autofocus asp-for="UserName" />
+                            <span class="text-danger" asp-validation-for="UserName"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adı</label>
+                            <input type="text" class="form-control" id="text" name="firstname" placeholder="Adını gir" asp-for="FirstName" />
+                            <span class="text-danger" asp-validation-for="FirstName"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Soyadı</label>
+                            <input type="text" class="form-control" id="text" name="lastname" placeholder="Soyadını gir" asp-for="LastName" />
+                            <span class="text-danger" asp-validation-for="LastName"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email adresini gir" asp-for="Email" />
+                            <span class="text-danger" asp-validation-for="Email"></span>
+
+                        </div>
+                        <div class="mb-3 form-password-toggle">
+                            <label class="form-label" for="password">Şifre</label>
+                            <div class="input-group input-group-merge">
+                                <input type="password"
+                                       id="password"
+                                       class="form-control"
+                                       name="password"
+                                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                       aria-describedby="password" asp-for="Password" />
+                                <span class="text-danger" asp-validation-for="UserName"></span>
+
+                                <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                            </div>
+                        </div>
+
+                        
+                        <button class="btn btn_1 text-white  d-grid w-100" type="submit">Kaydol!</button>
+                    </form>
+
+                    <p class="text-center">
+                        <span>Zaten üye misin?</span>
+                        <a asp-controller="Account" asp-action="Login">
+                            <span class="text-danger">Giriş Yap!</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <!-- Register Card -->
+        </div>
+    </div>
+</div>
+<script src="~/admin/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="~/admin/assets/vendor/libs/popper/popper.js"></script>
+<script src="~/admin/assets/vendor/js/bootstrap.js"></script>
+<script src="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="~/admin/assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
+<!-- Vendors JS -->
+<!-- Main JS -->
+<script src="~/admin/assets/js/main.js"></script>
+
+<!-- Page JS -->
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

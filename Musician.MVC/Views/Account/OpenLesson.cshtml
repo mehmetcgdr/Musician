@@ -1,0 +1,306 @@
+﻿@using Musician.MVC.Models.ViewModels;
+@model LessonViewModel
+
+
+
+<link rel="stylesheet" href="~/css/openlesson.css"/>
+@*<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />*@
+
+<div class="multisteps-form">
+    <!--progress bar-->
+    <div class="row">
+        <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+            <div class="multisteps-form__progress">
+                <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">1.Aşama</button>
+                <button class="multisteps-form__progress-btn" type="button" title="Address">2.Aşama</button>
+                <button class="multisteps-form__progress-btn" type="button" title="Order Info">Son Aşama</button>
+            </div>
+        </div>
+    </div>
+
+    <!--form panels-->
+    <div class="container pt-5 ">
+        <div class="row mt-5 pt-5">
+            <div class="col-12 col-lg-6 side ">
+                <div class="container   text-black text-center ">
+                    <h1 class="display-5 fw-bold">Bilgi</h1>
+                    <p class="pt-5 fw">Tek bir ilanda sadece tek bir alanda eğitim verebilirsiniz. </p>
+                    <p class="fw">Hangi şehirde ders vereceğiniz öğrencileriniz için çok önemlidir</p>
+                    <p class="fw">Ücret bilgilerini doğru girmeniz sizin açınızdan oluşacak sorunları önlemekte yardımcı olur.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 m-auto">
+                <form asp-controller="Account" asp-action="OpenLesson" method="post" class="multisteps-form__form">
+                    <!--single form panel-->
+                    <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                        <h3 class="multisteps-form__title  text-center text-black fw-bold">Hemen Ders Vermeye Başla!</h3>
+                        <div class="multisteps-form__content">
+                            <div class="form-row mt-4 mb-0 pb-1">
+                                <span class="fw-bold w-100 text-center pb-3">Hangi enstrüman ile eğitim vermek istiyorsun?</span>
+                                <div class="col-12 col-sm-12 d-flex justify-content-center ">
+                                    <select asp-for="EnstrumentName" class="form-select " asp-items="@ViewBag.Enstruments">
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="EnstrumentName"></span>
+                                </div>
+                            </div>
+                            <div class="form-row mt-4">
+                                <div class="col-12 col-sm-6">
+                                  @*  <input class="multisteps-form__input form-control px-2 " asp-for="City" type="text" placeholder="Hangi Şehirde Ders Vereceksin?" />*@
+                                 @*   <span class="text-danger" asp-validation-for="City"></span>*@
+                                    <select asp-for="City" class="form-select" asp-items="@ViewBag.cities">
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="City"></span>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-4 mt-sm-0 ">
+                                    <input class="multisteps-form__input form-control d-block" asp-for="Price" type="number" placeholder="Ücret Talebin Ne?" >   <span class="pt-2 d-flex fw-bold tl">₺/saat</span>
+                                    <span class="text-danger  float-end" asp-validation-for="Price"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mt-4 mt-sm-0    ">
+                                <span class="fw-bold w-100 text-center pb-3 d-block">Eğitimi nerede/nerelerde verebilirsin?</span>
+                                <div class="status text-center p-3">
+                                      <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"  id="inlineRadio1" value="Yüz yüze" asp-for="SelectedStatus">
+                                    <label class="form-check-label" for="inlineRadio1">Evde/Öğrencinin evinde</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"  id="inlineRadio2" value="Online" asp-for="SelectedStatus">
+                                    <label class="form-check-label" for="inlineRadio2">Online</label>
+                                </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio"  id="inlineRadio3" value="(Yüz yüze & Online)" asp-for="SelectedStatus">
+                                        <label class="form-check-label" for="inlineRadio3">Hiç farketmez</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="button-row d-flex mt-4">
+                                <button class="btn btn_4 ml-auto js-btn-next" type="button" title="Next">İleri</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--single form panel-->
+                    <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                        <h3 class="multisteps-form__title text-center fw-bold">Ders Açıklaması</h3>
+                        <div class="multisteps-form__content">
+                            <div class="form-row mt-4 fr">
+                                <div class="col">
+                                    <textarea rows="4" asp-for="Description" class="multisteps-form__input form-control" type="text"  placeholder="Ders Hakkında Bilgi Ver" ></textarea>
+                                    <span class="text-danger" asp-validation-for="Description"></span>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="button-row d-flex mt-4">
+                                <button class="btn btn_4 js-btn-prev" type="button" title="Prev">Geri</button>
+                                <button class="btn btn_4 ml-auto js-btn-next" type="button" title="Next">İleri</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--single form panel-->
+                    <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                        <h3 class="multisteps-form__title text-center fw-bold">Bize Biraz Kendinden Bahset!</h3>
+                        <div class="multisteps-form__content">
+                            <div class="form-row mt-4 fr">
+                                <div class="col">
+                                    <textarea rows="4" asp-for="OwnDescription" class="multisteps-form__input form-control" type="text" placeholder="Kendinden Bahset"></textarea>
+                                    <span class="text-danger" asp-validation-for="OwnDescription"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="button-row d-flex mt-4">
+                                <button class="btn btn_4 js-btn-prev" type="button" title="Prev">Geri</button>
+                                <button class="btn btn_4 ml-auto" type="submit" title="Send">Yayınla</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    //DOM elements
+    const DOMstrings = {
+        stepsBtnClass: 'multisteps-form__progress-btn',
+        stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
+        stepsBar: document.querySelector('.multisteps-form__progress'),
+        stepsForm: document.querySelector('.multisteps-form__form'),
+        stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
+        stepFormPanelClass: 'multisteps-form__panel',
+        stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
+        stepPrevBtnClass: 'js-btn-prev',
+        stepNextBtnClass: 'js-btn-next'
+    };
+
+
+    //remove class from a set of items
+    const removeClasses = (elemSet, className) => {
+
+        elemSet.forEach(elem => {
+
+            elem.classList.remove(className);
+
+        });
+
+    };
+
+    //return exect parent node of the element
+    const findParent = (elem, parentClass) => {
+
+        let currentNode = elem;
+
+        while (!currentNode.classList.contains(parentClass)) {
+            currentNode = currentNode.parentNode;
+        }
+
+        return currentNode;
+
+    };
+
+    //get active button step number
+    const getActiveStep = elem => {
+        return Array.from(DOMstrings.stepsBtns).indexOf(elem);
+    };
+
+    //set all steps before clicked (and clicked too) to active
+    const setActiveStep = activeStepNum => {
+
+        //remove active state from all the state
+        removeClasses(DOMstrings.stepsBtns, 'js-active');
+
+        //set picked items to active
+        DOMstrings.stepsBtns.forEach((elem, index) => {
+
+            if (index <= activeStepNum) {
+                elem.classList.add('js-active');
+            }
+
+        });
+    };
+
+    //get active panel
+    const getActivePanel = () => {
+
+        let activePanel;
+
+        DOMstrings.stepFormPanels.forEach(elem => {
+
+            if (elem.classList.contains('js-active')) {
+
+                activePanel = elem;
+
+            }
+
+        });
+
+        return activePanel;
+
+    };
+
+    //open active panel (and close unactive panels)
+    const setActivePanel = activePanelNum => {
+
+        //remove active class from all the panels
+        removeClasses(DOMstrings.stepFormPanels, 'js-active');
+
+        //show active panel
+        DOMstrings.stepFormPanels.forEach((elem, index) => {
+            if (index === activePanelNum) {
+
+                elem.classList.add('js-active');
+
+                setFormHeight(elem);
+
+            }
+        });
+
+    };
+
+    //set form height equal to current panel height
+    const formHeight = activePanel => {
+
+        const activePanelHeight = activePanel.offsetHeight;
+
+        DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
+
+    };
+
+    const setFormHeight = () => {
+        const activePanel = getActivePanel();
+
+        formHeight(activePanel);
+    };
+
+    //STEPS BAR CLICK FUNCTION
+    DOMstrings.stepsBar.addEventListener('click', e => {
+
+        //check if click target is a step button
+        const eventTarget = e.target;
+
+        if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
+            return;
+        }
+
+        //get active button step number
+        const activeStep = getActiveStep(eventTarget);
+
+        //set all steps before clicked (and clicked too) to active
+        setActiveStep(activeStep);
+
+        //open active panel
+        setActivePanel(activeStep);
+    });
+
+    //PREV/NEXT BTNS CLICK
+    DOMstrings.stepsForm.addEventListener('click', e => {
+
+        const eventTarget = e.target;
+
+        //check if we clicked on `PREV` or NEXT` buttons
+        if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`))) {
+            return;
+        }
+
+        //find active panel
+        const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
+
+        let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
+
+        //set active step and active panel onclick
+        if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
+            activePanelNum--;
+
+        } else {
+
+            activePanelNum++;
+
+        }
+
+        setActiveStep(activePanelNum);
+        setActivePanel(activePanelNum);
+
+    });
+
+    //SETTING PROPER FORM HEIGHT ONLOAD
+    window.addEventListener('load', setFormHeight, false);
+
+    //SETTING PROPER FORM HEIGHT ONRESIZE
+    window.addEventListener('resize', setFormHeight, false);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+@section Scripts{
+@await Html.PartialAsync("_ValidationScriptsPartial");
+}
+
+
+
+
+

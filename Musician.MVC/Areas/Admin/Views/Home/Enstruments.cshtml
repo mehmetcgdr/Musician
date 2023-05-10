@@ -1,0 +1,59 @@
+﻿@using Musician.MVC.Areas.Admin.Models.ViewModels;
+@model List<EnstrumentsViewModel>
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="row  ">
+            <div class="col-lg-12 mb-4 order-0">
+                <div class="card">
+                    <h5 class="card-header"></h5>
+                    <div class="table-responsive text-nowrap">
+                        <table class="table mb-5 pb-5">
+                            <thead>
+                                <tr>
+                                    <th>İlan Id</th>
+                                    <th>Öğretmen Adı</th>
+                                    <th>Enstrüman Adı</th>
+                                    <th>Şehir</th>
+                                    <th>Ücret</th>
+                                    <th>İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-border-bottom-0">
+                                @foreach (var card in Model)
+                                {
+                                    
+                                        <tr class="table-default">
+                                            <td><i class="fab fa-sketch fa-lg text-warning me-3"></i> <strong>@card.Id</strong></td>
+                                            <td><span class="badge bg-label-primary me-1">@card.FirstName</span></td>
+                                            <td>
+                                                <span class="badge bg-label-primary me-1">@card.EnstrumentName</span>
+                                            </td>
+                                            <td><span class="badge bg-label-primary me-1">@card.City</span></td>
+                                            <td><span class="badge bg-label-primary me-1">@card.Price</span></td>
+                                            <td>
+                                                <div class="dropdown">
+                                                    <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="GoToTeacher" asp-route-id="@card.Id"><i class="bx bx-trash me-1"></i> Öğretmene Git</a>
+                                                        <a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="CancelCard" asp-route-id="@card.Id"><i class="bx bx-trash me-1"></i> İptal Et</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    
+
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--/ Contextual Classes -->

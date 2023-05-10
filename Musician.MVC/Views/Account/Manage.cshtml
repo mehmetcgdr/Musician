@@ -1,0 +1,235 @@
+﻿@using Musician.MVC.Models.ViewModels.AccountModels;
+@model UserManageViewModel
+
+<style>
+    .form-check-input:checked, .form-check-input[type=checkbox]:indeterminate {
+        background-color: red!important;
+        border-color: red !important;
+        box-shadow: 0 2px 4px 0 rgba(105, 108, 255, 0.4);
+    }
+</style>
+<link rel="icon" type="image/x-icon" href="~/admin/assets/img/favicon/favicon.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet" />
+<link rel="stylesheet" href="~/admin/assets/vendor/fonts/boxicons.css" />
+<link rel="stylesheet" href="~/admin/assets/vendor/css/core.css" class="template-customizer-core-css" />
+<link rel="stylesheet" href="~/admin/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+<link rel="stylesheet" href="~/admin/assets/css/demo.css" />
+<link rel="stylesheet" href="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+<link rel="stylesheet" href="~/admin/assets/vendor/css/pages/page-auth.css" />
+<script src="~/admin/assets/vendor/js/helpers.js"></script>
+<script src="~/admin/assets/js/config.js"></script>
+
+<div class="content-wrapper" style="background-color:#fff1f1!important">
+
+
+    <div class="container flex-grow-1 container-p-y " style="background-color:#fff1f1!important">
+
+        <div class="row" style="background-color:#fff1f1!important">
+            <div class="col-md-12" style="background-color:#fff1f1!important">
+                <form asp-area="" asp-controller="Account" asp-action="Manage" asp-route-id="@Model.Id" enctype="multipart/form-data" method="post" id="formAccountSettings">
+                    <div class="card mb-4">
+                       
+                        
+                        <div class="card-body mt-5 pb-0">
+                            <ul class="nav nav-pills flex-column flex-md-row mb-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" asp-controller="Account" asp-action="Manage" asp-route-id="@User.Identity.Name"><i class="bx bx-user me-1"></i> Profilim</a>
+                                </li>
+                                @if (User.IsInRole("Teacher"))
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link " asp-controller="Account" asp-action="MyCards"><i class="bx bx-bell me-1"></i> İlanlarım</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Account" asp-action="MyRequests"><i class="bx bx-link-alt me-1"></i> Ders Taleplerim</a>
+                                    </li>
+                                }
+                                @if (User.IsInRole("Student"))
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Account" asp-action="MyStudentRequests"><i class="bx bx-link-alt me-1"></i> Ders Taleplerim</a>
+                                    </li>
+                                }
+
+                            </ul>
+
+                            <div class="d-flex align-items-start align-items-sm-center gap-4">
+
+                                <img src="~/images/@Model.Image.Url"
+                                     alt="user-avatar"
+                                     class="d-block rounded"
+                                     height="100"
+                                     width="100"
+                                     id="uploadedAvatar" />
+                                
+                                
+                                <div class="button-wrapper">
+                                    <label for="upload" class="btn btn_1 text-white me-2 " tabindex="0">
+                                        <span class="d-none d-sm-block">Yeni Fotoğraf Yükle</span>
+                                        <i class="bx bx-upload d-block d-sm-none"></i>
+                                        <input type="file" asp-for="ImageF"
+                                               id="upload"
+                                               class="account-file-input"
+                                               hidden
+                                               accept="~/images/" />
+                                    </label>
+                                </div>
+                            </div>
+                            <h6 class="ms-2 mt-2">
+                                @if (User.IsInRole("Teacher"))
+                                    @("Öğretmen")
+                            </h6>
+                            <h6 class="ms-2 mt-2">
+                                @if (User.IsInRole("Student"))
+                                    @("Öğrenci")
+                            </h6>
+                            <h6 class="ms-2 mt-2">
+                                @if (User.IsInRole("Admin"))
+                                    @("Admin")
+                            </h6>
+                            @{
+                                int yearAge = DateTime.Now.Year - @Model.DateOfBirth.Value.Year;
+                            }
+                            <h6 class="ms-3 mt-2">Yaş: @yearAge</h6>
+                        </div>
+                        <hr class="my-0" />
+                        <div class="card-body">
+                          
+                            <div class="row">
+                                <div class="mb-3 col-md-6">
+                                    <label for="firstName" class="form-label">Adı</label>
+                                    <input class="form-control" type="text" id="firstName" autofocus asp-for="FirstName" value="@Model.FirstName" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="lastName" class="form-label">Soyadı</label>
+                                    <input class="form-control" type="text" id="lastName" autofocus asp-for="LastName" value="@Model.LastName" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input class="form-control" type="email" id="email" autofocus asp-for="Email" value="@Model.Email" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="organization" class="form-label">Kullanıcı Adı</label>
+                                    <input class="form-control" disabled type="text" id="userName" autofocus asp-for="UserName" value="@Model.UserName" />
+                                </div>
+                                @if (User.IsInRole("Teacher") || User.IsInRole("Admin"))
+                                {
+                                    <div class="mb-3 col-md-6">
+                                        <label class="form-label" for="phoneNumber">İletişim Numarası</label>
+                                    <input class="form-control" type="number" id="phoneNumber" asp-for="PhoneNumber" value="@Model.PhoneNumber" />
+                                </div>
+                                   
+                                }
+
+                                <div class="mb-3 col-md-6">
+                                    <label for="address" class="form-label">Şehir</label>
+                                    <input class="form-control" type="text" id="city" asp-for="City" value="@Model.City" />
+                                </div>
+                                <div class="mb-3 col-md-6">
+                                    <label for="state" class="form-label">Doğum Tarihi</label>
+                                    <div class='input-group date' id='startDate'>
+                                        @{
+                                            DateTime today = DateTime.Now;
+                                            int year = today.Year;
+                                            int yearPart = year - 18;
+                                            int monthPart = today.Month;
+                                            int dayPart = today.Day;
+                                            DateTime minimumDateOfBirth = new DateTime(yearPart, monthPart, dayPart);
+                                        }
+                                        <input class="form-control" type="date"
+                                               asp-for="DateOfBirth"
+                                               value="@(Model.DateOfBirth==null ? minimumDateOfBirth.ToString("yyyy-MM-dd") : ((DateTime)Model.DateOfBirth).ToString("yyyy-MM-dd"))"
+                                               min="01-01-1990"
+                                               max="@minimumDateOfBirth.ToString("yyyy-MM-dd")" />
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-md-6 mb-0">
+                                    <label class="form-label d-block mb-3">Cinsiyet</label>
+                                    <div class="d-inline ms-4">
+                                        <input class="form-check-input " type="radio" asp-for="Gender" value="Kadın" checked>
+                                        <label class="form-check-label" for="female">
+                                            Kadın
+                                        </label>
+                                    </div>
+                                    <div class="d-inline ms-4">
+                                        <input class="form-check-input" type="radio" asp-for="Gender" value="Erkek">
+                                        <label class="form-check-label" for="male" value="E">
+                                            Erkek
+                                        </label>
+                                    </div>
+                                    <span class="text-danger" asp-validation-for="Gender"></span>
+                                </div>
+                                @if (User.IsInRole("Teacher"))
+                                {
+                                    <div class="mb-3 col-md-6">
+                                        <label for="address" class="form-label">Hakkımda</label>
+                                        <textarea class="form-control textarea" value="@Model.OwnDescription" asp-for="Description">@Model.Description</textarea>
+                                    </div>
+                                }
+                                <div class=" d-inline d-flex justify-content-between ">
+                                    <div class="mt-2 d-inline">
+                                        <button type="submit" class="btn btn_1 text-white me-2">Değişiklikleri Kaydet</button>
+                                    </div>
+                                    <button type="button" class="btn btn_1 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Hesabımı Sil
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Musician</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Hesabını silmek istediğine emin misin?
+                                                </div>
+                                                
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hayır</button>
+                                                   <form asp-controller="Account" asp-action="Delete">
+                                                        <button type="submit" class="btn btn_1 text-white">Hesabımı Sil</button>
+
+                                                   </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="content-backdrop fade"></div>
+
+<script src="~/admin/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="~/admin/assets/vendor/libs/popper/popper.js"></script>
+<script src="~/admin/assets/vendor/js/bootstrap.js"></script>
+<script src="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="~/admin/assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
+<!-- Vendors JS -->
+<!-- Main JS -->
+<script src="~/admin/assets/js/main.js"></script>
+
+<!-- Page JS -->
+<script src="~/admin/assets/js/pages-account-settings-account.js"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
