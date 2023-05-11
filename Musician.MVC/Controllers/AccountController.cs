@@ -226,6 +226,7 @@ namespace Musician.MVC.Controllers
             var images = await _imageService.GetAllAsync();
             string name = id;
             User user = await _userManager.FindByNameAsync(name);
+            var teacher = await _teacherService.GetTeacherByIdAsync(user.Id);
             if (String.IsNullOrEmpty(name))
             {
                 return NotFound();
@@ -263,6 +264,15 @@ namespace Musician.MVC.Controllers
             if (!User.IsInRole("Student"))
             {
                 userManageViewModel.PhoneNumber = user.PhoneNumber;
+
+            }
+            if (User.IsInRole("Student"))
+            {
+                var requests = await _requestService.GetRequestsByStudentAsync(id);
+                userManageViewModel.Requests = requests;
+            } else if(User.IsInRole("Teacher")){
+                var requests = await _requestService.GetRequestsByTeacherAsync(teacher.Id);
+                userManageViewModel.Requests = requests;
 
             }
             return View(userManageViewModel);

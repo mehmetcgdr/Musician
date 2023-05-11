@@ -41,6 +41,7 @@ namespace Musician.MVC.Models.ViewModels.AccountModels
         public string Description { get; set; }
         public string OwnDescription { get; set; }
         public string PhoneNumber { get; set; }
+        public List<Request> Requests { get; set; }
 
 
 

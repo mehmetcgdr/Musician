@@ -44,7 +44,12 @@
                                 <a class="nav-link " asp-controller="Account" asp-action="MyCards"><i class="bx bx-bell me-1"></i> İlanlarım</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" asp-controller="Account" asp-action="MyRequests"><i class="bx bx-link-alt me-1"></i> Ders Taleplerim</a>
+                                <a class="nav-link active" asp-controller="Account" asp-action="MyRequests"><i class="bx bx-link-alt me-1"></i> Ders Taleplerim
+                                    @if (Model.Where(x => x.OrderState == EnumOrderState.Waiting).Count() != 0)
+                                    {
+                                        <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">@Model.Where(x => x.OrderState == EnumOrderState.Waiting).Count()</span>
+                                    }
+                                </a>
                             </li>
                         </ul>
                         <table class="table mb-5 pb-5 ">

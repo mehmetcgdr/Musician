@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yEFUr6dUp5NBCDYE3RdnHZLaXXhhHDJ9GvMyBZxlE1xRghjtljbrFcRvzWZ9qAbIr+b3VJzZUCoFbcT+UEC7pw==",
+  "dgSpecHash": "zitZAeDd8chKNwZFwr3pCQH2GQ6uWCC42TLL22q+gtGjfG8FyEIy3Kni9NC8Zoz+XitA42lWlJ2EFG1UuvsojQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.MVC\\Musician.MVC.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\Musician.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

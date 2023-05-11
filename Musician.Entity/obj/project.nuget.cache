@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dehGrEcedWVxpRu/TvGYi79ZYNe3QC9zXfekUqxVUJNI9YcSJLhkHq/zYOk8/i9fxhOTMG3tXPDFLmWgynYZQA==",
+  "dgSpecHash": "DvoEp+LEp+iN/KKEfgIRynY64xo55aG9OyX54nRNdq7kfBC0U2Mw30bFbf3e0p5Zt2Rdu5hPOFQIQX3uP+x5CQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Yeni klasör (2)\\Musician\\Musician.Entity\\Musician.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Entity\\Musician.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\iyzipay\\2.1.55\\iyzipay.2.1.55.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
