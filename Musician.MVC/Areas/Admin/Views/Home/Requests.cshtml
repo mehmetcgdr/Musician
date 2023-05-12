@@ -1,21 +1,23 @@
 ﻿@using Musician.Entity.Concrete;
+@using Musician.MVC.Areas.Admin.Models.ViewModels;
 @model List<Request>
 
 <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <div class="row  ">
-            <div class="col-lg-12 mb-4 order-0">
+            <div class="col-lg-12 mb-4 order-0 ">
                 <div class="card">
                     <h5 class="card-header"></h5>
                     <div class="table-responsive text-nowrap">
-                        <table class="table">
+                        <table class="table mb-5">
                             <thead>
                                 <tr>
-                                    <th>Enstruman Id</th>
-                                    <th>Enstruman Adı</th>
-                                    <th>Enstruman Url</th>
-                                    <th>Onay Durumu</th>
-                                    <th>İşlemler</th>
+                                    <th>Öğretmen</th>
+                                    <th>Öğrenci</th>
+                                    <th>Enstruman</th>
+                                    <th>Ücret</th>
+                                    <th>Sipariş Tarihi</th>
+                                    <th>Sipariş Durumu</th>
                                 </tr>
                             </thead>
                             <tbody class="table-border-bottom-0">
@@ -23,23 +25,24 @@
                                 {
 
                                     <tr class="table-default">
-                                        <td><i class="fab fa-sketch fa-lg text-warning me-3"></i> <strong>@request.Id</strong></td>
-                                        <td><span class="badge bg-label-primary me-1">@request.Card.EnstrumentName</span></td>
+                                        <td><a href="#" class="badge bg-label-primary me-1">@request.Card.Teacher.User.FirstName</a></td>
+
+                                        <td><a href="#" class="badge bg-label-primary me-1">@request.Student.User.FirstName</a></td>
                                         <td>
-                                            <span class="badge bg-label-primary me-1">@request.Price</span>
+                                            <span class="badge bg-label-primary me-1">@request.Card.EnstrumentName</span>
                                         </td>
+                                        <td>
+                                            <span class="badge bg-label-primary me-1">@request.Card.Price</span>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-label-primary me-1">@request.OrderDate.ToShortDateString()</span>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-label-primary me-1">@request.OrderState</span>
+                                        </td>
+
                                        
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="Edit" asp-route-id="@request.Id"><i class="bx bx-edit-alt me-1"></i> Düzenle</a>
-                                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="Delete" asp-route-id="@request.Id"><i class="bx bx-trash me-1"></i> Sil</a>
-                                                </div>
-                                            </div>
-                                        </td>
+                                      
                                     </tr>
 
 

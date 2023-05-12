@@ -3,11 +3,19 @@
 
 <style>
     .form-check-input:checked, .form-check-input[type=checkbox]:indeterminate {
-        background-color: red!important;
+        background-color: red !important;
         border-color: red !important;
         box-shadow: 0 2px 4px 0 rgba(105, 108, 255, 0.4);
     }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
 </style>
+
 <link rel="icon" type="image/x-icon" href="~/admin/assets/img/favicon/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +27,8 @@
 <link rel="stylesheet" href="~/admin/assets/css/demo.css" />
 <link rel="stylesheet" href="~/admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 <link rel="stylesheet" href="~/admin/assets/vendor/css/pages/page-auth.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/" />
+
 <script src="~/admin/assets/vendor/js/helpers.js"></script>
 <script src="~/admin/assets/js/config.js"></script>
 
@@ -31,8 +41,8 @@
             <div class="col-md-12" style="background-color:#fff1f1!important">
                 <form asp-area="" asp-controller="Account" asp-action="Manage" asp-route-id="@Model.Id" enctype="multipart/form-data" method="post" id="formAccountSettings">
                     <div class="card mb-4">
-                       
-                        
+
+
                         <div class="card-body mt-5 pb-0">
                             <ul class="nav nav-pills flex-column flex-md-row mb-3">
                                 <li class="nav-item">
@@ -41,11 +51,13 @@
                                 @if (User.IsInRole("Teacher"))
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link " asp-controller="Account" asp-action="MyCards"><i class="bx bx-bell me-1"></i> İlanlarım
-                                            </a>
+                                        <a class="nav-link " asp-controller="Account" asp-action="MyCards">
+                                            <i class="bx bx-bell me-1"></i> İlanlarım
+                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Account" asp-action="MyRequests"><i class="bx bx-link-alt me-1"></i> Ders Taleplerim
+                                        <a class="nav-link" asp-controller="Account" asp-action="MyRequests">
+                                            <i class="bx bx-link-alt me-1"></i> Ders Taleplerim
                                             @if (Model.Requests.Where(x => x.OrderState == EnumOrderState.Waiting).Count() != 0)
                                             {
                                                 <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">@Model.Requests.Where(x => x.OrderState == EnumOrderState.Waiting).Count()</span>
@@ -56,7 +68,8 @@
                                 @if (User.IsInRole("Student"))
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Account" asp-action="MyStudentRequests"><i class="bx bx-link-alt me-1"></i> Ders Taleplerim
+                                        <a class="nav-link" asp-controller="Account" asp-action="MyStudentRequests">
+                                            <i class="bx bx-link-alt me-1"></i> Ders Taleplerim
                                             @if (Model.Requests.Where(x => x.OrderState == EnumOrderState.Approved).Count() != 0)
                                             {
                                                 <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">@Model.Requests.Where(x => x.OrderState == EnumOrderState.Approved).Count()</span>
@@ -75,8 +88,8 @@
                                      height="100"
                                      width="100"
                                      id="uploadedAvatar" />
-                                
-                                
+
+
                                 <div class="button-wrapper">
                                     <label for="upload" class="btn btn_1 text-white me-2 " tabindex="0">
                                         <span class="d-none d-sm-block">Yeni Fotoğraf Yükle</span>
@@ -92,14 +105,20 @@
                             <h6 class="ms-2 mt-2">
                                 @if (User.IsInRole("Teacher"))
                                     @("Öğretmen")
+
+
                             </h6>
                             <h6 class="ms-2 mt-2">
                                 @if (User.IsInRole("Student"))
                                     @("Öğrenci")
+
+
                             </h6>
                             <h6 class="ms-2 mt-2">
                                 @if (User.IsInRole("Admin"))
                                     @("Admin")
+
+
                             </h6>
                             @{
                                 int yearAge = DateTime.Now.Year - @Model.DateOfBirth.Value.Year;
@@ -108,7 +127,7 @@
                         </div>
                         <hr class="my-0" />
                         <div class="card-body">
-                          
+
                             <div class="row">
                                 <div class="mb-3 col-md-6">
                                     <label for="firstName" class="form-label">Adı</label>
@@ -129,15 +148,19 @@
                                 @if (User.IsInRole("Teacher") || User.IsInRole("Admin"))
                                 {
                                     <div class="mb-3 col-md-6">
-                                        <label class="form-label" for="phoneNumber">İletişim Numarası</label>
-                                    <input class="form-control" type="number" id="phoneNumber" asp-for="PhoneNumber" value="@Model.PhoneNumber" />
-                                </div>
-                                   
+                                        <label class="form-label d-block" for="phoneNumber">İletişim Numarası</label>
+
+                                        <div class="input-group ">
+                                            <span class="input-group-text py-0 bg-label-dark "style="font-size:15px" >(+90)</span>
+                                            <input  class="form-control " maxlength="10" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="phoneNumber" asp-for="PhoneNumber" value="@Model.PhoneNumber" />
+                                        </div>
+                                    </div>
+
                                 }
 
                                 <div class="mb-3 col-md-6">
                                     <label for="address" class="form-label">Şehir</label>
-                                    <input class="form-control" type="text" id="city" asp-for="City" value="@Model.City" />
+                                    <select class="form-select " asp-for="City" name="city" asp-items="@ViewBag.cities"> </select>
                                 </div>
                                 <div class="mb-3 col-md-6">
                                     <label for="state" class="form-label">Doğum Tarihi</label>
@@ -199,19 +222,19 @@
                                                 <div class="modal-body">
                                                     Hesabını silmek istediğine emin misin?
                                                 </div>
-                                                
+
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hayır</button>
-                                                   <form asp-controller="Account" asp-action="Delete">
+                                                    <form asp-controller="Account" asp-action="Delete">
                                                         <button type="submit" class="btn btn_1 text-white">Hesabımı Sil</button>
 
-                                                   </form>
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                               
+
                             </div>
 
 

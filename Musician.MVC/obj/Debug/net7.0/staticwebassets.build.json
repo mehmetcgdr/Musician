@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1AI1xxhnak1db7rStvQFwlkaRAynk9qIcKUViq5/8uM=",
+  "Hash": "ujm59fNT2mgFe7esj5wCUCh+vgDhueaVaOazkTFHpOk=",
   "Source": "Musician.MVC",
   "BasePath": "_content/Musician.MVC",
   "Mode": "Default",
@@ -4811,6 +4811,23 @@
       "OriginalItemSpec": "wwwroot\\images\\d88484c6-cb3f-4762-9ca5-539c7e2d7d70.png"
     },
     {
+      "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\ddd45c1b-b3e3-4a23-a355-31050361efca.png",
+      "SourceId": "Musician.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\",
+      "BasePath": "_content/Musician.MVC",
+      "RelativePath": "images/ddd45c1b-b3e3-4a23-a355-31050361efca.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ddd45c1b-b3e3-4a23-a355-31050361efca.png"
+    },
+    {
       "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\e18d6c13-dc76-497c-9ca7-87b3aaa13156.png",
       "SourceId": "Musician.MVC",
       "SourceType": "Discovered",
@@ -4877,6 +4894,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ea8f2fb2-d49a-4b16-8c49-7d3fc98f104e.png"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\ed57f137-6237-447a-a85b-1adbcb3f16d1.png",
+      "SourceId": "Musician.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\",
+      "BasePath": "_content/Musician.MVC",
+      "RelativePath": "images/ed57f137-6237-447a-a85b-1adbcb3f16d1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ed57f137-6237-447a-a85b-1adbcb3f16d1.png"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.MVC\\wwwroot\\images\\f7ec99f0-af70-4786-855b-5ff063d93e54.png",

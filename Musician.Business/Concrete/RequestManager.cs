@@ -52,5 +52,9 @@ namespace Musician.Business.Concrete
         {
             _requestRepository.Update(request);
         }
+        public async Task<List<Request>> GetRequestsInAdminAsync()
+        {
+            return await _requestRepository.GetRequestsInAdminAsync();
+        }
     }
 }

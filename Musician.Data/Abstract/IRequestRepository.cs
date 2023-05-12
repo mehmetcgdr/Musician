@@ -11,5 +11,6 @@ namespace Musician.Data.Abstract
     {
         Task<List<Request>> GetRequestsByTeacherAsync(int id);
         Task<List<Request>> GetRequestsByStudentAsync(string id);
+        Task<List<Request>> GetRequestsInAdminAsync();
     }
 }

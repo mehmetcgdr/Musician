@@ -16,5 +16,6 @@ namespace Musician.Business.Abstract
         Task DeleteAsync(Request request);
         Task<List<Request>> GetRequestsByTeacherAsync(int id);
         Task<List<Request>> GetRequestsByStudentAsync(string id);
+        Task<List<Request>> GetRequestsInAdminAsync();
     }
 }

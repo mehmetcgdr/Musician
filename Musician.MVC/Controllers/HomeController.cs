@@ -32,8 +32,9 @@ namespace Musician.MVC.Controllers
         private readonly IEnstrumentService _enstrumentService;
         private readonly INotyfService _notyfService;
         private readonly IRequestService _requestService;
+        private readonly IStudentService _studentService;
 
-        public HomeController(ITeacherService teacherService, ICardService cardService, UserManager<User> userManager, IEnstrumentService enstrumentService, INotyfService notyfService, IRequestService requestService)
+        public HomeController(ITeacherService teacherService, ICardService cardService, UserManager<User> userManager, IEnstrumentService enstrumentService, INotyfService notyfService, IRequestService requestService, IStudentService studentService)
         {
             _teacherService = teacherService;
             _cardService = cardService;
@@ -41,10 +42,12 @@ namespace Musician.MVC.Controllers
             _enstrumentService = enstrumentService;
             _notyfService = notyfService;
             _requestService = requestService;
+            _studentService = studentService;
         }
 
         public async Task<IActionResult> Index(string name)
         {
+
             var EnstrumentList = await _enstrumentService.GetAllAsync();
             var enstruments = EnstrumentList.Select(x => new SelectListItem
             {
@@ -58,7 +61,6 @@ namespace Musician.MVC.Controllers
                 Value = x.Il
             });
             ViewBag.cities = citySelectListItems;
-
             List<Entity.Concrete.Card> cards = await _cardService.GetFilterCardsAsync(name,null);
             return View();
         }
@@ -195,13 +197,14 @@ namespace Musician.MVC.Controllers
         private async void SaveRequest(RequestViewModel requestViewModel,string studentId,int teacherId)
         {
             var card = await _cardService.GetCardWithImageAsync(requestViewModel.Id);
-            User student = await _userManager.GetUserAsync(User);
+            //User studentUser = await _userManager.GetUserAsync(User);
+            var student = await _studentService.GetStudentByIdAsync(studentId);
             var teacher = await _teacherService.GetTeacherByCardId(card.Teacher.Id);
 
             Request request = new Request
             {
                 CardId = requestViewModel.Card.Id,
-                StudentId = student.Id,
+                Student = student,
                 TeacherId = teacher.Id,
                 OrderDate = DateTime.Now,
                 OrderState = EnumOrderState.Waiting,

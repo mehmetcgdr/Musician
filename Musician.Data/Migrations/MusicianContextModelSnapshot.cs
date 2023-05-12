@@ -310,28 +310,28 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3e1600f5-0144-4538-b99b-bcb979969693",
+                            Id = "8b78851e-cf58-4426-a2eb-f1774db61148",
                             Description = "Admin",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "d8988211-7928-48e3-b313-fa006af5edc8",
+                            Id = "0ef42a75-4dc9-4766-9c51-de41e6a0fa9d",
                             Description = "Öğretmen",
                             Name = "Teacher",
                             NormalizedName = "TEACHER"
                         },
                         new
                         {
-                            Id = "d4bf05e3-ffbd-4c47-b452-481f29c8b14d",
+                            Id = "67494ffb-0f00-421e-9bbb-a81fda146c06",
                             Description = "Öğrenci",
                             Name = "Student",
                             NormalizedName = "STUDENT"
                         },
                         new
                         {
-                            Id = "9d805e47-17f9-4bf7-8da6-502440dd4231",
+                            Id = "e6ff9b0c-de8f-47de-8ada-d1f38b555ec3",
                             Description = "User",
                             Name = "User",
                             NormalizedName = "USER"
@@ -479,8 +479,8 @@ namespace Musician.Data.Migrations
                     b.Property<decimal?>("Price")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("StudentId")
-                        .HasColumnType("TEXT");
+                    b.Property<int?>("StudentId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("TeacherId")
                         .HasColumnType("INTEGER");
@@ -488,6 +488,8 @@ namespace Musician.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CardId");
+
+                    b.HasIndex("StudentId");
 
                     b.ToTable("Requests");
                 });
@@ -627,7 +629,13 @@ namespace Musician.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Musician.Entity.Concrete.Student", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentId");
+
                     b.Navigation("Card");
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("Musician.Entity.Concrete.Student", b =>

@@ -22,7 +22,7 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<List<Card>> GetAllCardsAsync()
         {
-            var cards = await AppContext.Cards.ToListAsync();
+            var cards = await AppContext.Cards.Include(x => x.Image).ToListAsync();
             return cards;
         }
 

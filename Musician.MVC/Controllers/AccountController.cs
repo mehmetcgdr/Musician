@@ -275,17 +275,22 @@ namespace Musician.MVC.Controllers
                 userManageViewModel.Requests = requests;
 
             }
+            var citySelectListItems = GetCities().Select(x => new SelectListItem
+            {
+                Text = x.Il,
+                Value = x.Il
+            });
+            ViewBag.cities = citySelectListItems;
+
             return View(userManageViewModel);
         }
         [HttpPost]
         public async Task<IActionResult> Manage(UserManageViewModel userManageViewModel)
         {
             var images = await _imageService.GetAllAsync();
-
             if (userManageViewModel == null) { return NotFound(); }
 
             User user = await _userManager.FindByIdAsync(userManageViewModel.Id);
-        
 
             user.PhoneNumber = userManageViewModel.PhoneNumber;
             user.FirstName = userManageViewModel.FirstName;
@@ -298,11 +303,8 @@ namespace Musician.MVC.Controllers
             user.ModifiedDate = DateTime.Now;
             if (userManageViewModel.ImageF != null)
             {
-                user.Image = new Image
-                {
-                    Url = Jobs.UploadImage(userManageViewModel.ImageF),
-                    UserId = user.Id
-                };
+                user.Image.UserId = user.Id;
+                user.Image.Url = Jobs.UploadImage(userManageViewModel.ImageF);
             }
             var result = await _userManager.UpdateAsync(user);
 
@@ -310,8 +312,8 @@ namespace Musician.MVC.Controllers
             {
                 _notyfService.Success("Profilin başarıyla güncellendi, iyi dersler :)");
                 return Redirect("/Account/Manage/" + User.Identity.Name);
-
             }
+            
             return View();
         }
         [HttpGet]
@@ -396,7 +398,6 @@ namespace Musician.MVC.Controllers
                 return NotFound();
             }
             var requests = await _requestService.GetRequestsByTeacherAsync(teacher.Id);
-            
             return View(requests);
         }
         public async Task<IActionResult> MyStudentRequests()

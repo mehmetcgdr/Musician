@@ -14,6 +14,10 @@
         white-space: nowrap; /* yazıyı alt satır indirme */
         text-overflow: ellipsis; /* css yazının sonuna üç nokta koymak üç nokta koyacak */
     }
+
+    .desc{
+        width:300px!important;
+    }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -56,7 +60,7 @@
                                     <th>Şehir</th>
                                     <th>Ücret</th>
                                     <th>Açıklama</th>
-                                    <th>İşlemler</th>
+                                    <th class="ps-5">İşlemler</th>
                                 </tr>
                             </thead>
                         @if (Model.Count == 0)
@@ -83,7 +87,7 @@
                                         <td><span class="badge bg-label-primary me-1">@card.City</span></td>
                                             <td><span class="badge bg-label-primary me-1">@card.Price</span></td>
                                             <td>
-                                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal_@card.Id" class="badge bg-label-primary me-1 ">@card.Description</button>
+                                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal_@card.Id" class="badge bg-label-primary me-1 desc ">@card.Description</button>
                                                 <div class="modal fade" id="exampleModal_@card.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                     <div class="modal-dialog">
                                                         <div class="modal-content">

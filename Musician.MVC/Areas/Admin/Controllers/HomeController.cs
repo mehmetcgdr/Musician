@@ -82,10 +82,12 @@ namespace Musician.MVC.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Requests()
         {
-            var cards = await _cardService.GetAllAsync();
-            var students = await _studentService.GetAllAsync();
-
-            List<Request> requests= await _requestService.GetAllAsync();
+            //var cards = await _cardService.GetAllAsync();
+            //var students = await _studentService.GetAllStudentsAsync();
+            //var teachers = await _teacherService.GetAllTeachersAsync();
+            //var users=await _userManager.Users.ToListAsync();
+            List<Request> requests= await _requestService.GetRequestsInAdminAsync();
+            
             return View(requests);
         }
         [HttpGet]
