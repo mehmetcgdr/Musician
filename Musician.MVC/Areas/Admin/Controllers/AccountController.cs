@@ -102,9 +102,12 @@ namespace Musician.MVC.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(string id)
         {
             var images = await _imageService.GetAllAsync();
-            var user = await _userManager.FindByIdAsync(id);
-
-
+            var user = await _userManager.FindByNameAsync(id);
+            var teachers = await _teacherService.GetAllTeachersAsync();
+            var students = await _studentService.GetAllStudentsAsync();
+            var requests = await _requestService.GetAllAsync();
+            user.Requests = requests;
+            //_requestService.DeleteAsync(User);
             await _userManager.DeleteAsync(user);
             if (User.Identity.Name==user.UserName)
             {

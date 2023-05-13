@@ -33,7 +33,7 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<List<Request>> GetRequestsByTeacherAsync(int id)
         {
-            var requests =await  AppContext.Requests.Include(x=>x.Student).ThenInclude(x=>x.User).Where(c => c.TeacherId == id).ToListAsync();
+            var requests =await  AppContext.Requests.Include(x=>x.Student).ThenInclude(x=>x.User).Include(x=>x.Teacher).Where(c => c.Teacher.Id == id).ToListAsync();
             return requests;
         }
     }

@@ -10,9 +10,11 @@ namespace Musician.Entity.Concrete
     public class Request
     {
         public int Id { get; set; }
-        public int TeacherId { get; set; }
+        //public int TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
         //public string StudentId { get; set; }
         public Student Student { get; set; }
+        public User User { get; set; }
         public DateTime OrderDate { get; set; }
         public Card Card { get; set; }
         public int CardId { get; set; }

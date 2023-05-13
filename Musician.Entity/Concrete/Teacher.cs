@@ -15,7 +15,6 @@ namespace Musician.Entity.Concrete
         public int Id { get; set; }
         public string UserId { get; set; }
         public User User { get; set; }
-        
         public List<Card>? Cards { get; set; } =new List<Card>();
         public string Status { get; set; } = string.Empty;
     }

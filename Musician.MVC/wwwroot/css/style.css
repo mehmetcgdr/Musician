@@ -211,8 +211,7 @@ select {
     background: rgb(212,10,27);
     background: linear-gradient(90deg, rgba(212,10,27,1) 0%, rgba(246,38,84,1) 50%, rgba(233,49,108,1) 100%);
     font-weight: 500;
-    width:125px;
-    text-align:center;
+
 }
 
 /* line 6, E:/172 Etrain Education/172_Etrain_Education_html/sass/_extends.scss */

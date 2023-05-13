@@ -205,7 +205,7 @@ namespace Musician.MVC.Controllers
             {
                 CardId = requestViewModel.Card.Id,
                 Student = student,
-                TeacherId = teacher.Id,
+                Teacher = teacher,
                 OrderDate = DateTime.Now,
                 OrderState = EnumOrderState.Waiting,
                 Price = card.Price,

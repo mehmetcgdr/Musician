@@ -310,28 +310,28 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8b78851e-cf58-4426-a2eb-f1774db61148",
+                            Id = "a8053b04-1242-475a-aee9-4e7ef075420c",
                             Description = "Admin",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "0ef42a75-4dc9-4766-9c51-de41e6a0fa9d",
+                            Id = "d8566108-5efb-4273-b8e2-90c433a8ead3",
                             Description = "Öğretmen",
                             Name = "Teacher",
                             NormalizedName = "TEACHER"
                         },
                         new
                         {
-                            Id = "67494ffb-0f00-421e-9bbb-a81fda146c06",
+                            Id = "97b7ddc7-547c-477e-a251-5ccadcbbea5b",
                             Description = "Öğrenci",
                             Name = "Student",
                             NormalizedName = "STUDENT"
                         },
                         new
                         {
-                            Id = "e6ff9b0c-de8f-47de-8ada-d1f38b555ec3",
+                            Id = "ed5a1f88-fe0f-4c13-afd0-3f6343c84442",
                             Description = "User",
                             Name = "User",
                             NormalizedName = "USER"
@@ -482,14 +482,21 @@ namespace Musician.Data.Migrations
                     b.Property<int?>("StudentId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("TeacherId")
+                    b.Property<int?>("TeacherId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CardId");
 
                     b.HasIndex("StudentId");
+
+                    b.HasIndex("TeacherId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Requests");
                 });
@@ -633,9 +640,21 @@ namespace Musician.Data.Migrations
                         .WithMany()
                         .HasForeignKey("StudentId");
 
+                    b.HasOne("Musician.Entity.Concrete.Teacher", "Teacher")
+                        .WithMany()
+                        .HasForeignKey("TeacherId");
+
+                    b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
+                        .WithMany("Requests")
+                        .HasForeignKey("UserId");
+
                     b.Navigation("Card");
 
                     b.Navigation("Student");
+
+                    b.Navigation("Teacher");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Musician.Entity.Concrete.Student", b =>
@@ -661,6 +680,8 @@ namespace Musician.Data.Migrations
             modelBuilder.Entity("Musician.Entity.Concrete.Identity.User", b =>
                 {
                     b.Navigation("Image");
+
+                    b.Navigation("Requests");
 
                     b.Navigation("Student");
 

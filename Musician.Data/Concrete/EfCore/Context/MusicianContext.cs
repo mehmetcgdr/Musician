@@ -50,6 +50,11 @@ namespace Musician.Data.Concrete.EfCore.Context
                 .HasForeignKey<Image>(x => x.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            //modelBuilder.Entity<Request>()
+            //    .HasOne(x => x.Teacher)
+            //    .WithMany(x => x.Request)
+            //    .HasForeignKey<Teacher>(x => x.Student.Id)
+            //    .OnDelete(DeleteBehavior.Cascade);
             
             base.OnModelCreating(modelBuilder);
         }

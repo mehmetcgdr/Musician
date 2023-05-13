@@ -1,9 +1,10 @@
-﻿@if (User.Identity.IsAuthenticated)
+﻿
+@if (User.Identity.IsAuthenticated)
 {
     @if (User.IsInRole("Admin"))
     {
         <li class="d-lg-block nav-item">
-            <a class="btn_1" asp-area="Admin" asp-controller="Home" asp-action="Index" asp-route-id="@User.Identity.Name">Admin Panel </a>
+            <a class="btn_1 " asp-area="Admin" asp-controller="Home" asp-action="Index" asp-route-id="@User.Identity.Name">Admin Panel </a>
         </li>
     }
 
