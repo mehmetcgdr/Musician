@@ -334,12 +334,12 @@ namespace Musician.MVC.Controllers
                 Value = x.Il
             });
             ViewBag.cities = citySelectListItems;
-            LessonViewModel lessonViewModel = new LessonViewModel
-            {
+            //LessonViewModel lessonViewModel = new LessonViewModel
+            //{
 
-                Enstruments = Enstruments,
-            };
-            return View(lessonViewModel);
+            //    Enstruments = Enstruments,
+            //};
+            return View();
         }
         [HttpPost]
         public async Task<IActionResult> OpenLesson(LessonViewModel lessonViewModel)

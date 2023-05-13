@@ -2,35 +2,35 @@
 {
     @if (User.IsInRole("Admin"))
     {
-        <li class="d-none d-lg-block nav-item">
+        <li class="d-lg-block nav-item">
             <a class="btn_1" asp-area="Admin" asp-controller="Home" asp-action="Index" asp-route-id="@User.Identity.Name">Admin Panel </a>
         </li>
     }
 
-    <li class="d-none d-lg-block nav-item">
+    <li class=" d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Manage" asp-route-id="@User.Identity.Name">Profilim </a>
     </li>
     @if (User.IsInRole("Teacher"))
     {
-        <li class="d-none d-lg-block nav-item">
+        <li class=" d-lg-block nav-item">
             <a class="btn_1" asp-area="" asp-controller="Account" asp-action="OpenLesson">Ders Ver</a>
         </li>
     }
     
-    <li class="d-none d-lg-block nav-item">
+    <li class=" d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Logout">Çıkış</a>
     </li>
 }
 else
 {
-    <li class="d-none d-lg-block nav-item">
+    <li class=" d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Login">Giriş </a>
     </li>
 
-    <li class="d-none d-lg-block nav-item">
+    <li class=" d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="Register">Ders Ver</a>
     </li>
-    <li class="d-none d-lg-block nav-item">
+    <li class=" d-lg-block nav-item">
         <a class="btn_1" asp-area="" asp-controller="Account" asp-action="StudentRegister">Ders Al</a>
     </li>
 }
