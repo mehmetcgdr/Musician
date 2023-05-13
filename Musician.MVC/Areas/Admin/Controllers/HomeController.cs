@@ -70,12 +70,14 @@ namespace Musician.MVC.Areas.Admin.Controllers
         {
             if (role == "User")
             {
-                var users = await _userManager.Users.ToListAsync();
+                var users = await _userManager.Users.OrderByDescending(x => x.IsApproved).OrderByDescending(x => x.RoleId).ToListAsync();
                 return View(users);
             } 
             else 
             {
+               
                 var users = await _userManager.GetUsersInRoleAsync(role);
+
                 return View(users);
             }
             

@@ -25,7 +25,7 @@ namespace Musician.Entity.Concrete.Identity
         public Image? Image { get; set; }
         public int ImageId { get; set; }
         public string Url { get; set; }
-        public bool IsApproved { get; set; } = false;
+        public bool IsApproved { get; set; } = true;
 
     }
 }

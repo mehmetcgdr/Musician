@@ -60,6 +60,7 @@ namespace Musician.MVC.Areas.Admin.Controllers
                 PhoneNumber = user.PhoneNumber,
                 UserName = user.UserName,
                 ModifiedDate=DateTime.Now,
+                IsApproved=user.IsApproved,
                 
             };
             return View(userViewModel);
@@ -83,6 +84,7 @@ namespace Musician.MVC.Areas.Admin.Controllers
                 user.ModifiedDate=DateTime.Now;
                 user.DateOfBirth = userViewModel.DateOfBirth;
                 user.RoleId= userViewModel.RoleId;
+                user.IsApproved = userViewModel.IsApproved;
                 if (userViewModel.ImageFile!=null)
                 {
                     user.Image = new Image
@@ -103,12 +105,9 @@ namespace Musician.MVC.Areas.Admin.Controllers
         {
             var images = await _imageService.GetAllAsync();
             var user = await _userManager.FindByNameAsync(id);
-            var teachers = await _teacherService.GetAllTeachersAsync();
-            var students = await _studentService.GetAllStudentsAsync();
-            var requests = await _requestService.GetAllAsync();
-            user.Requests = requests;
-            //_requestService.DeleteAsync(User);
-            await _userManager.DeleteAsync(user);
+
+           user.IsApproved = false;
+            await _userManager.UpdateAsync(user);
             if (User.Identity.Name==user.UserName)
             {
                 await _signInManager.SignOutAsync();

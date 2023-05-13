@@ -13,12 +13,9 @@
                             <h1>
                                 Online veya yüz yüze, istediğin her yerde
                             </h1>
-                            <div class="col-xl-12 col-lg-12 p-0 m-0   ">
-                                <!--Hero form -->
-                            
+                            <div class="col-xl-12 col-lg-12 p-0 m-0">
                                 <form asp-area="" asp-controller="Home" asp-action="GetBySearch" method="post" name="name"  role="search" class="search-box">
-                                    
-                                    
+
                                    <div class="input-form  ">
                                         <select  class=" form-select  asd w-50 searchbar d-inline text-danger  " name="name" asp-items="@ViewBag.Enstruments">
                                         </select>
@@ -28,11 +25,6 @@
                                             <button type="submit"><i class="ti-search"></i></button>
                                         </div>
                                     </div>
-
-                                    
-
-
-
                                 </form>
                             </div>
                         </div>
@@ -41,11 +33,6 @@
             </div>
         </div>
     </section>
-
-    <!-- member_counter counter start -->
-
-    <!-- member_counter counter end -->
-
     <!-- feature_part start-->
     @await Html.PartialAsync("_FuturePartial")
     <!-- upcoming_event part start-->

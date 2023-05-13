@@ -67,7 +67,8 @@ namespace Musician.MVC.Controllers
                     Image = new Image
                     {
                         Url = "genel.png"
-                    }
+                    },
+                    
                 };
                 var result = await _userManager.CreateAsync(user, registerViewModel.Password);
                 if (result.Succeeded)
