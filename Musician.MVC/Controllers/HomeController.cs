@@ -145,7 +145,7 @@ namespace Musician.MVC.Controllers
                 Payment payment = await PaymentProcess(requestViewModel);
                 if (payment.Status == "success")
                 {
-                    SaveRequest(requestViewModel, student.Id, teacher.Id);
+                    SaveRequest(requestViewModel, student.Id,teacher.Id);
                     _notyfService.Success("Ödemeniz alınmıştır, eğitim sonlanana kadar paranız güvendedir, öğretmen kaynaklı bir sorunda ödemeniz iade edilecektir. iyi dersler :)");
                 }
                 else
@@ -194,8 +194,9 @@ namespace Musician.MVC.Controllers
             return isValidNumber;
         }
         [NonAction]
-        private async void SaveRequest(RequestViewModel requestViewModel,string studentId,int teacherId)
+        private async void SaveRequest(RequestViewModel requestViewModel,string studentId, int teacherId)
         {
+            var user = await _userManager.GetUserAsync(User);
             var card = await _cardService.GetCardWithImageAsync(requestViewModel.Id);
             //User studentUser = await _userManager.GetUserAsync(User);
             var student = await _studentService.GetStudentByIdAsync(studentId);
@@ -204,8 +205,10 @@ namespace Musician.MVC.Controllers
             Request request = new Request
             {
                 CardId = requestViewModel.Card.Id,
-                Student = student,
-                Teacher = teacher,
+                //StudentId = studentId,
+                //TeacherId = teacherId,
+                Student=student,
+                Teacher=teacher,
                 OrderDate = DateTime.Now,
                 OrderState = EnumOrderState.Waiting,
                 Price = card.Price,

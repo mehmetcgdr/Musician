@@ -919,11 +919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Erp7-Odevler-MehmetOcguder\\ERP7_BitirmeProjesi_MehmetOcguder\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
       "projectName": "Musician.Core",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Erp7-Odevler-MehmetOcguder\\ERP7_BitirmeProjesi_MehmetOcguder\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Erp7-Odevler-MehmetOcguder\\ERP7_BitirmeProjesi_MehmetOcguder\\Musician\\Musician\\Musician.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

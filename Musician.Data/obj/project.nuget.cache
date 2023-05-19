@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h7msBq39OadJeBMzoQwNblh0yywjfdCEuUVDHG6ui0D4ZqmNRv2hLKPV8vJFzC9D/B+By26VmDUVdlvAECs+CA==",
+  "dgSpecHash": "K+f0/H90zIsA23CY4zhZmrqLtFNBvWevqNsCYTo2L8Pg8cZ6DltiL1rbtoWyTqkU/GhMnern80MjgWhWWapqUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Erp7-Odevler-MehmetOcguder\\ERP7_BitirmeProjesi_MehmetOcguder\\Musician\\Musician\\Musician.Data\\Musician.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\iyzipay\\2.1.55\\iyzipay.2.1.55.nupkg.sha512",

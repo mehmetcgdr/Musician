@@ -142,21 +142,17 @@ namespace Musician.MVC.Controllers
                     _notyfService.Success("Kaydın başarıyla oluşturuldu, İyi dersler :)");
                     return RedirectToAction("Login", "Account");
                 }
-                else
-                {
-                    if (registerViewModel.UserName == ($"{User.Identity.Name}"))
-                    {
-                        _notyfService.Error("Böyle bir kullanıcı adı varmış, değiştirmen gerekiyor :(");
-                    }
-                    else
-                    {
-                        _notyfService.Error("Bilgilerini eksik ya da yanlış girdin sanırım,kontrol eder misin? :(");
-                    }
-
-                }
+               
 
             }
-            _notyfService.Error("Bilgilerini eksik ya da yanlış girdin sanırım,kontrol eder misin? :(");
+            if (_userManager.Users.Any(x=>x.UserName==registerViewModel.UserName))
+            {
+                _notyfService.Error("Böyle bir kullanıcı adı varmış, değiştirmen gerekiyor :(");
+            }
+            else
+            {
+                _notyfService.Error("Bilgilerini eksik ya da yanlış girdin sanırım,kontrol eder misin? :(");
+            }
             return View(registerViewModel);
         }
         [HttpGet]
@@ -411,7 +407,7 @@ namespace Musician.MVC.Controllers
             {
                 return NotFound();
             }
-            var requests = await _requestService.GetRequestsByStudentAsync(user.Id);
+            var requests = await _requestService.GetRequestsByStudentAsync(user.UserName);
             
             return View(requests);
         }

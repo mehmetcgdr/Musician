@@ -14,6 +14,7 @@ namespace Musician.Entity.Concrete
         public Teacher Teacher { get; set; }
         //public string StudentId { get; set; }
         public Student Student { get; set; }
+        public string UserId { get; set; }
         public User User { get; set; }
         public DateTime OrderDate { get; set; }
         public Card Card { get; set; }

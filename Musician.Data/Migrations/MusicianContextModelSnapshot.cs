@@ -310,28 +310,28 @@ namespace Musician.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a8053b04-1242-475a-aee9-4e7ef075420c",
+                            Id = "6305887f-63e8-433b-a4c8-b43bb2918583",
                             Description = "Admin",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "d8566108-5efb-4273-b8e2-90c433a8ead3",
+                            Id = "656accb2-2dd8-4eff-95b7-2e7c79133220",
                             Description = "Öğretmen",
                             Name = "Teacher",
                             NormalizedName = "TEACHER"
                         },
                         new
                         {
-                            Id = "97b7ddc7-547c-477e-a251-5ccadcbbea5b",
+                            Id = "744f6c97-6530-4f31-b1a5-d8eb86cdaf11",
                             Description = "Öğrenci",
                             Name = "Student",
                             NormalizedName = "STUDENT"
                         },
                         new
                         {
-                            Id = "ed5a1f88-fe0f-4c13-afd0-3f6343c84442",
+                            Id = "ff440cfd-6564-4d01-b1a7-a687f2cf238f",
                             Description = "User",
                             Name = "User",
                             NormalizedName = "USER"
@@ -524,9 +524,6 @@ namespace Musician.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Status")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("UserId")
                         .HasColumnType("TEXT");
 
@@ -645,7 +642,7 @@ namespace Musician.Data.Migrations
                         .HasForeignKey("TeacherId");
 
                     b.HasOne("Musician.Entity.Concrete.Identity.User", "User")
-                        .WithMany("Requests")
+                        .WithMany()
                         .HasForeignKey("UserId");
 
                     b.Navigation("Card");
@@ -680,8 +677,6 @@ namespace Musician.Data.Migrations
             modelBuilder.Entity("Musician.Entity.Concrete.Identity.User", b =>
                 {
                     b.Navigation("Image");
-
-                    b.Navigation("Requests");
 
                     b.Navigation("Student");
 

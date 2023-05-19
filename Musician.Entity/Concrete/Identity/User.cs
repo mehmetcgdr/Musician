@@ -21,7 +21,6 @@ namespace Musician.Entity.Concrete.Identity
         public Teacher? Teacher { get; set; }
         public Student? Student { get; set; }
         public EnumRoleId RoleId { get; set; }
-        public List<Request> Requests { get; set; }
         public Image? Image { get; set; }
         public int ImageId { get; set; }
         public string Url { get; set; }

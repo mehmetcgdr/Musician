@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ztr35QGYj22g+dmN8UfU73FCvFMdEeD7FqO6Oy5OcY8zhJxrXR6TRAB+mcQ60/zAlIuKZC9zLNAzguAWV4hy0A==",
+  "dgSpecHash": "zRUCNFqNp4mFIeuQjK7icPI1haMvjdWhrZpRvS1K5+Ga1c6VTlVIecfD0FSEo46IdGP5CSfTA6ao6JzlrxhVfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Erp7-Odevler-MehmetOcguder\\ERP7_BitirmeProjesi_MehmetOcguder\\Musician\\Musician\\Musician.Core\\Musician.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\iyzipay\\2.1.55\\iyzipay.2.1.55.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",

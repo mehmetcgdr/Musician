@@ -22,7 +22,7 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<List<Request>> GetRequestsByStudentAsync(string id)
         {
-            var requests = await AppContext.Requests.Where(x=>x.Student.UserId == id).ToListAsync();
+            var requests = await AppContext.Requests.Where(x=>x.Student.User.UserName == id).ToListAsync();
             return requests;
         }
         public async Task<List<Request>> GetRequestsInAdminAsync()

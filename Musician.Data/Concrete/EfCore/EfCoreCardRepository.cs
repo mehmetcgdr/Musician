@@ -30,8 +30,16 @@ namespace Musician.Data.Concrete.EfCore
 
         public async Task<List<Card>> GetFilterCardsAsync(string name,string city)
         {
-            var cards = await AppContext.Cards.Include(x=>x.Image).Where(c=>c.EnstrumentName==name).Where(a=>a.City==city).ToListAsync();
-                return cards;
+            var cards =  AppContext.Cards.Include(x => x.Image).Where(c => c.EnstrumentName == name).Where(a => a.City == city).AsQueryable();
+
+            if (city == "Hepsi" || cards.Count() == 0)
+            {
+                return await AppContext.Cards.Include(x => x.Image).Where(c => c.EnstrumentName == name).ToListAsync();
+            }
+            else
+            {
+                return await cards.ToListAsync();
+            }    
         }
         public async Task<Card> GetCardWithImageAsync(int id)
         {
